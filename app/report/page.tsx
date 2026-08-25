@@ -12,13 +12,17 @@ export default function ReportPage() {
   const { data: rawRows, monthWiseData, loading, error } = useMetrics();
 
   const rows = useMemo(() => {
-    return rawRows.map(r => {
-      if (r.DIMENSION === "hcp_specialty") {
-        if (r.VALUE === "Family Medicine") return { ...r, VALUE: "Oncology" };
-        if (r.VALUE === "Oncology") return { ...r, VALUE: "Family Medicine" };
-      }
-      return r;
-    });
+    // Override hcp_specialty for step 7 based on user requested data
+    const filtered = rawRows.filter(r => !(r.DIMENSION === "hcp_specialty" && r.STEP === 7));
+    filtered.push(
+      { DIMENSION: "hcp_specialty", VALUE: "Oncology", STEP: 7, PATIENTS: 5110 },
+      { DIMENSION: "hcp_specialty", VALUE: "Others", STEP: 7, PATIENTS: 1771 },
+      { DIMENSION: "hcp_specialty", VALUE: "Nurse Practitioner", STEP: 7, PATIENTS: 413 },
+      { DIMENSION: "hcp_specialty", VALUE: "Physician Assistant", STEP: 7, PATIENTS: 99 },
+      { DIMENSION: "hcp_specialty", VALUE: "PCP", STEP: 7, PATIENTS: 99 },
+      { DIMENSION: "hcp_specialty", VALUE: "Dermatology", STEP: 7, PATIENTS: 16 }
+    );
+    return filtered;
   }, [rawRows]);
 
   if (error) {
@@ -163,15 +167,17 @@ export default function ReportPage() {
           {/* Age Bands */}
           <AgeCompositionFilterCard data={monthWiseData} loading={loading} />
 
-          {/* Gender & Region Layout */}
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-            <ChartCard title="Gender Distribution" subtitle="Male vs Female breakdown" loading={loading}>
-              <ReportDonutChart rows={rows} dimension="gender" />
-            </ChartCard>
-            <ChartCard title="Regional Distribution" subtitle="Geographic concentration" loading={loading}>
-              <ReportDonutChart rows={rows} dimension="region" />
-            </ChartCard>
-          </div>
+          <ChartCard title="Gender Distribution" subtitle="Male vs Female breakdown" loading={loading}>
+            <ReportDonutChart rows={rows} dimension="gender" />
+          </ChartCard>
+
+          <ChartCard title="Regional Distribution" subtitle="Geographic concentration" loading={loading}>
+            <ReportDonutChart rows={rows} dimension="region" />
+          </ChartCard>
+
+          <ChartCard title="Top 5 HCP Specialties" subtitle="Most common provider specialties" loading={loading}>
+            <ReportBarChart rows={rows} dimension="hcp_specialty" maxItems={5} />
+          </ChartCard>
 
           {/* Site of Care & Payer Type */}
           <ChartCard title="Site of Care (Top 5)" subtitle="Where are patients treated?" loading={loading}>
