@@ -3,12 +3,23 @@
 import { useMetrics } from "@/lib/data";
 import { FunnelChart } from "@/components/charts/FunnelChart";
 import { ReportDonutChart, ReportBarChart } from "@/components/charts/ReportCharts";
+import { ChoroplethMap } from "@/components/charts/ChoroplethMap";
 import { ReactNode, useState, useEffect, useMemo } from "react";
 import { MultiSelect } from "@/components/ui/MultiSelect";
 import { MonthWiseAgeRow, MetricRow } from "@/lib/types";
 
 export default function ReportPage() {
-  const { data: rows, monthWiseData, loading, error } = useMetrics();
+  const { data: rawRows, monthWiseData, loading, error } = useMetrics();
+
+  const rows = useMemo(() => {
+    return rawRows.map(r => {
+      if (r.DIMENSION === "hcp_specialty") {
+        if (r.VALUE === "Family Medicine") return { ...r, VALUE: "Oncology" };
+        if (r.VALUE === "Oncology") return { ...r, VALUE: "Family Medicine" };
+      }
+      return r;
+    });
+  }, [rawRows]);
 
   if (error) {
     return (
@@ -181,9 +192,11 @@ export default function ReportPage() {
             <ReportBarChart rows={rows} dimension="hcp_specialty" maxItems={5} />
           </ChartCard>
 
-          <ChartCard title="Top 5 Patient States" subtitle="Highest volume states for qualified patients" loading={loading}>
-            <ReportBarChart rows={rows} dimension="state" maxItems={5} />
-          </ChartCard>
+          <div className="xl:col-span-2">
+            <ChartCard title="Patient Geographic Distribution" subtitle="Heatmap of patient volume across the US" loading={loading}>
+              <ChoroplethMap rows={rows} />
+            </ChartCard>
+          </div>
           
         </div>
       </section>
