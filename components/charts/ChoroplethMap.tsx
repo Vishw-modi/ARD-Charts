@@ -53,7 +53,7 @@ export function ChoroplethMap({ rows }: ChoroplethMapProps) {
   }, [maxPatients]);
 
   return (
-    <div className="relative w-full h-full min-h-[400px]" 
+    <div className="relative w-full h-[250px]" 
          onMouseLeave={() => setTooltipContent("")}>
       <ComposableMap projection="geoAlbersUsa" className="w-full h-full" style={{ width: "100%", height: "100%" }}>
         <Geographies geography={geoUrl}>

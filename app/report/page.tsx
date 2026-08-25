@@ -173,30 +173,22 @@ export default function ReportPage() {
             </ChartCard>
           </div>
 
-          {/* Site of Care & Payer Type Layout */}
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-            <ChartCard title="Site of Care (Top 5)" subtitle="Where are patients treated?" loading={loading}>
-              <ReportDonutChart rows={rows} dimension="parent_type" maxItems={5} />
-            </ChartCard>
-            <ChartCard title="Payer Type (Top 5)" subtitle="Primary insurance categories" loading={loading}>
-              <ReportDonutChart rows={rows} dimension="payer_type" maxItems={5} />
-            </ChartCard>
-          </div>
+          {/* Site of Care & Payer Type */}
+          <ChartCard title="Site of Care (Top 5)" subtitle="Where are patients treated?" loading={loading}>
+            <ReportDonutChart rows={rows} dimension="parent_type" maxItems={5} />
+          </ChartCard>
+          <ChartCard title="Payer Type (Top 5)" subtitle="Primary insurance categories" loading={loading}>
+            <ReportDonutChart rows={rows} dimension="payer_type" maxItems={5} />
+          </ChartCard>
 
           {/* Top 5s Layout */}
           <ChartCard title="Top 5 Specific Payers" subtitle="Which specific payers cover the most patients?" loading={loading}>
             <ReportBarChart rows={rows} dimension="payer_name" maxItems={5} />
           </ChartCard>
 
-          <ChartCard title="Top 5 HCP Specialties" subtitle="Which specialties are driving treatment?" loading={loading}>
-            <ReportBarChart rows={rows} dimension="hcp_specialty" maxItems={5} />
+          <ChartCard title="Patient Geographic Distribution" subtitle="Heatmap of patient volume across the US" loading={loading}>
+            <ChoroplethMap rows={rows} />
           </ChartCard>
-
-          <div className="xl:col-span-2">
-            <ChartCard title="Patient Geographic Distribution" subtitle="Heatmap of patient volume across the US" loading={loading}>
-              <ChoroplethMap rows={rows} />
-            </ChartCard>
-          </div>
           
         </div>
       </section>
