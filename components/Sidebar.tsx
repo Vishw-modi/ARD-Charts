@@ -7,6 +7,10 @@ import { useState } from "react";
 
 const NAV_GROUPS = [
   {
+    label: "REPORT",
+    links: [{ href: "/report", label: "Full Insights" }],
+  },
+  {
     label: "FUNNEL",
     links: [{ href: "/funnel", label: "Step Funnel" }],
   },
