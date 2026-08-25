@@ -8,29 +8,7 @@ import { useState } from "react";
 const NAV_GROUPS = [
   {
     label: "REPORT",
-    links: [{ href: "/report", label: "Full Insights" }],
-  },
-  {
-    label: "FUNNEL",
-    links: [{ href: "/funnel", label: "Step Funnel" }],
-  },
-  {
-    label: "COMPOSITION",
-    links: [
-      { href: "/composition/age", label: "Age Bands" },
-      { href: "/composition/gender", label: "Gender" },
-      { href: "/composition/region", label: "Region" },
-      { href: "/composition/payer-type", label: "Payer Type" },
-      { href: "/composition/site-of-care", label: "Site of Care" },
-    ],
-  },
-  {
-    label: "TOP N",
-    links: [
-      { href: "/top/payers", label: "Top 5 Payers" },
-      { href: "/top/specialties", label: "Top 5 Specialties" },
-      { href: "/top/states", label: "Top 5 States" },
-    ],
+    links: [{ href: "/report", label: "Cohort Insights" }],
   },
 ];
 
@@ -53,21 +31,8 @@ export function Sidebar() {
         </Link>
       </div>
       <div className="flex-1 overflow-y-auto px-4 py-2">
-        <div className="mb-4">
-          <Link
-            href="/"
-            onClick={closeSidebar}
-            className={`block rounded-md px-3 py-2 text-[14px] font-medium transition-colors ${
-              pathname === "/"
-                ? "bg-[#EEF3FF] text-accent"
-                : "text-text hover:bg-surface"
-            }`}
-          >
-            Overview
-          </Link>
-        </div>
         {NAV_GROUPS.map((group) => (
-          <div key={group.label} className="mb-6">
+          <div key={group.label} className="mb-6 mt-4">
             <h3 className="mb-2 px-3 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted">
               {group.label}
             </h3>
@@ -78,7 +43,7 @@ export function Sidebar() {
                     href={link.href}
                     onClick={closeSidebar}
                     className={`block rounded-md px-3 py-2 text-[14px] font-medium transition-colors ${
-                      pathname === link.href
+                      pathname === link.href || pathname === "/"
                         ? "bg-[#EEF3FF] text-accent"
                         : "text-text hover:bg-surface"
                     }`}

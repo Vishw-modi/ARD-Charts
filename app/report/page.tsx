@@ -76,7 +76,7 @@ export default function ReportPage() {
             </svg>
           </div>
           <h1 className="bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-[24px] font-extrabold tracking-tight text-transparent">
-            Full Insights Report
+            Cohort Insights
           </h1>
         </div>
 
