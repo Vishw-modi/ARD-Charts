@@ -101,9 +101,10 @@ export function Top5GroupedBar({ rows, dimension }: Top5GroupedProps) {
 
       const maxVal = d3.max(chartData, d => d3.max(stepKeys, key => d[key] as number)) || 0;
 
-      // Use a symlog scale so that very small values (lower steps) remain visible
-      // without being entirely dwarfed by the massive initial steps.
-      const x = d3.scaleSymlog()
+      // Use a square root scale so that very small values (lower steps) remain visible
+      // without being entirely dwarfed by massive initial steps, while avoiding
+      // the axis-tick overlap issues that symlog causes at high values.
+      const x = d3.scaleSqrt()
         .domain([0, maxVal])
         .range([0, innerWidth]);
 
@@ -117,7 +118,7 @@ export function Top5GroupedBar({ rows, dimension }: Top5GroupedProps) {
 
       g.append("g")
         .attr("transform", `translate(0,${innerHeight})`)
-        .call(d3.axisBottom(x).ticks(5, "~s"))
+        .call(d3.axisBottom(x).ticks(6).tickFormat(d3.format("~s")))
         .selectAll("text")
         .attr("fill", "var(--muted)")
         .attr("font-size", "14px");
