@@ -13,12 +13,12 @@ interface Top5GroupedProps extends ChartProps {
 
 const STEP_COLORS = [
   "#0057FF", // Blue
-  "#7C3AED", // Violet
   "#FF2E92", // Pink
-  "#E69F00", // Yellow-Orange
   "#00A86B", // Green
-  "#0ea5e9", // Sky Blue
-  "#f43f5e", // Rose
+  "#E69F00", // Orange
+  "#7C3AED", // Violet
+  "#14B8A6", // Teal
+  "#DC2626", // Red
 ];
 
 export function Top5GroupedBar({ rows, dimension }: Top5GroupedProps) {
@@ -101,9 +101,10 @@ export function Top5GroupedBar({ rows, dimension }: Top5GroupedProps) {
 
       const maxVal = d3.max(chartData, d => d3.max(stepKeys, key => d[key] as number)) || 0;
 
-      const x = d3.scaleLinear()
+      // Use a symlog scale so that very small values (lower steps) remain visible
+      // without being entirely dwarfed by the massive initial steps.
+      const x = d3.scaleSymlog()
         .domain([0, maxVal])
-        .nice()
         .range([0, innerWidth]);
 
       // Draw axes
@@ -116,7 +117,7 @@ export function Top5GroupedBar({ rows, dimension }: Top5GroupedProps) {
 
       g.append("g")
         .attr("transform", `translate(0,${innerHeight})`)
-        .call(d3.axisBottom(x).ticks(8).tickFormat(d3.format("~s")))
+        .call(d3.axisBottom(x).ticks(5, "~s"))
         .selectAll("text")
         .attr("fill", "var(--muted)")
         .attr("font-size", "14px");

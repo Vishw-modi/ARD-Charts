@@ -6,12 +6,12 @@ import { ChartProps } from "@/lib/types";
 
 const STEP_COLORS = [
   "#0057FF", // Blue
-  "#7C3AED", // Violet
   "#FF2E92", // Pink
-  "#E69F00", // Yellow-Orange
   "#00A86B", // Green
-  "#0ea5e9", // Sky Blue
-  "#f43f5e", // Rose
+  "#E69F00", // Orange
+  "#7C3AED", // Violet
+  "#14B8A6", // Teal
+  "#DC2626", // Red
 ];
 
 export function FunnelChart({ rows }: ChartProps) {
@@ -42,8 +42,8 @@ export function FunnelChart({ rows }: ChartProps) {
       // Clear SVG container
       d3.select(container).selectAll("*").remove();
       
-      const viewBoxWidth = 980;
-      const viewBoxHeight = 720;
+      const viewBoxWidth = 900;
+      const viewBoxHeight = 500;
 
       const svg = d3.select(container)
         .append("svg")
@@ -52,8 +52,8 @@ export function FunnelChart({ rows }: ChartProps) {
         .attr("viewBox", `0 0 ${viewBoxWidth} ${viewBoxHeight}`)
         .style("overflow", "visible");
 
-      const topWidth = viewBoxWidth * 0.94;
-      const neckWidth = viewBoxWidth * 0.16;
+      const topWidth = viewBoxWidth * 0.90;
+      const neckWidth = viewBoxWidth * 0.20;
       const centerX = viewBoxWidth / 2;
       
       const numBands = 7;
@@ -100,10 +100,10 @@ export function FunnelChart({ rows }: ChartProps) {
           
           svg.append("text")
             .attr("x", centerX)
-            .attr("y", centerY - 6)
+            .attr("y", centerY - 2)
             .attr("text-anchor", "middle")
             .attr("fill", "white")
-            .attr("font-size", "24px")
+            .attr("font-size", "18px")
             .attr("font-weight", "bold")
             .text(formatCount(count));
             
@@ -122,10 +122,10 @@ export function FunnelChart({ rows }: ChartProps) {
           
           svg.append("text")
             .attr("x", centerX)
-            .attr("y", centerY + 18)
+            .attr("y", centerY + 16)
             .attr("text-anchor", "middle")
             .attr("fill", "rgba(255,255,255,0.9)")
-            .attr("font-size", "17px")
+            .attr("font-size", "13px")
             .text(subtitle);
         }
       }
