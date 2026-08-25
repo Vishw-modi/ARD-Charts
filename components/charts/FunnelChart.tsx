@@ -53,7 +53,7 @@ export function FunnelChart({ rows }: ChartProps) {
       d3.select(container).selectAll("*").remove();
       
       const viewBoxWidth = 1100;
-      const viewBoxHeight = 550;
+      const viewBoxHeight = 420;
 
       const svg = d3.select(container)
         .append("svg")
@@ -178,5 +178,5 @@ export function FunnelChart({ rows }: ChartProps) {
     };
   }, [rows]);
 
-  return <div ref={containerRef} className="w-full h-full min-h-[500px]" />;
+  return <div ref={containerRef} className="w-full h-full min-h-[420px]" />;
 }
