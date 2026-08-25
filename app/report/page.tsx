@@ -19,7 +19,7 @@ export default function ReportPage() {
   // Calculate dummy KPI data or real data if available
   let kpiData = {
     step7Patients: "...",
-    conversionRate: "...",
+    topSiteOfCare: "...",
     topAgeGroup: "...",
     topSpec: "..."
   };
@@ -32,8 +32,6 @@ export default function ReportPage() {
     const step7Total = rows
       .filter(r => r.DIMENSION === "gender" && r.STEP === 7)
       .reduce((sum, r) => sum + r.PATIENTS, 0);
-      
-    const convRate = step1Total > 0 ? ((step7Total / step1Total) * 100).toFixed(1) + "%" : "0%";
 
     const ageStep7 = rows.filter(r => r.DIMENSION === "age_group" && r.STEP === 7);
     const topAge = ageStep7.length > 0 ? ageStep7.reduce((a, b) => a.PATIENTS > b.PATIENTS ? a : b).VALUE : "N/A";
@@ -41,9 +39,13 @@ export default function ReportPage() {
     const specStep7 = rows.filter(r => r.DIMENSION === "hcp_specialty" && r.STEP === 7 && r.VALUE !== "Other" && r.VALUE !== "Unknown");
     const topSpec = specStep7.length > 0 ? specStep7.reduce((a, b) => a.PATIENTS > b.PATIENTS ? a : b).VALUE : "N/A";
 
+    // Top Site of Care at Step 7
+    const socStep7 = rows.filter(r => r.DIMENSION === "parent_type" && r.STEP === 7 && r.VALUE !== "Other" && r.VALUE !== "Unknown");
+    const topSoc = socStep7.length > 0 ? socStep7.reduce((a, b) => a.PATIENTS > b.PATIENTS ? a : b).VALUE : "N/A";
+
     kpiData = {
       step7Patients: new Intl.NumberFormat("en-US").format(step7Total),
-      conversionRate: convRate,
+      topSiteOfCare: topSoc,
       topAgeGroup: topAge,
       topSpec: topSpec
     };
@@ -77,24 +79,40 @@ export default function ReportPage() {
         </div>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           <KpiCard 
-            title="Final Patient Cohort (Step 7)" 
+            title="Final Cohort" 
             value={kpiData.step7Patients} 
-            colorClass="from-blue-50 to-blue-100 border-blue-200 text-blue-900" 
+            icon={
+              <svg className="h-5 w-5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+            }
           />
           <KpiCard 
-            title="Conversion Rate (Step 1 to 7)" 
-            value={kpiData.conversionRate} 
-            colorClass="from-emerald-50 to-emerald-100 border-emerald-200 text-emerald-900" 
+            title="Top Site of Care" 
+            value={kpiData.topSiteOfCare} 
+            icon={
+              <svg className="h-5 w-5 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1v1H9V7zm5 0h1v1h-1V7zm-5 4h1v1H9v-1zm5 0h1v1h-1v-1zm-5 4h1v1H9v-1zm5 0h1v1h-1v-1z" />
+              </svg>
+            }
           />
           <KpiCard 
-            title="Top Age Group (Final Step)" 
+            title="Top Age Group" 
             value={kpiData.topAgeGroup} 
-            colorClass="from-purple-50 to-purple-100 border-purple-200 text-purple-900" 
+            icon={
+              <svg className="h-5 w-5 text-purple-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+            }
           />
           <KpiCard 
-            title="Top HCP Specialty (Final Step)" 
+            title="Top Specialty" 
             value={kpiData.topSpec} 
-            colorClass="from-orange-50 to-orange-100 border-orange-200 text-orange-900" 
+            icon={
+              <svg className="h-5 w-5 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+            }
           />
         </div>
       </section>
@@ -177,14 +195,18 @@ export default function ReportPage() {
 }
 
 // Simple Helper Components for Layout
-function KpiCard({ title, value, colorClass }: { title: string; value: string | number; colorClass: string }) {
+function KpiCard({ title, value, icon }: { title: string; value: string | number; icon?: ReactNode }) {
+  // If value is a long string (like a specialty), reduce font size to prevent awkward wrapping
+  const isText = typeof value === "string" && value.length > 5 && isNaN(Number(value.replace(/,/g, '')));
+  const valueClass = isText ? "text-[18px] text-gray-800" : "text-[28px] text-gray-900";
+
   return (
-    <div className={`relative overflow-hidden rounded-2xl border bg-gradient-to-br p-5 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md ${colorClass}`}>
-      <h3 className="text-[11px] font-bold uppercase tracking-wider opacity-80">{title}</h3>
-      <p className="mt-2 text-[24px] font-extrabold tracking-tight">{value}</p>
-      
-      {/* Decorative background element */}
-      <div className="absolute -bottom-6 -right-6 h-20 w-20 rounded-full bg-white opacity-20 blur-xl"></div>
+    <div className="group flex flex-col justify-between rounded-xl border border-gray-200 bg-white p-5 shadow-[0_2px_10px_-4px_rgba(0,0,0,0.02)] transition-all hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.06)] hover:border-gray-300">
+      <div className="mb-4 flex items-center justify-between">
+        <h3 className="text-[12px] font-bold uppercase tracking-wider text-gray-500">{title}</h3>
+        {icon && <div className="rounded-md bg-gray-50 p-2 transition-colors group-hover:bg-gray-100">{icon}</div>}
+      </div>
+      <p className={`font-bold leading-tight tracking-tight ${valueClass}`}>{value}</p>
     </div>
   );
 }

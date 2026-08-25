@@ -62,10 +62,10 @@ export function FunnelChart({ rows }: ChartProps) {
         .attr("viewBox", `0 0 ${viewBoxWidth} ${viewBoxHeight}`)
         .style("overflow", "visible");
 
-      const topWidth = 550;
-      const neckWidth = 150;
-      const centerX = 320;
-      const textX = 640;
+      const topWidth = 600;
+      const neckWidth = 280;
+      const centerX = 340;
+      const textX = 660;
       
       const numBands = 7;
       const bandHeight = viewBoxHeight / numBands;
