@@ -66,9 +66,7 @@ export default function ReportPage() {
             Full Insights Report
           </h1>
         </div>
-        <p className="max-w-3xl text-[14px] leading-relaxed text-muted">
-          Welcome to the comprehensive breakdown of the patient journey. This report tracks cohort attrition from initial cSCC diagnosis through specialized IO treatments, ultimately profiling the highly-qualified patient segment that reaches the final step.
-        </p>
+
       </div>
       
       {/* SECTION 1: KPIs */}
