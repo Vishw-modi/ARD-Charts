@@ -198,7 +198,13 @@ export function ReportBarChart({ rows, dimension, maxItems = 10 }: ReportChartPr
     }
     
     let sorted = Array.from(map.entries())
-      .map(([label, value]) => ({ label, value }));
+      .map(([label, value]) => {
+        let displayLabel = label;
+        if (dimension === "payer_name" && label === "Centers for Medicare and Medicaid Services") {
+          displayLabel = "CMS";
+        }
+        return { label: displayLabel, value };
+      });
       
     const isAge = dimension === "age_group";
     
@@ -223,7 +229,7 @@ export function ReportBarChart({ rows, dimension, maxItems = 10 }: ReportChartPr
       const width = container.clientWidth;
       const height = Math.max(container.clientHeight, data.length * 30 + 40); // responsive height
       
-      const leftMargin = dimension === "age_group" ? 60 : (dimension === "payer_name" ? 270 : 180);
+      const leftMargin = dimension === "age_group" ? 60 : (dimension === "payer_name" ? 120 : 180);
       const margin = { top: 10, right: 40, bottom: 20, left: leftMargin };
       const innerWidth = width - margin.left - margin.right;
       const innerHeight = height - margin.top - margin.bottom;
