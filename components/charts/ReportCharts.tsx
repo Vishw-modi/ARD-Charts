@@ -202,29 +202,11 @@ export function ReportBarChart({ rows, dimension, maxItems = 10 }: ReportChartPr
       
     const isAge = dimension === "age_group";
     
-    if (isAge) {
-      sorted = sorted
-        .sort((a, b) => b.value - a.value)
-        .slice(0, maxItems)
-        .sort((a, b) => {
-          const idxA = AGE_ORDER.indexOf(a.label);
-          const idxB = AGE_ORDER.indexOf(b.label);
-          if (idxA !== -1 && idxB !== -1) return idxA - idxB;
-          if (idxA !== -1) return -1;
-          if (idxB !== -1) return 1;
-          return a.label.localeCompare(b.label);
-        });
-    } else {
-      sorted = sorted.sort((a, b) => b.value - a.value).slice(0, maxItems);
-    }
+    sorted = sorted.sort((a, b) => b.value - a.value).slice(0, maxItems);
 
     const colors = new Map<string, string>();
     sorted.forEach((d, i) => {
-      if (isAge) {
-        colors.set(d.label, AGE_COLORS[d.label] || "#9CA3AF");
-      } else {
-        colors.set(d.label, CATEGORY_COLORS[i % CATEGORY_COLORS.length]);
-      }
+      colors.set(d.label, CATEGORY_COLORS[i % CATEGORY_COLORS.length]);
     });
 
     return { data: sorted, colorMap: colors };
@@ -241,7 +223,8 @@ export function ReportBarChart({ rows, dimension, maxItems = 10 }: ReportChartPr
       const width = container.clientWidth;
       const height = Math.max(container.clientHeight, data.length * 30 + 40); // responsive height
       
-      const margin = { top: 10, right: 40, bottom: 20, left: dimension === "age_group" ? 60 : 200 };
+      const leftMargin = dimension === "age_group" ? 60 : (dimension === "payer_name" ? 270 : 180);
+      const margin = { top: 10, right: 40, bottom: 20, left: leftMargin };
       const innerWidth = width - margin.left - margin.right;
       const innerHeight = height - margin.top - margin.bottom;
 

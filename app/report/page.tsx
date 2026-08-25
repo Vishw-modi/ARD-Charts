@@ -71,7 +71,7 @@ export default function ReportPage() {
       
       {/* SECTION 1: KPIs */}
       <section>
-        <div className="mb-5">
+        <div className="mb-5 text-center">
           <h2 className="text-[16px] font-bold text-gray-800">Executive Summary</h2>
           <p className="text-[13px] text-gray-500">High-level metrics capturing the final cohort scale, overall retention, and primary demographics.</p>
         </div>
@@ -101,8 +101,8 @@ export default function ReportPage() {
 
       {/* SECTION 2: Step Funnel */}
       <section className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-gray-50 to-white p-5 shadow-sm ring-1 ring-gray-100">
-        <div className="mb-6 max-w-4xl">
-          <h2 className="flex items-center text-[16px] font-bold text-gray-800">
+        <div className="mb-6 mx-auto max-w-4xl text-center">
+          <h2 className="flex items-center justify-center text-[16px] font-bold text-gray-800">
             <span className="mr-2 rounded bg-indigo-100 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-indigo-700">Journey</span>
             Patient Attrition Funnel
           </h2>
@@ -121,8 +121,8 @@ export default function ReportPage() {
 
       {/* SECTION 3: Step 7 Layout */}
       <section>
-        <div className="mb-6 max-w-4xl">
-          <h2 className="flex items-center text-[16px] font-bold text-gray-800">
+        <div className="mb-6 mx-auto max-w-4xl text-center">
+          <h2 className="flex items-center justify-center text-[16px] font-bold text-gray-800">
             <span className="mr-2 rounded bg-pink-100 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-pink-700">Snapshot</span>
             Final Cohort Profile
           </h2>
@@ -192,7 +192,7 @@ function KpiCard({ title, value, colorClass }: { title: string; value: string | 
 function ChartCard({ title, subtitle, loading, children }: { title: string; subtitle?: string; loading: boolean; children: ReactNode }) {
   return (
     <div className="group flex h-full flex-col rounded-[16px] border border-gray-200 bg-white p-5 shadow-[0_2px_10px_-4px_rgba(0,0,0,0.05)] transition-shadow hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.1)]">
-      <div className="mb-4">
+      <div className="mb-4 text-center">
         <h3 className="text-[14px] font-bold text-gray-800 transition-colors group-hover:text-blue-600">{title}</h3>
         {subtitle && <p className="mt-1 text-[12px] text-gray-500">{subtitle}</p>}
       </div>
