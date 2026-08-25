@@ -3,10 +3,12 @@
 import { useMetrics } from "@/lib/data";
 import { FunnelChart } from "@/components/charts/FunnelChart";
 import { ReportDonutChart, ReportBarChart } from "@/components/charts/ReportCharts";
-import { ReactNode } from "react";
+import { ReactNode, useState, useEffect, useMemo } from "react";
+import { MultiSelect } from "@/components/ui/MultiSelect";
+import { MonthWiseAgeRow, MetricRow } from "@/lib/types";
 
 export default function ReportPage() {
-  const { data: rows, loading, error } = useMetrics();
+  const { data: rows, monthWiseData, loading, error } = useMetrics();
 
   if (error) {
     return (
@@ -148,9 +150,7 @@ export default function ReportPage() {
         <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
           
           {/* Age Bands */}
-          <ChartCard title="Age Composition (Top 5)" subtitle="Which age groups dominate the final cohort?" loading={loading}>
-            <ReportBarChart rows={rows} dimension="age_group" maxItems={5} />
-          </ChartCard>
+          <AgeCompositionFilterCard data={monthWiseData} loading={loading} />
 
           {/* Gender & Region Layout */}
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
@@ -223,6 +223,137 @@ function ChartCard({ title, subtitle, loading, children }: { title: string; subt
           </div>
         ) : (
           children
+        )}
+      </div>
+    </div>
+  );
+}
+
+function AgeCompositionFilterCard({ data, loading }: { data: MonthWiseAgeRow[], loading: boolean }) {
+  const [mode, setMode] = useState<"Years" | "Months">("Years");
+  const [selectedYears, setSelectedYears] = useState<string[]>([]);
+  const [selectedMonths, setSelectedMonths] = useState<string[]>([]);
+
+  // Extract available years and months from data
+  const { availableYears, availableMonths } = useMemo(() => {
+    const years = new Set<string>();
+    const months = new Set<string>();
+    data.forEach(d => {
+      const monthStr = d.FIRST_KLO_TREATMENT_MONTH;
+      if (monthStr && monthStr !== "Unknown") {
+        months.add(monthStr);
+        const parts = monthStr.split("-");
+        if (parts.length === 2) {
+          years.add("20" + parts[1]);
+        }
+      }
+    });
+    const monthMap: Record<string, number> = {
+      Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5,
+      Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11
+    };
+
+    return {
+      availableYears: Array.from(years).sort(),
+      availableMonths: Array.from(months).sort((a, b) => {
+        const [mA, yA] = a.split("-");
+        const [mB, yB] = b.split("-");
+        const dateA = new Date(2000 + parseInt(yA), monthMap[mA]);
+        const dateB = new Date(2000 + parseInt(yB), monthMap[mB]);
+        return dateA.getTime() - dateB.getTime();
+      })
+    };
+  }, [data]);
+
+  useEffect(() => {
+    if (availableYears.length > 0 && selectedYears.length === 0) {
+      setSelectedYears(availableYears);
+    }
+    if (availableMonths.length > 0 && selectedMonths.length === 0) {
+      setSelectedMonths(availableMonths);
+    }
+  }, [availableYears, availableMonths]);
+
+  // Filter data and map to MetricRow format
+  const chartRows = useMemo(() => {
+    const filtered = data.filter(d => {
+      if (!d.FIRST_KLO_TREATMENT_MONTH || d.FIRST_KLO_TREATMENT_MONTH === "Unknown") return false;
+      if (mode === "Years") {
+        const parts = d.FIRST_KLO_TREATMENT_MONTH.split("-");
+        const year = parts.length === 2 ? "20" + parts[1] : "";
+        return selectedYears.length === 0 || selectedYears.includes(year);
+      } else {
+        return selectedMonths.length === 0 || selectedMonths.includes(d.FIRST_KLO_TREATMENT_MONTH);
+      }
+    });
+
+    const sums = new Map<string, number>();
+    filtered.forEach(d => {
+      sums.set(d.AGE_BUCKET, (sums.get(d.AGE_BUCKET) || 0) + d.PATIENT_COUNTS);
+    });
+
+    return Array.from(sums.entries()).map(([bucket, count]) => ({
+      DIMENSION: "age_group",
+      VALUE: bucket,
+      STEP: 7,
+      PATIENTS: count
+    } as MetricRow));
+  }, [data, mode, selectedYears, selectedMonths]);
+
+  return (
+    <div className="group flex h-full flex-col rounded-[16px] border border-gray-200 bg-white p-5 shadow-[0_2px_10px_-4px_rgba(0,0,0,0.05)] transition-shadow hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.1)]">
+      <div className="mb-4 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4">
+        <div>
+          <h3 className="text-[14px] font-bold text-gray-800 transition-colors group-hover:text-blue-600">Age Composition (Top 5)</h3>
+          <p className="mt-1 text-[12px] text-gray-500">Filtered by {mode}</p>
+        </div>
+        
+        {/* Controls */}
+        <div className="flex flex-col sm:flex-row gap-3">
+          {/* Toggle */}
+          <div className="flex rounded-md bg-gray-100 p-1 shrink-0 h-9">
+            <button 
+              className={`px-3 py-1 text-xs font-medium rounded-md ${mode === "Years" ? "bg-white shadow-sm text-gray-900" : "text-gray-500 hover:text-gray-700"}`}
+              onClick={() => setMode("Years")}
+            >
+              Years
+            </button>
+            <button 
+              className={`px-3 py-1 text-xs font-medium rounded-md ${mode === "Months" ? "bg-white shadow-sm text-gray-900" : "text-gray-500 hover:text-gray-700"}`}
+              onClick={() => setMode("Months")}
+            >
+              Months
+            </button>
+          </div>
+
+          {/* Multi Select */}
+          <div className="w-[180px] h-9">
+            {mode === "Years" ? (
+              <MultiSelect 
+                options={availableYears} 
+                selected={selectedYears} 
+                onChange={setSelectedYears} 
+                placeholder="Select Years"
+              />
+            ) : (
+              <MultiSelect 
+                options={availableMonths} 
+                selected={selectedMonths} 
+                onChange={setSelectedMonths} 
+                placeholder="Select Months"
+              />
+            )}
+          </div>
+        </div>
+      </div>
+      
+      <div className="relative flex-1 min-h-[250px]">
+        {loading ? (
+          <div className="flex h-full min-h-[220px] items-center justify-center">
+            <div className="h-6 w-6 animate-spin rounded-full border-2 border-gray-200 border-t-blue-600"></div>
+          </div>
+        ) : (
+          <ReportBarChart rows={chartRows} dimension="age_group" maxItems={5} />
         )}
       </div>
     </div>
