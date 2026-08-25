@@ -13,16 +13,14 @@ interface ReportChartProps extends ChartProps {
 }
 
 const CATEGORY_COLORS = [
-  "#3659a0ff", // Blue
-  "#FF2E92", // Pink
-  "#00A86B", // Green
-  "#E69F00", // Orange
-  "#7C3AED", // Violet
-  "#14B8A6", // Teal
-  "#DC2626", // Red
-  "#4F46E5", // Indigo
-  "#0EA5E9", // Sky
-  "#84CC16", // Lime
+  "#00215D",
+  "#003BAD",
+  "#0F65DE",
+  "#3384FA",
+  "#66A2FF",
+  "#98C0FF",
+  "#C7DCFF",
+  "#F0F6FF"
 ];
 
 const AGE_ORDER = [
