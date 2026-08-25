@@ -14,6 +14,16 @@ const STEP_COLORS = [
   "#DC2626", // Red
 ];
 
+const STEP_DESCRIPTIONS = [
+  "Patients with at least cSCC diagnosis",
+  "Patients with at least 2 cSCC diagnoses 30 days apart",
+  "Patients with cSCC Dx > Other Cancer Dx OR cSCC Dx in latest 2 years",
+  "Patients having Systemic therapy treatment after 1st cSCC Dx",
+  "Patients having KLO treatment after 1st cSCC Dx (Keytruda, Libtayo, Opdivo)",
+  "Patients having KLO treatment within 90 days of cSCC Dx",
+  "Exclusion of Competing IO drivers"
+];
+
 export function FunnelChart({ rows }: ChartProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -42,8 +52,8 @@ export function FunnelChart({ rows }: ChartProps) {
       // Clear SVG container
       d3.select(container).selectAll("*").remove();
       
-      const viewBoxWidth = 900;
-      const viewBoxHeight = 500;
+      const viewBoxWidth = 1100;
+      const viewBoxHeight = 550;
 
       const svg = d3.select(container)
         .append("svg")
@@ -52,9 +62,10 @@ export function FunnelChart({ rows }: ChartProps) {
         .attr("viewBox", `0 0 ${viewBoxWidth} ${viewBoxHeight}`)
         .style("overflow", "visible");
 
-      const topWidth = viewBoxWidth * 0.90;
-      const neckWidth = viewBoxWidth * 0.20;
-      const centerX = viewBoxWidth / 2;
+      const topWidth = 550;
+      const neckWidth = 150;
+      const centerX = 320;
+      const textX = 640;
       
       const numBands = 7;
       const bandHeight = viewBoxHeight / numBands;
@@ -128,6 +139,24 @@ export function FunnelChart({ rows }: ChartProps) {
             .attr("font-size", "13px")
             .text(subtitle);
         }
+
+        // Draw description text
+        const fObj = svg.append("foreignObject")
+          .attr("x", textX)
+          .attr("y", yTop)
+          .attr("width", viewBoxWidth - textX - 20)
+          .attr("height", bandHeight);
+
+        fObj.append("xhtml:div")
+          .style("display", "flex")
+          .style("flex-direction", "column")
+          .style("justify-content", "center")
+          .style("height", "100%")
+          .style("padding-left", "20px")
+          .style("font-size", "14.5px")
+          .style("color", "var(--foreground)")
+          .style("line-height", "1.4")
+          .html(`<div style="font-weight: 600; font-size: 16px; margin-bottom: 2px;">Step ${i + 1}</div><div style="opacity: 0.8">${STEP_DESCRIPTIONS[i]}</div>`);
       }
     };
 
