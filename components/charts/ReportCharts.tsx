@@ -13,7 +13,7 @@ interface ReportChartProps extends ChartProps {
 }
 
 const CATEGORY_COLORS = [
-  "#0057FF", // Blue
+  "#3659a0ff", // Blue
   "#FF2E92", // Pink
   "#00A86B", // Green
   "#E69F00", // Orange
