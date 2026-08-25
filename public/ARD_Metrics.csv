@@ -1,0 +1,3865 @@
+"DIMENSION","VALUE","STEP","PATIENTS"
+"age_group","80+",1,788703
+"age_group","75-79",1,377541
+"age_group","70-74",1,314610
+"age_group","65-69",1,238228
+"age_group","60-64",1,142178
+"age_group","55-59",1,74006
+"age_group","50-54",1,36251
+"age_group","45-49",1,17859
+"age_group","40-44",1,9313
+"age_group","35-39",1,4595
+"age_group","30-34",1,3251
+"age_group","25-29",1,2257
+"age_group","20-24",1,1355
+"age_group","Unknown",1,1329
+"age_group","15-19",1,595
+"age_group","10-14",1,256
+"age_group","5-9",1,148
+"age_group","0-4",1,86
+"age_group","80+",2,357675
+"age_group","75-79",2,159797
+"age_group","70-74",2,127095
+"age_group","65-69",2,89493
+"age_group","60-64",2,50330
+"age_group","55-59",2,24706
+"age_group","50-54",2,11386
+"age_group","45-49",2,5382
+"age_group","40-44",2,2593
+"age_group","35-39",2,1302
+"age_group","30-34",2,955
+"age_group","25-29",2,700
+"age_group","20-24",2,415
+"age_group","Unknown",2,227
+"age_group","15-19",2,134
+"age_group","10-14",2,73
+"age_group","5-9",2,38
+"age_group","0-4",2,16
+"age_group","80+",3,351477
+"age_group","75-79",3,157513
+"age_group","70-74",3,125239
+"age_group","65-69",3,88191
+"age_group","60-64",3,49516
+"age_group","55-59",3,24310
+"age_group","50-54",3,11194
+"age_group","45-49",3,5285
+"age_group","40-44",3,2554
+"age_group","35-39",3,1284
+"age_group","30-34",3,945
+"age_group","25-29",3,687
+"age_group","20-24",3,409
+"age_group","Unknown",3,224
+"age_group","15-19",3,131
+"age_group","10-14",3,70
+"age_group","5-9",3,38
+"age_group","0-4",3,16
+"age_group","80+",4,21986
+"age_group","75-79",4,10970
+"age_group","70-74",4,9395
+"age_group","65-69",4,7247
+"age_group","60-64",4,4372
+"age_group","55-59",4,2159
+"age_group","50-54",4,1103
+"age_group","45-49",4,554
+"age_group","40-44",4,312
+"age_group","35-39",4,164
+"age_group","30-34",4,102
+"age_group","25-29",4,44
+"age_group","20-24",4,35
+"age_group","Unknown",4,24
+"age_group","15-19",4,8
+"age_group","5-9",4,6
+"age_group","10-14",4,4
+"age_group","0-4",4,0
+"age_group","80+",5,7924
+"age_group","75-79",5,3493
+"age_group","70-74",5,2884
+"age_group","65-69",5,2305
+"age_group","60-64",5,1454
+"age_group","55-59",5,742
+"age_group","50-54",5,354
+"age_group","45-49",5,206
+"age_group","40-44",5,133
+"age_group","35-39",5,59
+"age_group","30-34",5,45
+"age_group","20-24",5,14
+"age_group","25-29",5,14
+"age_group","Unknown",5,7
+"age_group","15-19",5,2
+"age_group","5-9",5,2
+"age_group","10-14",5,2
+"age_group","0-4",5,0
+"age_group","80+",6,7015
+"age_group","75-79",6,3019
+"age_group","70-74",6,2486
+"age_group","65-69",6,2018
+"age_group","60-64",6,1287
+"age_group","55-59",6,661
+"age_group","50-54",6,306
+"age_group","45-49",6,187
+"age_group","40-44",6,116
+"age_group","35-39",6,54
+"age_group","30-34",6,42
+"age_group","20-24",6,13
+"age_group","25-29",6,13
+"age_group","Unknown",6,6
+"age_group","10-14",6,2
+"age_group","15-19",6,2
+"age_group","5-9",6,1
+"age_group","0-4",6,0
+"age_group","80+",7,3408
+"age_group","75-79",7,1245
+"age_group","70-74",7,970
+"age_group","65-69",7,796
+"age_group","60-64",7,513
+"age_group","55-59",7,257
+"age_group","50-54",7,127
+"age_group","45-49",7,79
+"age_group","40-44",7,54
+"age_group","30-34",7,21
+"age_group","35-39",7,19
+"age_group","20-24",7,8
+"age_group","25-29",7,5
+"age_group","Unknown",7,4
+"age_group","10-14",7,1
+"age_group","5-9",7,1
+"age_group","15-19",7,0
+"age_group","0-4",7,0
+"gender","M",1,1144125
+"gender","F",1,867234
+"gender","Unknown",1,1202
+"gender","M",2,490577
+"gender","F",2,341413
+"gender","Unknown",2,327
+"gender","M",3,482171
+"gender","F",3,336590
+"gender","Unknown",3,322
+"gender","M",4,32895
+"gender","F",4,25560
+"gender","Unknown",4,30
+"gender","M",5,13719
+"gender","F",5,5912
+"gender","Unknown",5,9
+"gender","M",6,12176
+"gender","F",6,5044
+"gender","Unknown",6,8
+"gender","M",7,5460
+"gender","F",7,2043
+"gender","Unknown",7,5
+"hcp_specialty","Family Medicine",1,409202
+"hcp_specialty","Internal Medicine",1,233282
+"hcp_specialty","Other",1,211447
+"hcp_specialty","Dermatology",1,160575
+"hcp_specialty","General Practice",1,94553
+"hcp_specialty","Cardiology",1,94481
+"hcp_specialty","Ophthalmology",1,51436
+"hcp_specialty","Urology",1,40686
+"hcp_specialty","Radiology",1,36673
+"hcp_specialty","Pathology",1,36397
+"hcp_specialty","Physical Therapy",1,31184
+"hcp_specialty","Emergency Medicine",1,30711
+"hcp_specialty","Gastroenterology",1,29840
+"hcp_specialty","Hematology/Oncology",1,29425
+"hcp_specialty","Optometry",1,29170
+"hcp_specialty","Nephrology",1,26117
+"hcp_specialty","Pharmacy Specialty",1,25721
+"hcp_specialty","Surgery",1,25335
+"hcp_specialty","Hospital Medicine",1,24422
+"hcp_specialty","Orthopedic Surgery",1,23365
+"hcp_specialty","Podiatry",1,22226
+"hcp_specialty","Neurology",1,21972
+"hcp_specialty","Geriatrics",1,20255
+"hcp_specialty","Interventional Cardiology",1,19083
+"hcp_specialty","Pulmonology",1,18965
+"hcp_specialty","Psychiatry",1,18637
+"hcp_specialty","Endocrinology",1,18418
+"hcp_specialty","Otolaryngology",1,16820
+"hcp_specialty","Pain Medicine",1,15331
+"hcp_specialty","Alternative Medicine",1,14597
+"hcp_specialty","Dentistry",1,14123
+"hcp_specialty","Obstetrics",1,13059
+"hcp_specialty","Rheumatology",1,12275
+"hcp_specialty","Oncology",1,9918
+"hcp_specialty","Cardiac Electrophysiology",1,9494
+"hcp_specialty","Anesthesiology",1,9209
+"hcp_specialty","Radiation Oncology",1,8990
+"hcp_specialty","Palliative Medicine",1,8775
+"hcp_specialty","Urgent Care Medicine",1,8109
+"hcp_specialty","Dermatologic Surgery",1,7441
+"hcp_specialty","Psychology",1,6984
+"hcp_specialty","Pediatrics",1,6731
+"hcp_specialty","Infectious diseases",1,6519
+"hcp_specialty","Plastic Surgery",1,6390
+"hcp_specialty","Rehabilitation Medicine",1,5828
+"hcp_specialty","Sports Medicine",1,5109
+"hcp_specialty","Allergy",1,4813
+"hcp_specialty","Occupational Medicine",1,4444
+"hcp_specialty","Gynecology",1,4323
+"hcp_specialty","Vascular Surgery",1,3747
+"hcp_specialty","Intensive Care Medicine",1,3527
+"hcp_specialty","Unknown",1,3326
+"hcp_specialty","Hand Surgery",1,2576
+"hcp_specialty","Public Health",1,1509
+"hcp_specialty","Sleep Medicine",1,1459
+"hcp_specialty","Colorectal Surgery",1,1448
+"hcp_specialty","Addiction Medicine",1,1388
+"hcp_specialty","Advanced Heart Failure",1,1275
+"hcp_specialty","Hematology",1,1231
+"hcp_specialty","Surgical Oncology",1,967
+"hcp_specialty","Gynecological Oncology",1,742
+"hcp_specialty","Preventive Medicine",1,697
+"hcp_specialty","Hepatology",1,681
+"hcp_specialty","Obesity Medicine",1,590
+"hcp_specialty","Maxillofacial Surgery",1,555
+"hcp_specialty","Nutrition",1,536
+"hcp_specialty","Nuclear Medicine",1,482
+"hcp_specialty","Midwifery",1,415
+"hcp_specialty","Pediatric Psychiatry",1,323
+"hcp_specialty","Diabetes",1,290
+"hcp_specialty","Cardiothoracic Surgery",1,209
+"hcp_specialty","Addiction Psychiatry",1,204
+"hcp_specialty","Geriatric Psychiatry",1,195
+"hcp_specialty","Administrative Medicine",1,139
+"hcp_specialty","Neurophysiology",1,138
+"hcp_specialty","Perinatology",1,117
+"hcp_specialty","Neuromuscular Medicine",1,113
+"hcp_specialty","Pediatric Oncology",1,95
+"hcp_specialty","Genetics",1,86
+"hcp_specialty","Pediatric Neurology",1,82
+"hcp_specialty","Immunology",1,80
+"hcp_specialty","Research and Development",1,72
+"hcp_specialty","Pharmacology",1,52
+"hcp_specialty","Pediatric Cardiology",1,52
+"hcp_specialty","Neurosurgery",1,51
+"hcp_specialty","Legal Medicine",1,50
+"hcp_specialty","Pediatric Surgery",1,50
+"hcp_specialty","Pediatric Endocrinology",1,44
+"hcp_specialty","Pediatric Gastroenterology",1,40
+"hcp_specialty","Pediatric Pulmonology",1,29
+"hcp_specialty","Psychosomatic Medicine",1,14
+"hcp_specialty","Veterinary",1,10
+"hcp_specialty","Pediatric Dentistry",1,9
+"hcp_specialty","Abdominal Surgery",1,4
+"hcp_specialty","Microbiology",1,1
+"hcp_specialty","Reproductive Medicine",1,1
+"hcp_specialty","Family Medicine",2,163421
+"hcp_specialty","Internal Medicine",2,96903
+"hcp_specialty","Other",2,94370
+"hcp_specialty","Dermatology",2,71560
+"hcp_specialty","Cardiology",2,39918
+"hcp_specialty","General Practice",2,37741
+"hcp_specialty","Ophthalmology",2,20866
+"hcp_specialty","Urology",2,16548
+"hcp_specialty","Radiology",2,13923
+"hcp_specialty","Hematology/Oncology",2,13304
+"hcp_specialty","Pathology",2,12782
+"hcp_specialty","Physical Therapy",2,12189
+"hcp_specialty","Emergency Medicine",2,11951
+"hcp_specialty","Gastroenterology",2,11719
+"hcp_specialty","Nephrology",2,11623
+"hcp_specialty","Optometry",2,11597
+"hcp_specialty","Surgery",2,10688
+"hcp_specialty","Hospital Medicine",2,10390
+"hcp_specialty","Pharmacy Specialty",2,10252
+"hcp_specialty","Podiatry",2,9400
+"hcp_specialty","Neurology",2,9121
+"hcp_specialty","Orthopedic Surgery",2,9103
+"hcp_specialty","Geriatrics",2,8861
+"hcp_specialty","Pulmonology",2,8140
+"hcp_specialty","Interventional Cardiology",2,7962
+"hcp_specialty","Endocrinology",2,7475
+"hcp_specialty","Otolaryngology",2,7069
+"hcp_specialty","Psychiatry",2,6874
+"hcp_specialty","Pain Medicine",2,6273
+"hcp_specialty","Alternative Medicine",2,5646
+"hcp_specialty","Dentistry",2,5327
+"hcp_specialty","Rheumatology",2,5020
+"hcp_specialty","Oncology",2,4766
+"hcp_specialty","Obstetrics",2,4469
+"hcp_specialty","Radiation Oncology",2,4342
+"hcp_specialty","Cardiac Electrophysiology",2,4049
+"hcp_specialty","Palliative Medicine",2,3900
+"hcp_specialty","Dermatologic Surgery",2,3562
+"hcp_specialty","Anesthesiology",2,3410
+"hcp_specialty","Urgent Care Medicine",2,3270
+"hcp_specialty","Plastic Surgery",2,2837
+"hcp_specialty","Infectious diseases",2,2776
+"hcp_specialty","Psychology",2,2729
+"hcp_specialty","Pediatrics",2,2679
+"hcp_specialty","Rehabilitation Medicine",2,2360
+"hcp_specialty","Sports Medicine",2,1965
+"hcp_specialty","Allergy",2,1866
+"hcp_specialty","Occupational Medicine",2,1754
+"hcp_specialty","Vascular Surgery",2,1636
+"hcp_specialty","Gynecology",2,1559
+"hcp_specialty","Intensive Care Medicine",2,1438
+"hcp_specialty","Unknown",2,1303
+"hcp_specialty","Hand Surgery",2,1012
+"hcp_specialty","Public Health",2,589
+"hcp_specialty","Sleep Medicine",2,565
+"hcp_specialty","Hematology",2,549
+"hcp_specialty","Addiction Medicine",2,548
+"hcp_specialty","Colorectal Surgery",2,513
+"hcp_specialty","Advanced Heart Failure",2,511
+"hcp_specialty","Surgical Oncology",2,470
+"hcp_specialty","Preventive Medicine",2,316
+"hcp_specialty","Hepatology",2,307
+"hcp_specialty","Gynecological Oncology",2,262
+"hcp_specialty","Obesity Medicine",2,231
+"hcp_specialty","Maxillofacial Surgery",2,229
+"hcp_specialty","Nutrition",2,219
+"hcp_specialty","Nuclear Medicine",2,196
+"hcp_specialty","Midwifery",2,139
+"hcp_specialty","Diabetes",2,112
+"hcp_specialty","Pediatric Psychiatry",2,108
+"hcp_specialty","Geriatric Psychiatry",2,85
+"hcp_specialty","Cardiothoracic Surgery",2,83
+"hcp_specialty","Addiction Psychiatry",2,66
+"hcp_specialty","Neurophysiology",2,55
+"hcp_specialty","Administrative Medicine",2,49
+"hcp_specialty","Perinatology",2,41
+"hcp_specialty","Immunology",2,40
+"hcp_specialty","Neuromuscular Medicine",2,39
+"hcp_specialty","Research and Development",2,38
+"hcp_specialty","Pediatric Neurology",2,34
+"hcp_specialty","Genetics",2,33
+"hcp_specialty","Pediatric Oncology",2,32
+"hcp_specialty","Neurosurgery",2,28
+"hcp_specialty","Pediatric Cardiology",2,24
+"hcp_specialty","Pharmacology",2,24
+"hcp_specialty","Pediatric Endocrinology",2,20
+"hcp_specialty","Legal Medicine",2,17
+"hcp_specialty","Pediatric Surgery",2,13
+"hcp_specialty","Pediatric Gastroenterology",2,13
+"hcp_specialty","Pediatric Pulmonology",2,9
+"hcp_specialty","Pediatric Dentistry",2,4
+"hcp_specialty","Veterinary",2,3
+"hcp_specialty","Psychosomatic Medicine",2,3
+"hcp_specialty","Abdominal Surgery",2,2
+"hcp_specialty","Reproductive Medicine",2,0
+"hcp_specialty","Microbiology",2,0
+"hcp_specialty","Family Medicine",3,160647
+"hcp_specialty","Internal Medicine",3,95197
+"hcp_specialty","Other",3,92838
+"hcp_specialty","Dermatology",3,70913
+"hcp_specialty","Cardiology",3,39317
+"hcp_specialty","General Practice",3,37054
+"hcp_specialty","Ophthalmology",3,20535
+"hcp_specialty","Urology",3,16285
+"hcp_specialty","Radiology",3,13668
+"hcp_specialty","Hematology/Oncology",3,13065
+"hcp_specialty","Pathology",3,12685
+"hcp_specialty","Physical Therapy",3,12031
+"hcp_specialty","Emergency Medicine",3,11707
+"hcp_specialty","Gastroenterology",3,11552
+"hcp_specialty","Nephrology",3,11462
+"hcp_specialty","Optometry",3,11424
+"hcp_specialty","Surgery",3,10539
+"hcp_specialty","Hospital Medicine",3,10120
+"hcp_specialty","Pharmacy Specialty",3,10094
+"hcp_specialty","Podiatry",3,9267
+"hcp_specialty","Orthopedic Surgery",3,8982
+"hcp_specialty","Neurology",3,8975
+"hcp_specialty","Geriatrics",3,8641
+"hcp_specialty","Pulmonology",3,7984
+"hcp_specialty","Interventional Cardiology",3,7830
+"hcp_specialty","Endocrinology",3,7390
+"hcp_specialty","Otolaryngology",3,6978
+"hcp_specialty","Psychiatry",3,6765
+"hcp_specialty","Pain Medicine",3,6182
+"hcp_specialty","Alternative Medicine",3,5569
+"hcp_specialty","Dentistry",3,5253
+"hcp_specialty","Rheumatology",3,4947
+"hcp_specialty","Oncology",3,4662
+"hcp_specialty","Obstetrics",3,4403
+"hcp_specialty","Radiation Oncology",3,4294
+"hcp_specialty","Cardiac Electrophysiology",3,3998
+"hcp_specialty","Palliative Medicine",3,3721
+"hcp_specialty","Dermatologic Surgery",3,3549
+"hcp_specialty","Anesthesiology",3,3342
+"hcp_specialty","Urgent Care Medicine",3,3201
+"hcp_specialty","Plastic Surgery",3,2813
+"hcp_specialty","Infectious diseases",3,2723
+"hcp_specialty","Psychology",3,2679
+"hcp_specialty","Pediatrics",3,2631
+"hcp_specialty","Rehabilitation Medicine",3,2320
+"hcp_specialty","Sports Medicine",3,1933
+"hcp_specialty","Allergy",3,1848
+"hcp_specialty","Occupational Medicine",3,1728
+"hcp_specialty","Vascular Surgery",3,1607
+"hcp_specialty","Gynecology",3,1542
+"hcp_specialty","Intensive Care Medicine",3,1408
+"hcp_specialty","Unknown",3,1280
+"hcp_specialty","Hand Surgery",3,992
+"hcp_specialty","Public Health",3,579
+"hcp_specialty","Sleep Medicine",3,557
+"hcp_specialty","Addiction Medicine",3,541
+"hcp_specialty","Hematology",3,534
+"hcp_specialty","Colorectal Surgery",3,504
+"hcp_specialty","Advanced Heart Failure",3,504
+"hcp_specialty","Surgical Oncology",3,461
+"hcp_specialty","Preventive Medicine",3,314
+"hcp_specialty","Hepatology",3,300
+"hcp_specialty","Gynecological Oncology",3,257
+"hcp_specialty","Obesity Medicine",3,227
+"hcp_specialty","Maxillofacial Surgery",3,225
+"hcp_specialty","Nutrition",3,213
+"hcp_specialty","Nuclear Medicine",3,194
+"hcp_specialty","Midwifery",3,136
+"hcp_specialty","Diabetes",3,111
+"hcp_specialty","Pediatric Psychiatry",3,108
+"hcp_specialty","Geriatric Psychiatry",3,85
+"hcp_specialty","Cardiothoracic Surgery",3,83
+"hcp_specialty","Addiction Psychiatry",3,66
+"hcp_specialty","Neurophysiology",3,55
+"hcp_specialty","Administrative Medicine",3,49
+"hcp_specialty","Perinatology",3,40
+"hcp_specialty","Immunology",3,40
+"hcp_specialty","Neuromuscular Medicine",3,39
+"hcp_specialty","Research and Development",3,37
+"hcp_specialty","Pediatric Neurology",3,34
+"hcp_specialty","Genetics",3,32
+"hcp_specialty","Pediatric Oncology",3,31
+"hcp_specialty","Neurosurgery",3,27
+"hcp_specialty","Pharmacology",3,24
+"hcp_specialty","Pediatric Cardiology",3,23
+"hcp_specialty","Pediatric Endocrinology",3,20
+"hcp_specialty","Legal Medicine",3,17
+"hcp_specialty","Pediatric Gastroenterology",3,13
+"hcp_specialty","Pediatric Surgery",3,13
+"hcp_specialty","Pediatric Pulmonology",3,8
+"hcp_specialty","Pediatric Dentistry",3,4
+"hcp_specialty","Veterinary",3,3
+"hcp_specialty","Psychosomatic Medicine",3,3
+"hcp_specialty","Abdominal Surgery",3,2
+"hcp_specialty","Microbiology",3,0
+"hcp_specialty","Reproductive Medicine",3,0
+"hcp_specialty","Family Medicine",4,9759
+"hcp_specialty","Other",4,7766
+"hcp_specialty","Internal Medicine",4,6191
+"hcp_specialty","Hematology/Oncology",4,3617
+"hcp_specialty","Dermatology",4,3388
+"hcp_specialty","General Practice",4,2425
+"hcp_specialty","Cardiology",4,2236
+"hcp_specialty","Rheumatology",4,1486
+"hcp_specialty","Oncology",4,1424
+"hcp_specialty","Ophthalmology",4,1111
+"hcp_specialty","Radiology",4,1071
+"hcp_specialty","Hospital Medicine",4,1036
+"hcp_specialty","Emergency Medicine",4,859
+"hcp_specialty","Urology",4,844
+"hcp_specialty","Physical Therapy",4,800
+"hcp_specialty","Gastroenterology",4,728
+"hcp_specialty","Radiation Oncology",4,727
+"hcp_specialty","Geriatrics",4,709
+"hcp_specialty","Nephrology",4,683
+"hcp_specialty","Surgery",4,679
+"hcp_specialty","Pulmonology",4,651
+"hcp_specialty","Optometry",4,609
+"hcp_specialty","Palliative Medicine",4,608
+"hcp_specialty","Otolaryngology",4,602
+"hcp_specialty","Pathology",4,563
+"hcp_specialty","Pharmacy Specialty",4,556
+"hcp_specialty","Neurology",4,503
+"hcp_specialty","Endocrinology",4,501
+"hcp_specialty","Podiatry",4,490
+"hcp_specialty","Psychiatry",4,489
+"hcp_specialty","Orthopedic Surgery",4,465
+"hcp_specialty","Interventional Cardiology",4,420
+"hcp_specialty","Pain Medicine",4,398
+"hcp_specialty","Dentistry",4,296
+"hcp_specialty","Infectious diseases",4,275
+"hcp_specialty","Alternative Medicine",4,274
+"hcp_specialty","Obstetrics",4,268
+"hcp_specialty","Anesthesiology",4,233
+"hcp_specialty","Urgent Care Medicine",4,223
+"hcp_specialty","Cardiac Electrophysiology",4,218
+"hcp_specialty","Pediatrics",4,200
+"hcp_specialty","Psychology",4,176
+"hcp_specialty","Rehabilitation Medicine",4,174
+"hcp_specialty","Dermatologic Surgery",4,157
+"hcp_specialty","Intensive Care Medicine",4,132
+"hcp_specialty","Plastic Surgery",4,132
+"hcp_specialty","Vascular Surgery",4,122
+"hcp_specialty","Unknown",4,113
+"payer_name","Other",1,610906
+"payer_name","Centers for Medicare and Medicaid Services",1,319457
+"payer_name","UnitedHealthcare",1,230088
+"payer_name","Humana",1,131680
+"payer_name","Aetna",1,113443
+"payer_name","Centene Corporation",1,78207
+"payer_name","Elevance Health",1,54628
+"payer_name","Optum",1,37419
+"payer_name","Cigna Healthcare",1,32904
+"payer_name","Express Scripts",1,28585
+"payer_name","Cash",1,27067
+"payer_name","CVS Caremark",1,23193
+"payer_name","Health Care Service Corporation",1,20585
+"payer_name","Blue Cross Blue Shield Association",1,20123
+"payer_name","Florida Blue",1,16820
+"payer_name","GoodRx",1,16736
+"payer_name","OmniSYS",1,14895
+"payer_name","Blue Shield of California",1,10179
+"payer_name","Horizon Blue Cross Blue Shield of New Jersey",1,8361
+"payer_name","Blue Cross Blue Shield of Michigan",1,8052
+"payer_name","Priority Health",1,7904
+"payer_name","Navitus Health Solutions",1,5612
+"payer_name","MedImpact",1,5556
+"payer_name","Blue Cross and Blue Shield of Alabama",1,5498
+"payer_name","Blue Cross and Blue Shield of North Carolina",1,5263
+"payer_name","California Senior Care Action Network Health Plan",1,4948
+"payer_name","McKesson",1,4632
+"payer_name","Excellus BlueCross BlueShield",1,4514
+"payer_name","Highmark Health",1,4380
+"payer_name","CareFirst BlueCross BlueShield",1,4349
+"payer_name","Paramount Rx",1,4185
+"payer_name","Pharmacy Data Management",1,4183
+"payer_name","Cambia Health Solutions",1,4134
+"payer_name","Kaiser Permanente",1,4078
+"payer_name","BlueCross BlueShield of Tennessee",1,4044
+"payer_name","Visory Health",1,3983
+"payer_name","Alignment Health Plan",1,3668
+"payer_name","Blue Cross and Blue Shield of Minnesota",1,3610
+"payer_name","California Medicaid",1,3321
+"payer_name","UCare Minneapolis",1,3229
+"payer_name","Molina Healthcare",1,2986
+"payer_name","Point32Health",1,2827
+"payer_name","Blue Cross Blue Shield of Arizona",1,2687
+"payer_name","University of Pittsburgh Medical Center Health Plan",1,2498
+"payer_name","Louisiana Blue",1,2489
+"payer_name","Capital Rx",1,2408
+"payer_name","Hawaii Medical Service Association",1,2374
+"payer_name","Clever Rx",1,2354
+"payer_name","Blue Cross and Blue Shield of South Carolina",1,2322
+"payer_name","Independence Blue Cross",1,2302
+"payer_name","Scriptcycle",1,2291
+"payer_name","Providence",1,2184
+"payer_name","Script Care",1,2150
+"payer_name","Cornerstone Benefits Administrator",1,2102
+"payer_name","Oscar Health",1,1977
+"payer_name","Blue Cross and Blue Shield of Rhode Island",1,1972
+"payer_name","Capital District Physicians' Health Plan",1,1649
+"payer_name","Intermountain Health",1,1613
+"payer_name","Blue Cross and Blue Shield of Kansas",1,1558
+"payer_name","Blue Cross of Idaho",1,1478
+"payer_name","Carle Health",1,1467
+"payer_name","Medical Mutual of Ohio",1,1430
+"payer_name","Blue Cross Blue Shield of Massachusetts",1,1426
+"payer_name","Wellmark Blue Cross and Blue Shield",1,1422
+"payer_name","Martin's Point Health Care",1,1413
+"payer_name","Healthfirst New York",1,1337
+"payer_name","New York Medicaid",1,1329
+"payer_name","Viva Health",1,1323
+"payer_name","WellDyne",1,1256
+"payer_name","ATRIO Health Plans",1,1196
+"payer_name","Blue Cross and Blue Shield of Nebraska",1,1192
+"payer_name","Blue Cross and Blue Shield of Mississippi",1,1146
+"payer_name","Mutual of Omaha",1,1137
+"payer_name","Los Angeles Care Health Plan",1,1119
+"payer_name","Triple-S Management",1,1116
+"payer_name","Capital BlueCross",1,1087
+"payer_name","Farm Bureau Health Plans",1,1066
+"payer_name","RxSense",1,1061
+"payer_name","Independent Health",1,1044
+"payer_name","Regal Medical Group",1,1000
+"payer_name","EmblemHealth",1,948
+"payer_name","Devoted Health",1,937
+"payer_name","MVP Health Care",1,913
+"payer_name","Presbyterian Healthcare Services",1,897
+"payer_name","CareSource",1,893
+"payer_name","Network Health",1,880
+"payer_name","Sentara Health Plans",1,851
+"payer_name","HealthPartners",1,835
+"payer_name","Universal Health Services",1,824
+"payer_name","Premera Blue Cross",1,811
+"payer_name","EyeMed",1,804
+"payer_name","Renown Health",1,793
+"payer_name","Cardinal Health",1,782
+"payer_name","Baylor Scott and White Health",1,773
+"payer_name","Banner Health",1,761
+"payer_name","Sharp Healthcare",1,759
+"payer_name","ProCare Rx",1,755
+"payer_name","Medica",1,752
+"payer_name","Kern Family Health Care",1,703
+"payer_name","Gensis Healthcare",1,702
+"payer_name","Prime Therapeutics",1,662
+"payer_name","Ascension Health System",1,652
+"payer_name","Arkansas Blue Cross and Blue Shield",1,628
+"payer_name","Gainwell Technologies",1,614
+"payer_name","Legacy Health",1,600
+"payer_name","Geisinger Health",1,581
+"payer_name","Trinity Health",1,579
+"payer_name","American Specialty Health",1,560
+"payer_name","North Carolina State Health Plan",1,521
+"payer_name","Sanford Health",1,508
+"payer_name","Wisconsin Medicaid",1,501
+"payer_name","VytlOne",1,493
+"payer_name","Hippo Technologies",1,477
+"payer_name","Missouri Medicaid",1,456
+"payer_name","Blue Cross and Blue Shield of Kansas City",1,452
+"payer_name","Colorado Medicaid",1,451
+"payer_name","New York State Health Insurance Program",1,441
+"payer_name","Inland Empire Health Plan",1,440
+"payer_name","SmithRx",1,427
+"payer_name","Georgia Medicaid",1,413
+"payer_name","AllCare Health",1,411
+"payer_name","Scripps Health",1,407
+"payer_name","CalOptima Health",1,392
+"payer_name","Cone Health",1,389
+"payer_name","Mercy Care",1,382
+"payer_name","Liviniti",1,380
+"payer_name","AultCare Health Plans",1,366
+"payer_name","Georgia State Health Benefit Plan",1,358
+"payer_name","Evernorth Health Services",1,352
+"payer_name","Connecticut Medicaid",1,345
+"payer_name","Summa Health",1,341
+"payer_name","Clover Health",1,331
+"payer_name","BayCare Health Plans",1,324
+"payer_name","Pharmastar",1,321
+"payer_name","Ohio Medicaid",1,317
+"payer_name","West Virginia Medicaid",1,317
+"payer_name","SS&C Health",1,316
+"payer_name","Massachusetts Medicaid",1,290
+"payer_name","Johns Hopkins Health Plans",1,279
+"payer_name","Arkansas Medicaid",1,276
+"payer_name","Vision Services Plan",1,266
+"payer_name","Texas Medicaid",1,262
+"payer_name","Blue Cross and Blue Shield of Vermont",1,260
+"payer_name","North Carolina Medicaid",1,255
+"payer_name","Memorial Hermann Health Plan",1,253
+"payer_name","United Networks of America",1,253
+"payer_name","Illinois Medicaid",1,253
+"payer_name","McLaren Health Care",1,251
+"payer_name","BeneCard Prescription Benefit Facilitator",1,251
+"payer_name","Rightway Health",1,251
+"payer_name","Blue Cross Blue Shield of Wyoming",1,250
+"payer_name","Michigan Medicaid",1,246
+"payer_name","Blue Cross Blue Shield of North Dakota",1,241
+"payer_name","Samaritan Health Services",1,233
+"payer_name","Oklahoma Medicaid",1,231
+"payer_name","TrueScripts",1,231
+"payer_name","Mass General Brigham",1,229
+"payer_name","Partners for Health",1,226
+"payer_name","Dignity Health",1,224
+"payer_name","The Health Plan",1,218
+"payer_name","AmerisourceBergen",1,215
+"payer_name","Alabama Medicaid",1,213
+"payer_name","Maine Medicaid",1,205
+"payer_name","Visiting Nurse Service Health",1,199
+"payer_name","Partnership HealthPlan of California",1,198
+"payer_name","North Dakota Medicaid",1,192
+"payer_name","Ventegra",1,190
+"payer_name","Alliant Health Plans",1,185
+"payer_name","Jefferson Health",1,184
+"payer_name","Upper Peninsula Health Plan",1,183
+"payer_name","WellSense Health Plan",1,169
+"payer_name","Aspire Health Plan",1,169
+"payer_name","Accessia Health",1,166
+"payer_name","Moda Health",1,164
+"payer_name","Alliance Health",1,155
+"payer_name","Health Plan of San Joaquin",1,153
+"payer_name","Mississippi Medicaid",1,150
+"payer_name","Florida Medicaid",1,147
+"payer_name","Oregon Medicaid",1,147
+"payer_name","Kentucky Medicaid",1,146
+"payer_name","Health Partners",1,145
+"payer_name","Employers Health Options",1,144
+"payer_name","Baystate Health",1,144
+"payer_name","Geico",1,144
+"payer_name","CHRISTUS Health",1,144
+"payer_name","Valley Care (IPA)",1,143
+"payer_name","CareOregon",1,142
+"payer_name","Indiana Medicaid",1,142
+"payer_name","Washington Medicaid",1,139
+"payer_name","Fallon Health",1,138
+"payer_name","Blue Care Network",1,136
+"payer_name","Central California Alliance for Health",1,133
+"payer_name","Nevada Medicaid",1,130
+"payer_name","Solis Health Plans",1,130
+"payer_name","Sutter Health",1,124
+"payer_name","Health First",1,123
+"payer_name","Employee Health Insurance Management",1,119
+"payer_name","Idaho Medicaid",1,116
+"payer_name","Gold Coast Health Plan",1,115
+"payer_name","Quartz Health Solutions",1,111
+"payer_name","Doctors HealthCare Plans",1,111
+"payer_name","CerpassRx",1,110
+"payer_name","Phoenix Pharmacy Benefits Management",1,104
+"payer_name","Community Health Group",1,100
+"payer_name","Minnesota Medicaid",1,97
+"payer_name","VillageCareMAX",1,95
+"payer_name","Opus Health",1,93
+"payer_name","Restat",1,92
+"payer_name","New York City Health + Hospitals",1,92
+"payer_name","Torrance Hospital (IPA)",1,92
+"payer_name","Kansas Medicaid",1,90
+"payer_name","Essence Healthcare",1,89
+"payer_name","Health Plan of San Mateo",1,84
+"payer_name","Zing Health",1,83
+"payer_name","South Carolina Medicaid",1,82
+"payer_name","Vermont Medicaid",1,80
+"payer_name","Commonwealth of Pennsylvania",1,79
+"payer_name","Louisiana Medicaid",1,76
+"payer_name","Community Health Choice",1,76
+"payer_name","Community Health Plan of Washington",1,70
+"payer_name","Alameda Alliance for Health",1,68
+"payer_name","PharmPix",1,66
+"payer_name","Florida Community Care",1,61
+"payer_name","Hawaii Medicaid",1,60
+"payer_name","Utah Medicaid",1,58
+"payer_name","Advocate Physician Partners (PHO)",1,54
+"payer_name","State Farm",1,53
+"payer_name","New Jersey Department of Health",1,52
+"payer_name","Clever Care Health Plan",1,52
+"payer_name","AscellaHealth",1,51
+"payer_name","Advanced Medical Management (IPA)",1,51
+"payer_name","Curative Health Plan",1,51
+"payer_name","Elderplan and HomeFirst",1,50
+"payer_name","AlohaCare",1,48
+"payer_name","Buckeye Health",1,47
+"payer_name","UMass Memorial Health",1,47
+"payer_name","AmeriHealth Caritas PA",1,45
+"payer_name","University of Utah Health",1,45
+"payer_name","Disclosed Rx",1,45
+"payer_name","Avera Health Plans",1,45
+"payer_name","Alaska Medicaid",1,43
+"payer_name","Citizens Rx",1,42
+"payer_name","Contra Costa Health",1,42
+"payer_name","ConnectiveRx",1,41
+"payer_name","Ochsner Health",1,41
+"payer_name","New Jersey Medicaid",1,41
+"payer_name","Maryland Medicaid",1,41
+"payer_name","Neighborhood Health Plan of Rhode Island",1,41
+"payer_name","CoxHealth",1,40
+"payer_name","Virginia Medicaid",1,39
+"payer_name","MedOne",1,38
+"payer_name","The Assistance Fund",1,36
+"payer_name","Mountain Health CO-OP",1,36
+"payer_name","Amazon",1,35
+"payer_name","LucyRx",1,35
+"payer_name","West Virginia University Medicine",1,35
+"payer_name","RxCut",1,34
+"payer_name","Pennsylvania Medicaid",1,34
+"payer_name","Rhode Island Medicaid",1,32
+"payer_name","Employee Health Options",1,32
+"payer_name","Change Healthcare",1,32
+"payer_name","Medical Card System",1,32
+"payer_name","Health Alliance Plan",1,31
+"payer_name","South Dakota Medicaid",1,29
+"payer_name","Hamaspik",1,29
+"payer_name","Montana Medicaid",1,28
+"payer_name","Leon Health",1,27
+"payer_name","American Health Partners",1,25
+"payer_name","Adventist Health Care Network (IPA)",1,25
+"payer_name","CalCPA",1,24
+"payer_name","Arizona Medicaid",1,24
+"payer_name","Ohio Health",1,23
+"payer_name","Liberty Medicare Advantage",1,23
+"payer_name","District of Columbia Medicaid",1,22
+"payer_name","Script Relief",1,21
+"payer_name","Access Medical Group (IPA)",1,21
+"payer_name","Abarca Health",1,21
+"payer_name","Community Care Health Plan",1,20
+"payer_name","Ramsell",1,19
+"payer_name","MedStar Health",1,18
+"payer_name","Jai Medical Systems Managed Care Organization",1,17
+"payer_name","HealthSmartRx Solutions",1,17
+"payer_name","Mayo Clinic",1,16
+"payer_name","Samaritan Health Plans",1,16
+"payer_name","Denver Health",1,16
+"payer_name","Wyoming Medicaid",1,15
+"payer_name","OhioHealth",1,14
+"payer_name","Simpra Advantage",1,14
+"payer_name","Troy Medicare",1,14
+"payer_name","Vaya Health",1,13
+"payer_name","Trillium Health Resources",1,13
+"payer_name","Integrated Prescription Management (IPM)",1,13
+"payer_name","Delaware Medicaid",1,13
+"payer_name","Texas Independence Health Plan",1,12
+"payer_name","Healthcare Partners (IPA)",1,11
+"payer_name","Longevity Health",1,11
+"payer_name","Santa Clara Family Health Plan",1,11
+"payer_name","Complementary Health Care",1,10
+"payer_name","New Hampshire Medicaid",1,9
+"payer_name","Align Senior Care",1,9
+"payer_name","Oregon Health and Science University",1,8
+"payer_name","Cascade Health Alliance",1,8
+"payer_name","Accountable HC (IPA)",1,8
+"payer_name","6 Degrees Health",1,8
+"payer_name","Nebraska Medicaid",1,8
+"payer_name","Clear Spring Health",1,8
+"payer_name","United Physicians Network",1,8
+"payer_name","Partners Health Management",1,8
+"payer_name","Aspirus Health Plan",1,7
+"payer_name","New York Department of Health",1,7
+"payer_name","ProCare Advantage",1,6
+"payer_name","New Mexico Medicaid",1,6
+"payer_name","Curaechoice, Inc",1,6
+"payer_name","Advanced Health",1,6
+"payer_name","Chinese Community Health Plan",1,6
+"payer_name","Lucent Health",1,5
+"payer_name","Maryland Physicians Care",1,5
+"payer_name","EBMS",1,5
+"payer_name","Care N Care",1,5
+"payer_name","Colorado Access",1,4
+"payer_name","Community First Health Plans",1,4
+"payer_name","Iowa Medicaid",1,4
+"payer_name","Broward Health",1,4
+"payer_name","South Country Health Alliance",1,4
+"payer_name","Advanced Medical Doctors of California (IPA)",1,4
+"payer_name","AllCare (IPA)",1,3
+"payer_name","Rios Southwest Medical Group",1,3
+"payer_name","Partners Health Plan",1,3
+"payer_name","University of Michigan Health Plan",1,3
+"payer_name","Sendero Health Plans",1,3
+"payer_name","Hennepin Health",1,3
+"payer_name","CenterLight Healthcare",1,3
+"payer_name","Alterwood Advantage",1,2
+"payer_name","Washington State Department of Health",1,2
+"payer_name","Florida Complete Care",1,2
+"payer_name","WithMe Health",1,2
+"payer_name","LifeWorks Advantage",1,2
+"payer_name","San Francisco Health Plan",1,2
+"payer_name","Advantage Care (IPA)",1,1
+"payer_name","North Carolina Department of Health",1,1
+"payer_name","InfinityRx",1,1
+"payer_name","OnePoint Comp",1,1
+"payer_name","Rhode Island Department of Health",1,1
+"payer_name","Delaware Division of Medicaid and Medical Assistance",1,1
+"payer_name","KeyCare Advantage",1,1
+"payer_name","NeedyMeds",1,1
+"payer_name","FliptRx",1,1
+"payer_name","Continental General",1,1
+"payer_name","Other",2,278900
+"payer_name","Centers for Medicare and Medicaid Services",2,128334
+"payer_name","UnitedHealthcare",2,105031
+"payer_name","Humana",2,49990
+"payer_name","Aetna",2,41551
+"payer_name","Centene Corporation",2,29042
+"payer_name","Elevance Health",2,20576
+"payer_name","Optum",2,14424
+"payer_name","Cigna Healthcare",2,13491
+"payer_name","Express Scripts",2,11619
+"payer_name","Cash",2,10179
+"payer_name","CVS Caremark",2,7953
+"payer_name","Blue Cross Blue Shield Association",2,6964
+"payer_name","Health Care Service Corporation",2,6487
+"payer_name","GoodRx",2,5828
+"payer_name","Florida Blue",2,5467
+"payer_name","OmniSYS",2,5434
+"payer_name","Priority Health",2,4495
+"payer_name","Blue Shield of California",2,3897
+"payer_name","Horizon Blue Cross Blue Shield of New Jersey",2,3341
+"payer_name","Blue Cross Blue Shield of Michigan",2,3100
+"payer_name","California Senior Care Action Network Health Plan",2,2829
+"payer_name","Excellus BlueCross BlueShield",2,2154
+"payer_name","Navitus Health Solutions",2,2067
+"payer_name","MedImpact",2,1949
+"payer_name","Blue Cross and Blue Shield of Alabama",2,1909
+"payer_name","Alignment Health Plan",2,1841
+"payer_name","Pharmacy Data Management",2,1662
+"payer_name","Blue Cross and Blue Shield of North Carolina",2,1607
+"payer_name","McKesson",2,1575
+"payer_name","Paramount Rx",2,1493
+"payer_name","Highmark Health",2,1465
+"payer_name","Visory Health",2,1408
+"payer_name","Cambia Health Solutions",2,1393
+"payer_name","CareFirst BlueCross BlueShield",2,1373
+"payer_name","BlueCross BlueShield of Tennessee",2,1363
+"payer_name","UCare Minneapolis",2,1350
+"payer_name","California Medicaid",2,1305
+"payer_name","Blue Cross and Blue Shield of Minnesota",2,1290
+"payer_name","Kaiser Permanente",2,1260
+"payer_name","Molina Healthcare",2,1206
+"payer_name","University of Pittsburgh Medical Center Health Plan",2,1124
+"payer_name","Point32Health",2,1029
+"payer_name","Blue Cross Blue Shield of Arizona",2,989
+"payer_name","Providence",2,904
+"payer_name","Script Care",2,884
+"payer_name","Blue Cross and Blue Shield of South Carolina",2,868
+"payer_name","Louisiana Blue",2,863
+"payer_name","Scriptcycle",2,854
+"payer_name","Capital Rx",2,842
+"payer_name","Hawaii Medical Service Association",2,831
+"payer_name","Independence Blue Cross",2,827
+"payer_name","Cornerstone Benefits Administrator",2,825
+"payer_name","Clever Rx",2,791
+"payer_name","Oscar Health",2,708
+"payer_name","Martin's Point Health Care",2,681
+"payer_name","Blue Cross and Blue Shield of Rhode Island",2,657
+"payer_name","Capital District Physicians' Health Plan",2,631
+"payer_name","Medical Mutual of Ohio",2,595
+"payer_name","Carle Health",2,587
+"payer_name","ATRIO Health Plans",2,575
+"payer_name","Viva Health",2,545
+"payer_name","Healthfirst New York",2,506
+"payer_name","Blue Cross and Blue Shield of Kansas",2,495
+"payer_name","Regal Medical Group",2,487
+"payer_name","New York Medicaid",2,486
+"payer_name","WellDyne",2,481
+"payer_name","Intermountain Health",2,474
+"payer_name","Triple-S Management",2,471
+"payer_name","Blue Cross of Idaho",2,466
+"payer_name","Network Health",2,448
+"payer_name","Mutual of Omaha",2,447
+"payer_name","Blue Cross Blue Shield of Massachusetts",2,446
+"payer_name","Renown Health",2,445
+"payer_name","Los Angeles Care Health Plan",2,445
+"payer_name","EmblemHealth",2,432
+"payer_name","Wellmark Blue Cross and Blue Shield",2,424
+"payer_name","Universal Health Services",2,414
+"payer_name","Capital BlueCross",2,413
+"payer_name","Independent Health",2,409
+"payer_name","Blue Cross and Blue Shield of Nebraska",2,407
+"payer_name","CareSource",2,392
+"payer_name","RxSense",2,388
+"payer_name","Blue Cross and Blue Shield of Mississippi",2,384
+"payer_name","Sharp Healthcare",2,377
+"payer_name","Farm Bureau Health Plans",2,364
+"payer_name","Banner Health",2,360
+"payer_name","Devoted Health",2,359
+"payer_name","Gensis Healthcare",2,355
+"payer_name","Sentara Health Plans",2,346
+"payer_name","Presbyterian Healthcare Services",2,343
+"payer_name","Medica",2,327
+"payer_name","MVP Health Care",2,318
+"payer_name","Premera Blue Cross",2,306
+"payer_name","Ascension Health System",2,302
+"payer_name","HealthPartners",2,297
+"payer_name","EyeMed",2,296
+"payer_name","Baylor Scott and White Health",2,283
+"payer_name","Cardinal Health",2,275
+"payer_name","Geisinger Health",2,265
+"payer_name","ProCare Rx",2,256
+"payer_name","Prime Therapeutics",2,241
+"payer_name","Kern Family Health Care",2,237
+"payer_name","Legacy Health",2,229
+"payer_name","Trinity Health",2,225
+"payer_name","Gainwell Technologies",2,206
+"payer_name","Inland Empire Health Plan",2,205
+"payer_name","American Specialty Health",2,202
+"payer_name","AllCare Health",2,198
+"payer_name","Blue Cross and Blue Shield of Kansas City",2,186
+"payer_name","Wisconsin Medicaid",2,184
+"payer_name","Arkansas Blue Cross and Blue Shield",2,178
+"payer_name","CalOptima Health",2,177
+"payer_name","AultCare Health Plans",2,175
+"payer_name","Sanford Health",2,165
+"payer_name","Evernorth Health Services",2,163
+"payer_name","Colorado Medicaid",2,158
+"payer_name","Missouri Medicaid",2,157
+"payer_name","Georgia Medicaid",2,153
+"payer_name","Hippo Technologies",2,152
+"payer_name","Scripps Health",2,149
+"payer_name","VytlOne",2,148
+"payer_name","Clover Health",2,146
+"payer_name","Mercy Care",2,144
+"payer_name","North Carolina State Health Plan",2,144
+"payer_name","Connecticut Medicaid",2,143
+"payer_name","Cone Health",2,139
+"payer_name","New York State Health Insurance Program",2,138
+"payer_name","SmithRx",2,134
+"payer_name","The Health Plan",2,128
+"payer_name","Ohio Medicaid",2,127
+"payer_name","West Virginia Medicaid",2,126
+"payer_name","Liviniti",2,124
+"payer_name","Pharmastar",2,123
+"payer_name","North Carolina Medicaid",2,123
+"payer_name","Blue Cross Blue Shield of Wyoming",2,109
+"payer_name","Massachusetts Medicaid",2,109
+"payer_name","BayCare Health Plans",2,106
+"payer_name","Samaritan Health Services",2,105
+"payer_name","Texas Medicaid",2,103
+"payer_name","Illinois Medicaid",2,103
+"payer_name","Michigan Medicaid",2,102
+"payer_name","Arkansas Medicaid",2,101
+"payer_name","SS&C Health",2,100
+"payer_name","Johns Hopkins Health Plans",2,99
+"payer_name","Summa Health",2,99
+"payer_name","Dignity Health",2,96
+"payer_name","Visiting Nurse Service Health",2,92
+"payer_name","Vision Services Plan",2,89
+"payer_name","United Networks of America",2,89
+"payer_name","Blue Cross and Blue Shield of Vermont",2,87
+"payer_name","McLaren Health Care",2,87
+"payer_name","Rightway Health",2,85
+"payer_name","BeneCard Prescription Benefit Facilitator",2,80
+"payer_name","Alabama Medicaid",2,79
+"payer_name","Partnership HealthPlan of California",2,76
+"payer_name","Georgia State Health Benefit Plan",2,75
+"payer_name","Oklahoma Medicaid",2,74
+"payer_name","TrueScripts",2,74
+"payer_name","Aspire Health Plan",2,74
+"payer_name","Memorial Hermann Health Plan",2,74
+"payer_name","Maine Medicaid",2,74
+"payer_name","Accessia Health",2,73
+"payer_name","AmerisourceBergen",2,73
+"payer_name","Valley Care (IPA)",2,72
+"payer_name","Ventegra",2,72
+"payer_name","Health Plan of San Joaquin",2,70
+"payer_name","WellSense Health Plan",2,70
+"payer_name","Jefferson Health",2,69
+"payer_name","Kentucky Medicaid",2,68
+"payer_name","Sutter Health",2,66
+"payer_name","Alliance Health",2,64
+"payer_name","Upper Peninsula Health Plan",2,63
+"payer_name","Indiana Medicaid",2,62
+"payer_name","Mississippi Medicaid",2,61
+"payer_name","Partners for Health",2,60
+"payer_name","Fallon Health",2,58
+"payer_name","CHRISTUS Health",2,57
+"payer_name","North Dakota Medicaid",2,57
+"payer_name","Central California Alliance for Health",2,57
+"payer_name","Mass General Brigham",2,55
+"payer_name","Oregon Medicaid",2,55
+"payer_name","Nevada Medicaid",2,54
+"payer_name","Health First",2,53
+"payer_name","Health Plan of San Mateo",2,53
+"payer_name","Gold Coast Health Plan",2,53
+"payer_name","Geico",2,53
+"payer_name","Quartz Health Solutions",2,52
+"payer_name","Alliant Health Plans",2,51
+"payer_name","Baystate Health",2,50
+"payer_name","Washington Medicaid",2,48
+"payer_name","CareOregon",2,48
+"payer_name","Blue Cross Blue Shield of North Dakota",2,48
+"payer_name","Florida Medicaid",2,48
+"payer_name","Minnesota Medicaid",2,45
+"payer_name","Moda Health",2,45
+"payer_name","CerpassRx",2,45
+"payer_name","Solis Health Plans",2,43
+"payer_name","Blue Care Network",2,43
+"payer_name","Employers Health Options",2,41
+"payer_name","VillageCareMAX",2,41
+"payer_name","Essence Healthcare",2,41
+"payer_name","Employee Health Insurance Management",2,40
+"payer_name","Doctors HealthCare Plans",2,40
+"payer_name","Torrance Hospital (IPA)",2,40
+"payer_name","Community Health Group",2,38
+"payer_name","New York City Health + Hospitals",2,35
+"payer_name","Kansas Medicaid",2,35
+"payer_name","Phoenix Pharmacy Benefits Management",2,33
+"payer_name","South Carolina Medicaid",2,33
+"payer_name","Idaho Medicaid",2,32
+"payer_name","Opus Health",2,31
+"payer_name","Commonwealth of Pennsylvania",2,30
+"payer_name","Community Health Plan of Washington",2,30
+"payer_name","Health Partners",2,30
+"payer_name","Zing Health",2,28
+"payer_name","Clever Care Health Plan",2,28
+"payer_name","Restat",2,28
+"payer_name","Florida Community Care",2,27
+"payer_name","Alameda Alliance for Health",2,27
+"payer_name","Hawaii Medicaid",2,27
+"payer_name","Utah Medicaid",2,24
+"payer_name","Elderplan and HomeFirst",2,24
+"payer_name","Louisiana Medicaid",2,23
+"payer_name","Community Health Choice",2,22
+"payer_name","Advanced Medical Management (IPA)",2,22
+"payer_name","Vermont Medicaid",2,21
+"payer_name","New Jersey Department of Health",2,20
+"payer_name","University of Utah Health",2,20
+"payer_name","Rhode Island Medicaid",2,19
+"payer_name","Ochsner Health",2,19
+"payer_name","AlohaCare",2,19
+"payer_name","AmeriHealth Caritas PA",2,19
+"payer_name","Medical Card System",2,18
+"payer_name","Employee Health Options",2,18
+"payer_name","Curative Health Plan",2,18
+"payer_name","Virginia Medicaid",2,17
+"payer_name","Avera Health Plans",2,16
+"payer_name","MedOne",2,16
+"payer_name","West Virginia University Medicine",2,16
+"payer_name","PharmPix",2,15
+"payer_name","Maryland Medicaid",2,15
+"payer_name","Citizens Rx",2,15
+"payer_name","Access Medical Group (IPA)",2,15
+"payer_name","New Jersey Medicaid",2,15
+"payer_name","Alaska Medicaid",2,15
+"payer_name","Neighborhood Health Plan of Rhode Island",2,15
+"payer_name","State Farm",2,15
+"payer_name","Adventist Health Care Network (IPA)",2,15
+"payer_name","Buckeye Health",2,15
+"payer_name","Advocate Physician Partners (PHO)",2,15
+"payer_name","Health Alliance Plan",2,14
+"payer_name","ConnectiveRx",2,14
+"payer_name","RxCut",2,14
+"payer_name","Hamaspik",2,14
+"payer_name","UMass Memorial Health",2,13
+"payer_name","Contra Costa Health",2,13
+"payer_name","Disclosed Rx",2,13
+"payer_name","Amazon",2,13
+"payer_name","Ohio Health",2,12
+"payer_name","Change Healthcare",2,12
+"payer_name","AscellaHealth",2,12
+"payer_name","HealthSmartRx Solutions",2,11
+"payer_name","Jai Medical Systems Managed Care Organization",2,11
+"payer_name","American Health Partners",2,11
+"payer_name","Mountain Health CO-OP",2,11
+"payer_name","CalCPA",2,11
+"payer_name","Pennsylvania Medicaid",2,11
+"payer_name","South Dakota Medicaid",2,10
+"payer_name","District of Columbia Medicaid",2,9
+"payer_name","Abarca Health",2,9
+"payer_name","The Assistance Fund",2,9
+"payer_name","Arizona Medicaid",2,8
+"payer_name","Liberty Medicare Advantage",2,8
+"payer_name","Script Relief",2,8
+"payer_name","CoxHealth",2,8
+"payer_name","LucyRx",2,7
+"payer_name","New Hampshire Medicaid",2,6
+"payer_name","Ramsell",2,6
+"payer_name","Simpra Advantage",2,6
+"payer_name","Delaware Medicaid",2,5
+"payer_name","MedStar Health",2,5
+"payer_name","Samaritan Health Plans",2,5
+"payer_name","Community Care Health Plan",2,5
+"payer_name","Align Senior Care",2,5
+"payer_name","Integrated Prescription Management (IPM)",2,5
+"payer_name","Longevity Health",2,5
+"payer_name","ProCare Advantage",2,5
+"payer_name","Wyoming Medicaid",2,5
+"payer_name","Montana Medicaid",2,5
+"payer_name","Mayo Clinic",2,5
+"payer_name","Complementary Health Care",2,5
+"payer_name","Accountable HC (IPA)",2,4
+"payer_name","Vaya Health",2,4
+"payer_name","Clear Spring Health",2,4
+"payer_name","Nebraska Medicaid",2,4
+"payer_name","Denver Health",2,4
+"payer_name","Santa Clara Family Health Plan",2,4
+"payer_name","OhioHealth",2,4
+"payer_name","Troy Medicare",2,4
+"payer_name","Hennepin Health",2,3
+"payer_name","Texas Independence Health Plan",2,3
+"payer_name","Leon Health",2,3
+"payer_name","New York Department of Health",2,3
+"payer_name","AllCare (IPA)",2,3
+"payer_name","Advanced Health",2,3
+"payer_name","Aspirus Health Plan",2,3
+"payer_name","Healthcare Partners (IPA)",2,3
+"payer_name","Cascade Health Alliance",2,3
+"payer_name","Lucent Health",2,3
+"payer_name","Curaechoice, Inc",2,2
+"payer_name","South Country Health Alliance",2,2
+"payer_name","6 Degrees Health",2,2
+"payer_name","EBMS",2,2
+"payer_name","New Mexico Medicaid",2,2
+"payer_name","Maryland Physicians Care",2,2
+"payer_name","LifeWorks Advantage",2,2
+"payer_name","Trillium Health Resources",2,2
+"payer_name","Oregon Health and Science University",2,2
+"payer_name","Alterwood Advantage",2,2
+"payer_name","Colorado Access",2,2
+"payer_name","Care N Care",2,2
+"payer_name","CenterLight Healthcare",2,2
+"payer_name","Chinese Community Health Plan",2,1
+"payer_name","NeedyMeds",2,1
+"payer_name","Rhode Island Department of Health",2,1
+"payer_name","WithMe Health",2,1
+"payer_name","Partners Health Management",2,1
+"payer_name","United Physicians Network",2,1
+"payer_name","Sendero Health Plans",2,1
+"payer_name","Iowa Medicaid",2,1
+"payer_name","Washington State Department of Health",2,1
+"payer_name","Broward Health",2,1
+"payer_name","Partners Health Plan",2,1
+"payer_name","Advantage Care (IPA)",2,0
+"payer_name","North Carolina Department of Health",2,0
+"payer_name","Rios Southwest Medical Group",2,0
+"payer_name","FliptRx",2,0
+"payer_name","University of Michigan Health Plan",2,0
+"payer_name","OnePoint Comp",2,0
+"payer_name","San Francisco Health Plan",2,0
+"payer_name","Delaware Division of Medicaid and Medical Assistance",2,0
+"payer_name","Continental General",2,0
+"payer_name","Community First Health Plans",2,0
+"payer_name","Florida Complete Care",2,0
+"payer_name","InfinityRx",2,0
+"payer_name","KeyCare Advantage",2,0
+"payer_name","Advanced Medical Doctors of California (IPA)",2,0
+"payer_name","Other",3,274883
+"payer_name","Centers for Medicare and Medicaid Services",3,126210
+"payer_name","UnitedHealthcare",3,103488
+"payer_name","Humana",3,49081
+"payer_name","Aetna",3,40864
+"payer_name","Centene Corporation",3,28596
+"payer_name","Elevance Health",3,20229
+"payer_name","Optum",3,14109
+"payer_name","Cigna Healthcare",3,13311
+"payer_name","Express Scripts",3,11457
+"payer_name","Cash",3,9940
+"payer_name","CVS Caremark",3,7813
+"payer_name","Blue Cross Blue Shield Association",3,6847
+"payer_name","Health Care Service Corporation",3,6380
+"payer_name","GoodRx",3,5741
+"payer_name","Florida Blue",3,5367
+"payer_name","OmniSYS",3,5359
+"payer_name","Priority Health",3,4455
+"payer_name","Blue Shield of California",3,3851
+"payer_name","Horizon Blue Cross Blue Shield of New Jersey",3,3285
+"payer_name","Blue Cross Blue Shield of Michigan",3,3042
+"payer_name","California Senior Care Action Network Health Plan",3,2781
+"payer_name","Excellus BlueCross BlueShield",3,2127
+"payer_name","Navitus Health Solutions",3,2025
+"payer_name","MedImpact",3,1919
+"payer_name","Blue Cross and Blue Shield of Alabama",3,1885
+"payer_name","Alignment Health Plan",3,1807
+"payer_name","Pharmacy Data Management",3,1610
+"payer_name","Blue Cross and Blue Shield of North Carolina",3,1584
+"payer_name","McKesson",3,1550
+"payer_name","Paramount Rx",3,1463
+"payer_name","Highmark Health",3,1446
+"payer_name","Visory Health",3,1390
+"payer_name","Cambia Health Solutions",3,1371
+"payer_name","CareFirst BlueCross BlueShield",3,1343
+"payer_name","BlueCross BlueShield of Tennessee",3,1341
+"payer_name","UCare Minneapolis",3,1308
+"payer_name","California Medicaid",3,1284
+"payer_name","Blue Cross and Blue Shield of Minnesota",3,1273
+"payer_name","Kaiser Permanente",3,1233
+"payer_name","Molina Healthcare",3,1184
+"payer_name","University of Pittsburgh Medical Center Health Plan",3,1101
+"payer_name","Point32Health",3,1007
+"payer_name","Blue Cross Blue Shield of Arizona",3,970
+"payer_name","Providence",3,888
+"payer_name","Blue Cross and Blue Shield of South Carolina",3,852
+"payer_name","Script Care",3,851
+"payer_name","Louisiana Blue",3,846
+"payer_name","Scriptcycle",3,837
+"payer_name","Hawaii Medical Service Association",3,822
+"payer_name","Capital Rx",3,822
+"payer_name","Cornerstone Benefits Administrator",3,818
+"payer_name","Independence Blue Cross",3,808
+"payer_name","Clever Rx",3,773
+"payer_name","Oscar Health",3,700
+"payer_name","Martin's Point Health Care",3,671
+"payer_name","Blue Cross and Blue Shield of Rhode Island",3,638
+"payer_name","Capital District Physicians' Health Plan",3,600
+"payer_name","Medical Mutual of Ohio",3,587
+"payer_name","Carle Health",3,571
+"payer_name","ATRIO Health Plans",3,568
+"payer_name","Viva Health",3,527
+"payer_name","Healthfirst New York",3,498
+"payer_name","Blue Cross and Blue Shield of Kansas",3,487
+"payer_name","Regal Medical Group",3,481
+"payer_name","New York Medicaid",3,476
+"payer_name","Triple-S Management",3,471
+"payer_name","Intermountain Health",3,470
+"payer_name","Blue Cross of Idaho",3,458
+"payer_name","WellDyne",3,458
+"payer_name","Network Health",3,446
+"payer_name","Renown Health",3,440
+"payer_name","Mutual of Omaha",3,439
+"payer_name","Blue Cross Blue Shield of Massachusetts",3,436
+"payer_name","Los Angeles Care Health Plan",3,434
+"payer_name","EmblemHealth",3,430
+"payer_name","Wellmark Blue Cross and Blue Shield",3,420
+"payer_name","Universal Health Services",3,410
+"payer_name","Capital BlueCross",3,407
+"payer_name","Independent Health",3,406
+"payer_name","Blue Cross and Blue Shield of Nebraska",3,403
+"payer_name","CareSource",3,387
+"payer_name","RxSense",3,379
+"payer_name","Blue Cross and Blue Shield of Mississippi",3,375
+"payer_name","Sharp Healthcare",3,371
+"payer_name","Banner Health",3,359
+"payer_name","Farm Bureau Health Plans",3,358
+"payer_name","Gensis Healthcare",3,350
+"payer_name","Devoted Health",3,346
+"payer_name","Sentara Health Plans",3,342
+"payer_name","Medica",3,321
+"payer_name","Presbyterian Healthcare Services",3,318
+"payer_name","MVP Health Care",3,314
+"payer_name","Premera Blue Cross",3,303
+"payer_name","HealthPartners",3,295
+"payer_name","Ascension Health System",3,294
+"payer_name","EyeMed",3,286
+"payer_name","Baylor Scott and White Health",3,276
+"payer_name","Cardinal Health",3,268
+"payer_name","Geisinger Health",3,257
+"payer_name","ProCare Rx",3,245
+"payer_name","Kern Family Health Care",3,235
+"payer_name","Prime Therapeutics",3,233
+"payer_name","Legacy Health",3,225
+"payer_name","Trinity Health",3,218
+"payer_name","Inland Empire Health Plan",3,203
+"payer_name","Gainwell Technologies",3,202
+"payer_name","American Specialty Health",3,199
+"payer_name","AllCare Health",3,197
+"payer_name","Blue Cross and Blue Shield of Kansas City",3,184
+"payer_name","Wisconsin Medicaid",3,181
+"payer_name","Arkansas Blue Cross and Blue Shield",3,175
+"payer_name","CalOptima Health",3,175
+"payer_name","AultCare Health Plans",3,172
+"payer_name","Evernorth Health Services",3,163
+"payer_name","Sanford Health",3,159
+"payer_name","Colorado Medicaid",3,155
+"payer_name","Missouri Medicaid",3,155
+"payer_name","Hippo Technologies",3,149
+"payer_name","Scripps Health",3,147
+"payer_name","VytlOne",3,147
+"payer_name","Georgia Medicaid",3,144
+"payer_name","Mercy Care",3,143
+"payer_name","North Carolina State Health Plan",3,142
+"payer_name","Clover Health",3,142
+"payer_name","Connecticut Medicaid",3,140
+"payer_name","Cone Health",3,136
+"payer_name","New York State Health Insurance Program",3,135
+"payer_name","SmithRx",3,134
+"payer_name","Ohio Medicaid",3,124
+"payer_name","West Virginia Medicaid",3,124
+"payer_name","Pharmastar",3,123
+"payer_name","The Health Plan",3,123
+"payer_name","Liviniti",3,121
+"payer_name","North Carolina Medicaid",3,120
+"payer_name","Blue Cross Blue Shield of Wyoming",3,107
+"payer_name","Massachusetts Medicaid",3,106
+"payer_name","Samaritan Health Services",3,102
+"payer_name","BayCare Health Plans",3,102
+"payer_name","Illinois Medicaid",3,100
+"payer_name","Arkansas Medicaid",3,100
+"payer_name","Texas Medicaid",3,100
+"payer_name","SS&C Health",3,99
+"payer_name","Johns Hopkins Health Plans",3,98
+"payer_name","Michigan Medicaid",3,98
+"payer_name","Summa Health",3,96
+"payer_name","Dignity Health",3,94
+"payer_name","Vision Services Plan",3,87
+"payer_name","United Networks of America",3,87
+"payer_name","Visiting Nurse Service Health",3,86
+"payer_name","Blue Cross and Blue Shield of Vermont",3,85
+"payer_name","McLaren Health Care",3,84
+"payer_name","Rightway Health",3,84
+"payer_name","BeneCard Prescription Benefit Facilitator",3,78
+"payer_name","Alabama Medicaid",3,78
+"payer_name","Partnership HealthPlan of California",3,76
+"payer_name","Aspire Health Plan",3,74
+"payer_name","Maine Medicaid",3,74
+"payer_name","Ventegra",3,72
+"payer_name","Memorial Hermann Health Plan",3,72
+"payer_name","Oklahoma Medicaid",3,72
+"payer_name","TrueScripts",3,72
+"payer_name","Georgia State Health Benefit Plan",3,72
+"payer_name","AmerisourceBergen",3,71
+"payer_name","Valley Care (IPA)",3,71
+"payer_name","Accessia Health",3,70
+"payer_name","WellSense Health Plan",3,69
+"payer_name","Kentucky Medicaid",3,68
+"payer_name","Health Plan of San Joaquin",3,68
+"payer_name","Jefferson Health",3,67
+"payer_name","Sutter Health",3,65
+"payer_name","Upper Peninsula Health Plan",3,63
+"payer_name","Alliance Health",3,61
+"payer_name","Partners for Health",3,60
+"payer_name","Mississippi Medicaid",3,60
+"payer_name","Indiana Medicaid",3,59
+"payer_name","North Dakota Medicaid",3,57
+"payer_name","Central California Alliance for Health",3,57
+"payer_name","Fallon Health",3,56
+"payer_name","CHRISTUS Health",3,56
+"payer_name","Gold Coast Health Plan",3,53
+"payer_name","Health First",3,53
+"payer_name","Oregon Medicaid",3,53
+"payer_name","Health Plan of San Mateo",3,52
+"payer_name","Mass General Brigham",3,52
+"payer_name","Nevada Medicaid",3,52
+"payer_name","Quartz Health Solutions",3,51
+"payer_name","Alliant Health Plans",3,51
+"payer_name","Geico",3,49
+"payer_name","Baystate Health",3,48
+"payer_name","CareOregon",3,48
+"payer_name","Blue Cross Blue Shield of North Dakota",3,48
+"payer_name","Washington Medicaid",3,47
+"payer_name","Florida Medicaid",3,47
+"payer_name","Moda Health",3,45
+"payer_name","CerpassRx",3,44
+"payer_name","Minnesota Medicaid",3,44
+"payer_name","Solis Health Plans",3,43
+"payer_name","VillageCareMAX",3,41
+"payer_name","Essence Healthcare",3,40
+"payer_name","Employee Health Insurance Management",3,40
+"payer_name","Blue Care Network",3,40
+"payer_name","Employers Health Options",3,39
+"payer_name","Torrance Hospital (IPA)",3,39
+"payer_name","Community Health Group",3,38
+"payer_name","Doctors HealthCare Plans",3,38
+"payer_name","New York City Health + Hospitals",3,35
+"payer_name","Kansas Medicaid",3,35
+"payer_name","Phoenix Pharmacy Benefits Management",3,33
+"payer_name","South Carolina Medicaid",3,33
+"payer_name","Idaho Medicaid",3,32
+"payer_name","Opus Health",3,31
+"payer_name","Commonwealth of Pennsylvania",3,30
+"payer_name","Health Partners",3,29
+"payer_name","Community Health Plan of Washington",3,29
+"payer_name","Restat",3,28
+"payer_name","Clever Care Health Plan",3,28
+"payer_name","Alameda Alliance for Health",3,27
+"payer_name","Zing Health",3,26
+"payer_name","Florida Community Care",3,26
+"payer_name","Hawaii Medicaid",3,25
+"payer_name","Elderplan and HomeFirst",3,24
+"payer_name","Utah Medicaid",3,24
+"payer_name","Louisiana Medicaid",3,23
+"payer_name","Advanced Medical Management (IPA)",3,22
+"payer_name","Vermont Medicaid",3,21
+"payer_name","Community Health Choice",3,21
+"payer_name","New Jersey Department of Health",3,20
+"payer_name","University of Utah Health",3,20
+"payer_name","Rhode Island Medicaid",3,19
+"payer_name","Ochsner Health",3,19
+"payer_name","AmeriHealth Caritas PA",3,19
+"payer_name","Curative Health Plan",3,18
+"payer_name","AlohaCare",3,18
+"payer_name","Medical Card System",3,17
+"payer_name","Virginia Medicaid",3,17
+"payer_name","Employee Health Options",3,17
+"payer_name","West Virginia University Medicine",3,16
+"payer_name","Avera Health Plans",3,16
+"payer_name","MedOne",3,16
+"payer_name","Adventist Health Care Network (IPA)",3,15
+"payer_name","Alaska Medicaid",3,15
+"payer_name","Maryland Medicaid",3,15
+"payer_name","New Jersey Medicaid",3,15
+"payer_name","Neighborhood Health Plan of Rhode Island",3,15
+"payer_name","Citizens Rx",3,15
+"payer_name","Health Alliance Plan",3,14
+"payer_name","RxCut",3,14
+"payer_name","Buckeye Health",3,14
+"payer_name","Advocate Physician Partners (PHO)",3,14
+"payer_name","ConnectiveRx",3,14
+"payer_name","PharmPix",3,14
+"payer_name","State Farm",3,14
+"payer_name","Access Medical Group (IPA)",3,14
+"payer_name","Contra Costa Health",3,13
+"payer_name","Disclosed Rx",3,13
+"payer_name","Amazon",3,13
+"payer_name","Hamaspik",3,13
+"payer_name","UMass Memorial Health",3,13
+"payer_name","AscellaHealth",3,12
+"payer_name","Ohio Health",3,12
+"payer_name","American Health Partners",3,11
+"payer_name","Jai Medical Systems Managed Care Organization",3,11
+"payer_name","Mountain Health CO-OP",3,11
+"payer_name","HealthSmartRx Solutions",3,11
+"payer_name","CalCPA",3,10
+"payer_name","South Dakota Medicaid",3,10
+"payer_name","Cascade Health Alliance",7,0
+"payer_name","Iowa Medicaid",7,0
+"payer_name","Ramsell",7,0
+"payer_name","Sutter Health",7,0
+"payer_name","Community Health Choice",7,0
+"payer_name","AscellaHealth",7,0
+"payer_name","Advocate Physician Partners (PHO)",7,0
+"payer_name","New Mexico Medicaid",7,0
+"payer_name","Santa Clara Family Health Plan",7,0
+"payer_name","Simpra Advantage",7,0
+"payer_name","United Physicians Network",7,0
+"payer_name","Nebraska Medicaid",7,0
+"payer_name","San Francisco Health Plan",7,0
+"payer_name","Healthcare Partners (IPA)",7,0
+"payer_name","Wyoming Medicaid",7,0
+"payer_name","Partners Health Management",7,0
+"payer_name","Vaya Health",7,0
+"payer_name","Commonwealth of Pennsylvania",7,0
+"payer_name","Florida Medicaid",7,0
+"payer_name","LifeWorks Advantage",7,0
+"payer_name","WithMe Health",7,0
+"payer_name","TrueScripts",7,0
+"payer_name","HealthSmartRx Solutions",7,0
+"payer_name","Complementary Health Care",7,0
+"payer_name","CHRISTUS Health",7,0
+"payer_name","Aspirus Health Plan",7,0
+"payer_name","University of Michigan Health Plan",7,0
+"payer_name","New York State Health Insurance Program",7,0
+"payer_name","Partners for Health",7,0
+"payer_name","Idaho Medicaid",7,0
+"payer_name","Citizens Rx",7,0
+"payer_name","Opus Health",7,0
+"payer_name","Change Healthcare",7,0
+"payer_name","SmithRx",7,0
+"payer_name","Baystate Health",7,0
+"payer_name","Mountain Health CO-OP",7,0
+"payer_name","State Farm",7,0
+"payer_name","American Health Partners",7,0
+"payer_name","Care N Care",7,0
+"payer_name","Community Care Health Plan",7,0
+"payer_name","Ohio Health",7,0
+"payer_name","Accessia Health",7,0
+"payer_name","Illinois Medicaid",7,0
+"payer_name","Partnership HealthPlan of California",7,0
+"payer_name","Broward Health",7,0
+"payer_name","Leon Health",7,0
+"payer_name","Maryland Physicians Care",7,0
+"payer_name","Georgia State Health Benefit Plan",7,0
+"payer_name","Denver Health",7,0
+"payer_name","New York City Health + Hospitals",7,0
+"payer_name","Trillium Health Resources",7,0
+"payer_name","Hennepin Health",7,0
+"payer_name","Samaritan Health Plans",7,0
+"payer_name","MedOne",7,0
+"payer_name","Longevity Health",7,0
+"payer_name","Upper Peninsula Health Plan",7,0
+"payer_name","Fallon Health",7,0
+"payer_name","AllCare (IPA)",7,0
+"payer_name","Jai Medical Systems Managed Care Organization",7,0
+"payer_name","OhioHealth",7,0
+"payer_name","Health Alliance Plan",7,0
+"payer_name","Advanced Health",7,0
+"payer_type","Medicare",1,1007993
+"payer_type","Commercial",1,637009
+"payer_type","Other",1,219690
+"payer_type","Government",1,42271
+"payer_type","Assistance Program",1,37529
+"payer_type","Medicaid",1,36561
+"payer_type","Cash",1,31508
+"payer_type","Medicare",2,421971
+"payer_type","Commercial",2,249620
+"payer_type","Other",2,107399
+"payer_type","Government",2,14592
+"payer_type","Medicaid",2,13469
+"payer_type","Assistance Program",2,13313
+"payer_type","Cash",2,11953
+"payer_type","Medicare",3,415442
+"payer_type","Commercial",3,245358
+"payer_type","Other",3,105980
+"payer_type","Government",3,14343
+"payer_type","Medicaid",3,13222
+"payer_type","Assistance Program",3,13079
+"payer_type","Cash",3,11659
+"payer_type","Medicare",4,27735
+"payer_type","Commercial",4,18103
+"payer_type","Other",4,8515
+"payer_type","Medicaid",4,1563
+"payer_type","Assistance Program",4,951
+"payer_type","Cash",4,874
+"payer_type","Government",4,744
+"payer_type","Medicare",5,8927
+"payer_type","Commercial",5,6270
+"payer_type","Other",5,2963
+"payer_type","Medicaid",5,624
+"payer_type","Cash",5,323
+"payer_type","Assistance Program",5,308
+"payer_type","Government",5,225
+"payer_type","Medicare",6,7903
+"payer_type","Commercial",6,5489
+"payer_type","Other",6,2543
+"payer_type","Medicaid",6,557
+"payer_type","Cash",6,276
+"payer_type","Assistance Program",6,266
+"payer_type","Government",6,194
+"payer_type","Medicare",7,3539
+"payer_type","Commercial",7,2353
+"payer_type","Other",7,1059
+"payer_type","Medicaid",7,240
+"payer_type","Assistance Program",7,117
+"payer_type","Cash",7,112
+"payer_type","Government",7,88
+"region","South",1,889255
+"region","West",1,450749
+"region","Midwest",1,376021
+"region","Northeast",1,290804
+"region","Unknown",1,5732
+"region","South",2,364754
+"region","West",2,191216
+"region","Midwest",2,155248
+"region","Northeast",2,118945
+"region","Unknown",2,2154
+"region","South",3,359053
+"region","West",3,188230
+"region","Midwest",3,152689
+"region","Northeast",3,116991
+"region","Unknown",3,2120
+"region","South",4,24832
+"region","West",4,14567
+"region","Midwest",4,10916
+"region","Northeast",4,7999
+"region","Unknown",4,171
+"region","South",5,7888
+"region","West",5,4819
+"region","Midwest",5,3860
+"region","Northeast",5,2999
+"region","Unknown",5,74
+"region","South",6,6897
+"region","West",6,4257
+"region","Midwest",6,3373
+"region","Northeast",6,2633
+"region","Unknown",6,68
+"region","South",7,2997
+"region","West",7,1911
+"region","Midwest",7,1419
+"region","Northeast",7,1161
+"region","Unknown",7,20
+"state","FL",1,246266
+"state","CA",1,200138
+"state","TX",1,150295
+"state","NY",1,91076
+"state","OH",1,77676
+"state","PA",1,75542
+"state","AZ",1,73507
+"state","MI",1,64507
+"state","NC",1,63316
+"state","GA",1,61263
+"state","VA",1,53085
+"state","TN",1,47881
+"state","SC",1,45705
+"state","IL",1,44934
+"state","NJ",1,42950
+"state","AL",1,42604
+"state","MO",1,40480
+"state","WA",1,37042
+"state","IN",1,37021
+"state","CO",1,36636
+"state","KY",1,34634
+"state","WI",1,32571
+"state","LA",1,31271
+"state","OK",1,28747
+"state","MA",1,26055
+"state","OR",1,24067
+"state","MD",1,23891
+"state","MN",1,22255
+"state","NV",1,20562
+"state","CT",1,20361
+"state","AR",1,19656
+"state","MS",1,19186
+"state","IA",1,18372
+"state","UT",1,17745
+"state","KS",1,16646
+"state","ME",1,13623
+"state","NE",1,12943
+"state","WV",1,11484
+"state","ID",1,10971
+"state","NH",1,10266
+"state","NM",1,9690
+"state","HI",1,8956
+"state","DE",1,8335
+"state","RI",1,6743
+"state","SD",1,5998
+"state","MT",1,5899
+"state","VT",1,4188
+"state","Unknown",1,3899
+"state","WY",1,3694
+"state","ND",1,2618
+"state","AK",1,1842
+"state","PR",1,1653
+"state","DC",1,1636
+"state","GU",1,180
+"state","FL",2,108004
+"state","CA",2,89970
+"state","TX",2,59390
+"state","NY",2,38255
+"state","OH",2,31868
+"state","AZ",2,31521
+"state","PA",2,29850
+"state","MI",2,28665
+"state","GA",2,24757
+"state","NC",2,24306
+"state","VA",2,20600
+"state","SC",2,20229
+"state","TN",2,19236
+"state","AL",2,18620
+"state","IL",2,17585
+"state","MO",2,16928
+"state","NJ",2,16821
+"state","IN",2,15542
+"state","CO",2,15198
+"state","KY",2,13991
+"state","WI",2,13787
+"state","WA",2,13759
+"state","LA",2,12256
+"state","OK",2,11274
+"state","MA",2,10170
+"state","OR",2,9584
+"state","MN",2,9217
+"state","NV",2,9086
+"state","CT",2,8899
+"state","MD",2,8734
+"state","MS",2,7631
+"state","IA",2,7314
+"state","AR",2,7214
+"state","UT",2,6511
+"state","KS",2,6288
+"state","ME",2,6111
+"state","NE",2,4751
+"state","NH",2,4684
+"state","WV",2,4530
+"state","ID",2,3987
+"state","NM",2,3835
+"state","HI",2,3670
+"state","DE",2,3422
+"state","RI",2,2553
+"state","SD",2,2383
+"state","MT",2,1845
+"state","VT",2,1602
+"state","Unknown",2,1514
+"state","WY",2,1497
+"state","ND",2,920
+"state","AK",2,753
+"state","PR",2,569
+"state","DC",2,560
+"state","GU",2,71
+"state","FL",3,106459
+"state","CA",3,88583
+"state","TX",3,58376
+"state","NY",3,37714
+"state","OH",3,31389
+"state","AZ",3,31046
+"state","PA",3,29340
+"state","MI",3,28254
+"state","GA",3,24433
+"state","NC",3,23878
+"state","VA",3,20245
+"state","SC",3,19926
+"state","TN",3,18913
+"state","AL",3,18310
+"state","IL",3,17245
+"state","MO",3,16684
+"state","NJ",3,16551
+"state","IN",3,15283
+"state","CO",3,14942
+"state","KY",3,13829
+"state","WI",3,13567
+"state","WA",3,13526
+"state","LA",3,12086
+"state","OK",3,11104
+"state","MA",3,9962
+"state","OR",3,9432
+"state","MN",3,8994
+"state","NV",3,8976
+"state","CT",3,8772
+"state","MD",3,8528
+"state","MS",3,7513
+"state","IA",3,7191
+"state","AR",3,7072
+"state","UT",3,6404
+"state","KS",3,6186
+"state","ME",3,6026
+"state","NE",3,4669
+"state","NH",3,4583
+"state","WV",3,4439
+"state","ID",3,3921
+"state","NM",3,3747
+"state","HI",3,3632
+"state","DE",3,3392
+"state","RI",3,2493
+"state","SD",3,2333
+"state","MT",3,1806
+"state","VT",3,1550
+"state","Unknown",3,1488
+"state","WY",3,1472
+"state","ND",3,894
+"state","AK",3,743
+"state","PR",3,562
+"state","DC",3,550
+"state","GU",3,70
+"state","FL",4,7056
+"state","CA",4,6371
+"state","TX",4,3749
+"state","AZ",4,2992
+"state","NY",4,2427
+"state","OH",4,2329
+"state","MI",4,2050
+"state","PA",4,1906
+"state","SC",4,1793
+"state","VA",4,1755
+"state","NC",4,1668
+"state","GA",4,1515
+"state","CO",4,1475
+"state","AL",4,1380
+"state","TN",4,1217
+"state","NJ",4,1166
+"state","IL",4,1129
+"state","IN",4,1116
+"state","WI",4,1014
+"state","MO",4,995
+"state","WA",4,977
+"state","KY",4,896
+"state","MA",4,865
+"state","MD",4,760
+"state","LA",4,686
+"state","NV",4,667
+"state","MN",4,665
+"state","KS",4,660
+"state","CT",4,625
+"state","OR",4,622
+"state","OK",4,610
+"state","AR",4,566
+"state","IA",4,481
+"state","MS",4,477
+"state","UT",4,439
+"state","WV",4,396
+"state","ME",4,378
+"state","NH",4,349
+"state","NM",4,307
+"state","NE",4,295
+"state","ID",4,251
+"state","DE",4,249
+"state","HI",4,208
+"state","RI",4,150
+"state","SD",4,137
+"state","VT",4,133
+"state","Unknown",4,110
+"state","WY",4,104
+"state","MT",4,99
+"state","DC",4,59
+"state","AK",4,55
+"state","PR",4,55
+"state","ND",4,45
+"state","GU",4,6
+"state","CA",5,2217
+"state","FL",5,2109
+"state","TX",5,1092
+"state","OH",5,890
+"state","AZ",5,878
+"state","NY",5,860
+"state","PA",5,711
+"state","MI",5,676
+"state","AL",5,585
+"state","VA",5,553
+"state","SC",5,516
+"state","GA",5,509
+"state","IN",5,495
+"state","NC",5,446
+"state","TN",5,425
+"state","NJ",5,422
+"state","IL",5,422
+"state","MA",5,395
+"state","CO",5,377
+"state","WA",5,359
+"state","WI",5,355
+"state","KY",5,310
+"state","MO",5,309
+"state","NV",5,264
+"state","OR",5,260
+"state","CT",5,254
+"state","MD",5,246
+"state","AR",5,237
+"state","LA",5,222
+"state","MN",5,209
+"state","OK",5,196
+"state","IA",5,180
+"state","WV",5,177
+"state","KS",5,175
+"state","UT",5,148
+"state","MS",5,133
+"state","NH",5,131
+"state","ME",5,119
+"state","NM",5,119
+"state","DE",5,110
+"state","NE",5,87
+"state","ID",5,72
+"state","RI",5,61
+"state","HI",5,51
+"state","VT",5,46
+"state","Unknown",5,45
+"state","SD",5,45
+"state","MT",5,34
+"state","PR",5,25
+"state","WY",5,22
+"state","DC",5,22
+"state","AK",5,18
+"state","ND",5,17
+"state","GU",5,4
+"state","CA",6,1952
+"state","FL",6,1818
+"state","TX",6,947
+"state","OH",6,792
+"state","AZ",6,786
+"state","NY",6,750
+"state","PA",6,608
+"state","MI",6,586
+"state","AL",6,514
+"state","VA",6,489
+"state","SC",6,452
+"state","GA",6,449
+"state","IN",6,438
+"state","NC",6,396
+"state","NJ",6,380
+"state","TN",6,377
+"state","IL",6,365
+"state","MA",6,364
+"state","CO",6,332
+"state","WA",6,313
+"state","WI",6,311
+"state","KY",6,275
+"state","MO",6,268
+"state","OR",6,232
+"state","NV",6,232
+"state","CT",6,228
+"state","AR",6,215
+"state","MD",6,213
+"state","LA",6,182
+"state","MN",6,182
+"state","OK",6,178
+"state","IA",6,156
+"state","WV",6,155
+"state","KS",6,150
+"state","UT",6,134
+"state","NH",6,117
+"state","MS",6,114
+"state","DE",6,102
+"state","ME",6,101
+"state","NM",6,100
+"state","NE",6,75
+"state","ID",6,61
+"state","HI",6,51
+"state","RI",6,49
+"state","Unknown",6,41
+"state","SD",6,37
+"state","VT",6,36
+"state","MT",6,28
+"state","PR",6,23
+"state","WY",6,21
+"state","DC",6,21
+"state","AK",6,15
+"state","ND",6,13
+"state","GU",6,4
+"state","CA",7,841
+"state","FL",7,782
+"state","TX",7,380
+"state","AZ",7,374
+"state","OH",7,324
+"state","NY",7,321
+"state","PA",7,248
+"state","AL",7,246
+"state","MI",7,232
+"state","VA",7,226
+"state","SC",7,204
+"state","IN",7,183
+"state","MA",7,180
+"state","GA",7,177
+"state","NJ",7,173
+"state","TN",7,165
+"state","NC",7,162
+"state","WA",7,152
+"state","IL",7,151
+"state","CO",7,141
+"state","WI",7,137
+"state","KY",7,128
+"state","NV",7,126
+"state","OR",7,122
+"state","MO",7,98
+"state","MD",7,96
+"state","AR",7,94
+"state","CT",7,89
+"state","OK",7,84
+"state","MN",7,83
+"state","LA",7,83
+"state","IA",7,76
+"state","KS",7,70
+"state","NH",7,63
+"state","WV",7,59
+"state","MS",7,56
+"state","ME",7,46
+"state","UT",7,45
+"state","DE",7,44
+"state","NM",7,39
+"state","NE",7,33
+"state","ID",7,22
+"state","SD",7,22
+"state","RI",7,22
+"state","VT",7,19
+"state","HI",7,16
+"state","MT",7,13
+"state","Unknown",7,13
+"state","WY",7,12
+"state","DC",7,11
+"state","ND",7,10
+"state","AK",7,8
+"state","PR",7,7
+"state","GU",7,0
+"payer_name","Abarca Health",3,9
+"payer_name","District of Columbia Medicaid",3,9
+"payer_name","Change Healthcare",3,9
+"payer_name","Pennsylvania Medicaid",3,9
+"payer_name","The Assistance Fund",3,9
+"payer_name","Arizona Medicaid",3,8
+"payer_name","Script Relief",3,8
+"payer_name","CoxHealth",3,8
+"payer_name","Liberty Medicare Advantage",3,7
+"payer_name","LucyRx",3,7
+"payer_name","New Hampshire Medicaid",3,6
+"payer_name","Ramsell",3,6
+"payer_name","Simpra Advantage",3,6
+"payer_name","MedStar Health",3,5
+"payer_name","Delaware Medicaid",3,5
+"payer_name","Integrated Prescription Management (IPM)",3,5
+"payer_name","Samaritan Health Plans",3,5
+"payer_name","Mayo Clinic",3,5
+"payer_name","Longevity Health",3,5
+"payer_name","Wyoming Medicaid",3,5
+"payer_name","ProCare Advantage",3,5
+"payer_name","Align Senior Care",3,5
+"payer_name","Complementary Health Care",3,5
+"payer_name","Community Care Health Plan",3,4
+"payer_name","Clear Spring Health",3,4
+"payer_name","Santa Clara Family Health Plan",3,4
+"payer_name","Nebraska Medicaid",3,4
+"payer_name","OhioHealth",3,4
+"payer_name","Accountable HC (IPA)",3,4
+"payer_name","Vaya Health",3,4
+"payer_name","Denver Health",3,4
+"payer_name","Troy Medicare",3,4
+"payer_name","Montana Medicaid",3,4
+"payer_name","Healthcare Partners (IPA)",3,3
+"payer_name","AllCare (IPA)",3,3
+"payer_name","Leon Health",3,3
+"payer_name","Aspirus Health Plan",3,3
+"payer_name","Cascade Health Alliance",3,3
+"payer_name","Advanced Health",3,3
+"payer_name","Lucent Health",3,3
+"payer_name","Texas Independence Health Plan",3,3
+"payer_name","New York Department of Health",3,3
+"payer_name","Hennepin Health",3,3
+"payer_name","Trillium Health Resources",3,2
+"payer_name","Curaechoice, Inc",3,2
+"payer_name","LifeWorks Advantage",3,2
+"payer_name","South Country Health Alliance",3,2
+"payer_name","6 Degrees Health",3,2
+"payer_name","Maryland Physicians Care",3,2
+"payer_name","Care N Care",3,2
+"payer_name","Alterwood Advantage",3,2
+"payer_name","EBMS",3,2
+"payer_name","CenterLight Healthcare",3,2
+"payer_name","Colorado Access",3,2
+"payer_name","Oregon Health and Science University",3,2
+"payer_name","New Mexico Medicaid",3,2
+"payer_name","Iowa Medicaid",3,1
+"payer_name","Partners Health Plan",3,1
+"payer_name","WithMe Health",3,1
+"payer_name","United Physicians Network",3,1
+"payer_name","NeedyMeds",3,1
+"payer_name","Washington State Department of Health",3,1
+"payer_name","Broward Health",3,1
+"payer_name","Chinese Community Health Plan",3,1
+"payer_name","Sendero Health Plans",3,1
+"payer_name","Partners Health Management",3,1
+"payer_name","Rhode Island Department of Health",3,1
+"payer_name","Continental General",3,0
+"payer_name","Florida Complete Care",3,0
+"payer_name","San Francisco Health Plan",3,0
+"payer_name","Advantage Care (IPA)",3,0
+"payer_name","FliptRx",3,0
+"payer_name","OnePoint Comp",3,0
+"payer_name","University of Michigan Health Plan",3,0
+"payer_name","Rios Southwest Medical Group",3,0
+"payer_name","Delaware Division of Medicaid and Medical Assistance",3,0
+"payer_name","Advanced Medical Doctors of California (IPA)",3,0
+"payer_name","Community First Health Plans",3,0
+"payer_name","North Carolina Department of Health",3,0
+"payer_name","InfinityRx",3,0
+"payer_name","KeyCare Advantage",3,0
+"payer_name","Other",4,20541
+"payer_name","Centers for Medicare and Medicaid Services",4,8594
+"payer_name","UnitedHealthcare",4,7550
+"payer_name","Humana",4,3233
+"payer_name","Aetna",4,2595
+"payer_name","Centene Corporation",4,1912
+"payer_name","Elevance Health",4,1482
+"payer_name","Optum",4,1103
+"payer_name","Cigna Healthcare",4,959
+"payer_name","Cash",4,771
+"payer_name","Express Scripts",4,756
+"payer_name","CVS Caremark",4,531
+"payer_name","Health Care Service Corporation",4,421
+"payer_name","Blue Cross Blue Shield Association",4,384
+"payer_name","GoodRx",4,360
+"payer_name","Florida Blue",4,288
+"payer_name","Priority Health",4,273
+"payer_name","OmniSYS",4,258
+"payer_name","Blue Shield of California",4,243
+"payer_name","Horizon Blue Cross Blue Shield of New Jersey",4,239
+"payer_name","Blue Cross Blue Shield of Michigan",4,237
+"payer_name","Pharmacy Data Management",4,206
+"payer_name","California Senior Care Action Network Health Plan",4,196
+"payer_name","Blue Cross and Blue Shield of Alabama",4,166
+"payer_name","MedImpact",4,160
+"payer_name","Script Care",4,142
+"payer_name","Molina Healthcare",4,141
+"payer_name","California Medicaid",4,122
+"payer_name","Alignment Health Plan",4,120
+"payer_name","Highmark Health",4,117
+"payer_name","Blue Cross Blue Shield of Arizona",4,113
+"payer_name","Navitus Health Solutions",4,112
+"payer_name","Visory Health",4,109
+"payer_name","Blue Cross and Blue Shield of North Carolina",4,108
+"payer_name","McKesson",4,108
+"payer_name","Excellus BlueCross BlueShield",4,106
+"payer_name","CareFirst BlueCross BlueShield",4,104
+"payer_name","University of Pittsburgh Medical Center Health Plan",4,102
+"payer_name","Paramount Rx",4,86
+"payer_name","BlueCross BlueShield of Tennessee",4,84
+"payer_name","Blue Cross and Blue Shield of Minnesota",4,84
+"payer_name","UCare Minneapolis",4,84
+"payer_name","Cambia Health Solutions",4,75
+"payer_name","Independence Blue Cross",4,73
+"payer_name","Blue Cross and Blue Shield of South Carolina",4,67
+"payer_name","WellDyne",4,63
+"payer_name","Scriptcycle",4,63
+"payer_name","Providence",4,62
+"payer_name","Point32Health",4,61
+"payer_name","Capital Rx",4,60
+"payer_name","Kaiser Permanente",4,57
+"payer_name","CareSource",4,57
+"payer_name","Martin's Point Health Care",4,56
+"payer_name","New York Medicaid",4,55
+"payer_name","Clever Rx",4,55
+"payer_name","Healthfirst New York",4,50
+"payer_name","Los Angeles Care Health Plan",4,49
+"payer_name","Regal Medical Group",4,46
+"payer_name","Banner Health",4,45
+"payer_name","Blue Cross and Blue Shield of Kansas",4,45
+"payer_name","Louisiana Blue",4,44
+"payer_name","Oscar Health",4,41
+"payer_name","Carle Health",4,40
+"payer_name","Blue Cross Blue Shield of Massachusetts",4,40
+"payer_name","Viva Health",4,40
+"payer_name","Sharp Healthcare",4,40
+"payer_name","Capital District Physicians' Health Plan",4,37
+"payer_name","EmblemHealth",4,33
+"payer_name","Sentara Health Plans",4,32
+"payer_name","Devoted Health",4,31
+"payer_name","Renown Health",4,30
+"payer_name","Network Health",4,29
+"payer_name","Intermountain Health",4,29
+"payer_name","Wellmark Blue Cross and Blue Shield",4,29
+"payer_name","Farm Bureau Health Plans",4,28
+"payer_name","Mercy Care",4,28
+"payer_name","Mutual of Omaha",4,27
+"payer_name","Geisinger Health",4,27
+"payer_name","RxSense",4,27
+"payer_name","Cornerstone Benefits Administrator",4,26
+"payer_name","Triple-S Management",4,26
+"payer_name","Gainwell Technologies",4,25
+"payer_name","Blue Cross and Blue Shield of Nebraska",4,25
+"payer_name","Premera Blue Cross",4,24
+"payer_name","ATRIO Health Plans",4,24
+"payer_name","Kern Family Health Care",4,24
+"payer_name","Universal Health Services",4,24
+"payer_name","Evernorth Health Services",4,24
+"payer_name","Presbyterian Healthcare Services",4,24
+"payer_name","Blue Cross of Idaho",4,23
+"payer_name","Colorado Medicaid",4,23
+"payer_name","Blue Cross and Blue Shield of Kansas City",4,23
+"payer_name","Medica",4,23
+"payer_name","Connecticut Medicaid",4,23
+"payer_name","Medical Mutual of Ohio",4,22
+"payer_name","Blue Cross and Blue Shield of Rhode Island",4,22
+"payer_name","West Virginia Medicaid",4,21
+"payer_name","Blue Cross and Blue Shield of Mississippi",4,21
+"payer_name","Gensis Healthcare",4,21
+"payer_name","Independent Health",4,21
+"payer_name","Hawaii Medical Service Association",4,20
+"payer_name","Health Plan of San Joaquin",4,20
+"payer_name","Inland Empire Health Plan",4,20
+"payer_name","Ascension Health System",4,19
+"payer_name","Cardinal Health",4,19
+"payer_name","Ohio Medicaid",4,19
+"payer_name","HealthPartners",4,18
+"payer_name","CalOptima Health",4,18
+"payer_name","Arkansas Medicaid",4,18
+"payer_name","Alabama Medicaid",4,17
+"payer_name","WellSense Health Plan",4,17
+"payer_name","Arkansas Blue Cross and Blue Shield",4,17
+"payer_name","Prime Therapeutics",4,17
+"payer_name","Baylor Scott and White Health",4,16
+"payer_name","Capital BlueCross",4,15
+"payer_name","ProCare Rx",4,15
+"payer_name","Johns Hopkins Health Plans",4,15
+"payer_name","Wisconsin Medicaid",4,14
+"payer_name","SmithRx",4,14
+"payer_name","Michigan Medicaid",4,14
+"payer_name","Texas Medicaid",4,13
+"payer_name","Georgia Medicaid",4,13
+"payer_name","Summa Health",4,12
+"payer_name","North Carolina State Health Plan",4,12
+"payer_name","Trinity Health",4,12
+"payer_name","Massachusetts Medicaid",4,12
+"payer_name","Sanford Health",4,11
+"payer_name","EyeMed",4,11
+"payer_name","Gold Coast Health Plan",4,10
+"payer_name","AultCare Health Plans",4,10
+"payer_name","Hippo Technologies",4,10
+"payer_name","American Specialty Health",4,10
+"payer_name","Legacy Health",4,10
+"payer_name","Clover Health",4,10
+"payer_name","McLaren Health Care",4,10
+"payer_name","Liviniti",4,10
+"payer_name","Partnership HealthPlan of California",4,10
+"payer_name","Indiana Medicaid",4,9
+"payer_name","Visiting Nurse Service Health",4,9
+"payer_name","Memorial Hermann Health Plan",4,9
+"payer_name","North Carolina Medicaid",4,9
+"payer_name","North Dakota Medicaid",4,8
+"payer_name","Jefferson Health",4,8
+"payer_name","Cone Health",4,8
+"payer_name","Mississippi Medicaid",4,8
+"payer_name","Oklahoma Medicaid",4,8
+"payer_name","MVP Health Care",4,8
+"payer_name","AllCare Health",4,8
+"payer_name","South Carolina Medicaid",4,8
+"payer_name","Ventegra",4,7
+"payer_name","New York State Health Insurance Program",4,7
+"payer_name","Upper Peninsula Health Plan",4,7
+"payer_name","The Health Plan",4,7
+"payer_name","Missouri Medicaid",4,7
+"payer_name","CareOregon",4,7
+"payer_name","Blue Cross Blue Shield of Wyoming",4,7
+"payer_name","VytlOne",4,7
+"payer_name","Moda Health",4,7
+"payer_name","Scripps Health",4,6
+"payer_name","Pharmastar",4,6
+"payer_name","Kentucky Medicaid",4,6
+"payer_name","BayCare Health Plans",4,6
+"payer_name","AmerisourceBergen",4,6
+"payer_name","Contra Costa Health",4,6
+"payer_name","Oregon Medicaid",4,6
+"payer_name","Health First",4,6
+"payer_name","Samaritan Health Services",4,6
+"payer_name","Community Health Group",4,6
+"payer_name","CHRISTUS Health",4,6
+"payer_name","Dignity Health",4,6
+"payer_name","TrueScripts",4,6
+"payer_name","Employers Health Options",4,5
+"payer_name","Rightway Health",4,5
+"payer_name","BeneCard Prescription Benefit Facilitator",4,5
+"payer_name","Nevada Medicaid",4,5
+"payer_name","Florida Medicaid",4,5
+"payer_name","CerpassRx",4,5
+"payer_name","SS&C Health",4,5
+"payer_name","Buckeye Health",4,5
+"payer_name","Alameda Alliance for Health",4,5
+"payer_name","Alliance Health",4,5
+"payer_name","Accessia Health",4,4
+"payer_name","Alliant Health Plans",4,4
+"payer_name","Quartz Health Solutions",4,4
+"payer_name","Washington Medicaid",4,4
+"payer_name","Virginia Medicaid",4,4
+"payer_name","Vermont Medicaid",4,4
+"payer_name","Partners for Health",4,4
+"payer_name","Community Health Plan of Washington",4,4
+"payer_name","Illinois Medicaid",4,4
+"payer_name","Vision Services Plan",4,4
+"payer_name","Georgia State Health Benefit Plan",4,4
+"payer_name","Torrance Hospital (IPA)",4,4
+"payer_name","Maine Medicaid",4,4
+"payer_name","Kansas Medicaid",4,4
+"payer_name","Phoenix Pharmacy Benefits Management",4,4
+"payer_name","Avera Health Plans",4,4
+"payer_name","Baystate Health",4,4
+"payer_name","Central California Alliance for Health",4,4
+"payer_name","Essence Healthcare",4,3
+"payer_name","Geico",4,3
+"payer_name","Louisiana Medicaid",4,3
+"payer_name","Minnesota Medicaid",4,3
+"payer_name","Pennsylvania Medicaid",4,3
+"payer_name","Fallon Health",4,3
+"payer_name","New Jersey Medicaid",4,3
+"payer_name","Hawaii Medicaid",4,3
+"payer_name","Idaho Medicaid",4,3
+"payer_name","Health Plan of San Mateo",4,3
+"payer_name","United Networks of America",4,3
+"payer_name","Clever Care Health Plan",4,3
+"payer_name","Aspire Health Plan",4,3
+"payer_name","Mountain Health CO-OP",4,3
+"payer_name","Alaska Medicaid",4,2
+"payer_name","CalCPA",4,2
+"payer_name","University of Utah Health",4,2
+"payer_name","Employee Health Options",4,2
+"payer_name","New Hampshire Medicaid",4,2
+"payer_name","AmeriHealth Caritas PA",4,2
+"payer_name","Delaware Medicaid",4,2
+"payer_name","Restat",4,2
+"payer_name","New York City Health + Hospitals",4,2
+"payer_name","Curative Health Plan",4,2
+"payer_name","Blue Cross and Blue Shield of Vermont",4,2
+"payer_name","Integrated Prescription Management (IPM)",4,2
+"payer_name","Valley Care (IPA)",4,2
+"payer_name","Arizona Medicaid",4,2
+"payer_name","Zing Health",4,2
+"payer_name","Ochsner Health",4,2
+"payer_name","UMass Memorial Health",4,2
+"payer_name","Hennepin Health",4,2
+"payer_name","Solis Health Plans",4,2
+"payer_name","Neighborhood Health Plan of Rhode Island",4,2
+"payer_name","Citizens Rx",4,2
+"payer_name","Opus Health",4,2
+"payer_name","Maryland Medicaid",4,2
+"payer_name","Rhode Island Medicaid",4,2
+"payer_name","District of Columbia Medicaid",4,2
+"payer_name","Sutter Health",4,2
+"payer_name","Health Partners",4,2
+"payer_name","Employee Health Insurance Management",4,2
+"payer_name","AlohaCare",4,1
+"payer_name","Curaechoice, Inc",4,1
+"payer_name","American Health Partners",4,1
+"payer_name","ConnectiveRx",4,1
+"payer_name","Mass General Brigham",4,1
+"payer_name","Elderplan and HomeFirst",4,1
+"payer_name","Align Senior Care",4,1
+"payer_name","Commonwealth of Pennsylvania",4,1
+"payer_name","Advanced Health",4,1
+"payer_name","MedStar Health",4,1
+"payer_name","Longevity Health",4,1
+"payer_name","Santa Clara Family Health Plan",4,1
+"payer_name","AscellaHealth",4,1
+"payer_name","Abarca Health",4,1
+"payer_name","Ohio Health",4,1
+"payer_name","West Virginia University Medicine",4,1
+"payer_name","South Dakota Medicaid",4,1
+"payer_name","PharmPix",4,1
+"payer_name","Advocate Physician Partners (PHO)",4,1
+"payer_name","Jai Medical Systems Managed Care Organization",4,1
+"payer_name","MedOne",4,1
+"payer_name","Samaritan Health Plans",4,1
+"payer_name","Florida Community Care",4,1
+"payer_name","Mayo Clinic",4,1
+"payer_name","Doctors HealthCare Plans",4,1
+"payer_name","Montana Medicaid",4,1
+"payer_name","Change Healthcare",4,1
+"payer_name","Aspirus Health Plan",4,1
+"payer_name","Oregon Health and Science University",4,1
+"payer_name","Blue Care Network",4,1
+"payer_name","Nebraska Medicaid",4,1
+"payer_name","Liberty Medicare Advantage",4,1
+"payer_name","The Assistance Fund",4,1
+"payer_name","Hamaspik",4,1
+"payer_name","Blue Cross Blue Shield of North Dakota",4,1
+"payer_name","Utah Medicaid",4,1
+"payer_name","Health Alliance Plan",4,0
+"payer_name","State Farm",4,0
+"payer_name","Amazon",4,0
+"payer_name","Texas Independence Health Plan",4,0
+"payer_name","Care N Care",4,0
+"payer_name","Chinese Community Health Plan",4,0
+"payer_name","ProCare Advantage",4,0
+"payer_name","Alterwood Advantage",4,0
+"payer_name","San Francisco Health Plan",4,0
+"payer_name","Florida Complete Care",4,0
+"payer_name","New York Department of Health",4,0
+"payer_name","Maryland Physicians Care",4,0
+"payer_name","New Mexico Medicaid",4,0
+"payer_name","Ramsell",4,0
+"payer_name","Community First Health Plans",4,0
+"payer_name","Iowa Medicaid",4,0
+"payer_name","AllCare (IPA)",4,0
+"payer_name","Lucent Health",4,0
+"payer_name","Partners Health Management",4,0
+"payer_name","Wyoming Medicaid",4,0
+"payer_name","Advantage Care (IPA)",4,0
+"payer_name","FliptRx",4,0
+"payer_name","OnePoint Comp",4,0
+"payer_name","Sendero Health Plans",4,0
+"payer_name","6 Degrees Health",4,0
+"payer_name","Rios Southwest Medical Group",4,0
+"payer_name","Rhode Island Department of Health",4,0
+"payer_name","RxCut",4,0
+"payer_name","Adventist Health Care Network (IPA)",4,0
+"payer_name","Access Medical Group (IPA)",4,0
+"payer_name","Accountable HC (IPA)",4,0
+"payer_name","InfinityRx",4,0
+"payer_name","EBMS",4,0
+"payer_name","Community Care Health Plan",4,0
+"payer_name","North Carolina Department of Health",4,0
+"payer_name","Continental General",4,0
+"payer_name","Community Health Choice",4,0
+"payer_name","Broward Health",4,0
+"payer_name","Disclosed Rx",4,0
+"payer_name","Advanced Medical Management (IPA)",4,0
+"payer_name","OhioHealth",4,0
+"payer_name","Delaware Division of Medicaid and Medical Assistance",4,0
+"payer_name","NeedyMeds",4,0
+"payer_name","Trillium Health Resources",4,0
+"payer_name","Clear Spring Health",4,0
+"payer_name","Vaya Health",4,0
+"payer_name","Partners Health Plan",4,0
+"payer_name","Washington State Department of Health",4,0
+"payer_name","University of Michigan Health Plan",4,0
+"payer_name","LucyRx",4,0
+"payer_name","Troy Medicare",4,0
+"payer_name","Script Relief",4,0
+"payer_name","CoxHealth",4,0
+"payer_name","KeyCare Advantage",4,0
+"payer_name","Simpra Advantage",4,0
+"payer_name","VillageCareMAX",4,0
+"payer_name","New Jersey Department of Health",4,0
+"payer_name","Advanced Medical Doctors of California (IPA)",4,0
+"payer_name","Medical Card System",4,0
+"payer_name","Denver Health",4,0
+"payer_name","Complementary Health Care",4,0
+"payer_name","HealthSmartRx Solutions",4,0
+"payer_name","Leon Health",4,0
+"payer_name","United Physicians Network",4,0
+"payer_name","South Country Health Alliance",4,0
+"payer_name","WithMe Health",4,0
+"payer_name","LifeWorks Advantage",4,0
+"payer_name","Colorado Access",4,0
+"payer_name","Healthcare Partners (IPA)",4,0
+"payer_name","Cascade Health Alliance",4,0
+"payer_name","CenterLight Healthcare",4,0
+"payer_name","Other",5,6684
+"payer_name","Centers for Medicare and Medicaid Services",5,3349
+"payer_name","UnitedHealthcare",5,2382
+"payer_name","Humana",5,1194
+"payer_name","Aetna",5,768
+"payer_name","Centene Corporation",5,570
+"payer_name","Elevance Health",5,506
+"payer_name","Optum",5,399
+"payer_name","Cigna Healthcare",5,311
+"payer_name","Cash",5,288
+"payer_name","Express Scripts",5,183
+"payer_name","CVS Caremark",5,165
+"payer_name","Health Care Service Corporation",5,124
+"payer_name","Pharmacy Data Management",5,118
+"payer_name","Blue Cross Blue Shield Association",5,117
+"payer_name","Florida Blue",5,102
+"payer_name","Script Care",5,92
+"payer_name","Blue Shield of California",5,88
+"payer_name","GoodRx",5,87
+"payer_name","Blue Cross Blue Shield of Michigan",5,80
+"payer_name","Blue Cross and Blue Shield of Alabama",5,78
+"payer_name","Horizon Blue Cross Blue Shield of New Jersey",5,77
+"payer_name","Priority Health",5,72
+"payer_name","Molina Healthcare",5,62
+"payer_name","California Senior Care Action Network Health Plan",5,55
+"payer_name","OmniSYS",5,52
+"payer_name","MedImpact",5,50
+"payer_name","California Medicaid",5,50
+"payer_name","Highmark Health",5,49
+"payer_name","Blue Cross Blue Shield of Arizona",5,41
+"payer_name","Alignment Health Plan",5,39
+"payer_name","University of Pittsburgh Medical Center Health Plan",5,39
+"payer_name","WellDyne",5,35
+"payer_name","CareFirst BlueCross BlueShield",5,33
+"payer_name","Navitus Health Solutions",5,33
+"payer_name","Visory Health",5,33
+"payer_name","Independence Blue Cross",5,29
+"payer_name","McKesson",5,27
+"payer_name","Kaiser Permanente",5,27
+"payer_name","CareSource",5,27
+"payer_name","Excellus BlueCross BlueShield",5,27
+"payer_name","Point32Health",5,26
+"payer_name","UCare Minneapolis",5,25
+"payer_name","Blue Cross and Blue Shield of Minnesota",5,25
+"payer_name","New York Medicaid",5,24
+"payer_name","Banner Health",5,23
+"payer_name","BlueCross BlueShield of Tennessee",5,20
+"payer_name","Blue Cross and Blue Shield of South Carolina",5,20
+"payer_name","Cambia Health Solutions",5,20
+"payer_name","Blue Cross and Blue Shield of North Carolina",5,20
+"payer_name","Scriptcycle",5,19
+"payer_name","Paramount Rx",5,19
+"payer_name","Martin's Point Health Care",5,18
+"payer_name","Los Angeles Care Health Plan",5,18
+"payer_name","Capital Rx",5,18
+"payer_name","Oscar Health",5,16
+"payer_name","Viva Health",5,16
+"payer_name","Network Health",5,14
+"payer_name","Carle Health",5,13
+"payer_name","Connecticut Medicaid",5,13
+"payer_name","Sharp Healthcare",5,13
+"payer_name","Blue Cross Blue Shield of Massachusetts",5,13
+"payer_name","Evernorth Health Services",5,13
+"payer_name","Mutual of Omaha",5,12
+"payer_name","Capital District Physicians' Health Plan",5,12
+"payer_name","Presbyterian Healthcare Services",5,12
+"payer_name","Providence",5,12
+"payer_name","Blue Cross and Blue Shield of Kansas",5,12
+"payer_name","Louisiana Blue",5,12
+"payer_name","Clever Rx",5,12
+"payer_name","Mercy Care",5,11
+"payer_name","Ohio Medicaid",5,11
+"payer_name","Gensis Healthcare",5,11
+"payer_name","Geisinger Health",5,11
+"payer_name","Arkansas Medicaid",5,11
+"payer_name","Blue Cross and Blue Shield of Rhode Island",5,11
+"payer_name","Sentara Health Plans",5,11
+"payer_name","Triple-S Management",5,10
+"payer_name","CalOptima Health",5,10
+"payer_name","EmblemHealth",5,10
+"payer_name","Healthfirst New York",5,9
+"payer_name","Medica",5,9
+"payer_name","Cornerstone Benefits Administrator",5,9
+"payer_name","Premera Blue Cross",5,9
+"payer_name","Michigan Medicaid",5,9
+"payer_name","ProCare Rx",5,9
+"payer_name","Kern Family Health Care",5,9
+"payer_name","Intermountain Health",5,9
+"payer_name","Wellmark Blue Cross and Blue Shield",5,9
+"payer_name","Alabama Medicaid",5,8
+"payer_name","Arkansas Blue Cross and Blue Shield",5,8
+"payer_name","Universal Health Services",5,8
+"payer_name","Inland Empire Health Plan",5,8
+"payer_name","Prime Therapeutics",5,8
+"payer_name","Regal Medical Group",5,8
+"payer_name","Health Plan of San Joaquin",5,7
+"payer_name","Massachusetts Medicaid",5,7
+"payer_name","West Virginia Medicaid",5,7
+"payer_name","Blue Cross and Blue Shield of Kansas City",5,7
+"payer_name","Summa Health",5,7
+"payer_name","ATRIO Health Plans",5,7
+"payer_name","Georgia Medicaid",5,6
+"payer_name","Hawaii Medical Service Association",5,6
+"payer_name","Colorado Medicaid",5,6
+"payer_name","HealthPartners",5,6
+"payer_name","The Health Plan",5,6
+"payer_name","Sanford Health",5,5
+"payer_name","Visiting Nurse Service Health",5,5
+"payer_name","Kentucky Medicaid",5,5
+"payer_name","Devoted Health",5,5
+"payer_name","RxSense",5,5
+"payer_name","Hippo Technologies",5,5
+"payer_name","Gold Coast Health Plan",5,5
+"payer_name","Dignity Health",5,5
+"payer_name","Memorial Hermann Health Plan",5,5
+"payer_name","Ascension Health System",5,5
+"payer_name","WellSense Health Plan",5,4
+"payer_name","McLaren Health Care",5,4
+"payer_name","Texas Medicaid",5,4
+"payer_name","Blue Cross and Blue Shield of Nebraska",5,4
+"payer_name","Trinity Health",5,4
+"payer_name","Johns Hopkins Health Plans",5,4
+"payer_name","Indiana Medicaid",5,4
+"payer_name","VytlOne",5,4
+"payer_name","Gainwell Technologies",5,4
+"payer_name","Cardinal Health",5,4
+"payer_name","Farm Bureau Health Plans",5,4
+"payer_name","North Dakota Medicaid",5,4
+"payer_name","Employers Health Options",5,4
+"payer_name","Capital BlueCross",5,4
+"payer_name","Illinois Medicaid",5,3
+"payer_name","Central California Alliance for Health",5,3
+"payer_name","Oregon Medicaid",5,3
+"payer_name","AultCare Health Plans",5,3
+"payer_name","Liviniti",5,3
+"payer_name","Moda Health",5,3
+"payer_name","Independent Health",5,3
+"payer_name","AmerisourceBergen",5,3
+"payer_name","Medical Mutual of Ohio",5,3
+"payer_name","Clover Health",5,3
+"payer_name","Vermont Medicaid",5,3
+"payer_name","Alameda Alliance for Health",5,3
+"payer_name","Rightway Health",5,3
+"payer_name","Contra Costa Health",5,3
+"payer_name","North Carolina Medicaid",5,3
+"payer_name","CerpassRx",5,3
+"payer_name","Kansas Medicaid",5,3
+"payer_name","Virginia Medicaid",5,3
+"payer_name","Health Plan of San Mateo",5,3
+"payer_name","South Carolina Medicaid",5,3
+"payer_name","Baylor Scott and White Health",5,3
+"payer_name","CareOregon",5,3
+"payer_name","Buckeye Health",5,3
+"payer_name","Oklahoma Medicaid",5,3
+"payer_name","Jefferson Health",5,3
+"payer_name","SS&C Health",5,2
+"payer_name","Vision Services Plan",5,2
+"payer_name","Scripps Health",5,2
+"payer_name","Mountain Health CO-OP",5,2
+"payer_name","EyeMed",5,2
+"payer_name","Nevada Medicaid",5,2
+"payer_name","University of Utah Health",5,2
+"payer_name","Alliance Health",5,2
+"payer_name","Alaska Medicaid",5,2
+"payer_name","Community Health Group",5,2
+"payer_name","Legacy Health",5,2
+"payer_name","Pharmastar",5,2
+"payer_name","Employee Health Insurance Management",5,2
+"payer_name","BayCare Health Plans",5,2
+"payer_name","Mississippi Medicaid",5,2
+"payer_name","Blue Cross of Idaho",5,2
+"payer_name","Missouri Medicaid",5,2
+"payer_name","Blue Cross and Blue Shield of Mississippi",5,2
+"payer_name","Louisiana Medicaid",5,2
+"payer_name","MVP Health Care",5,2
+"payer_name","Ventegra",5,2
+"payer_name","BeneCard Prescription Benefit Facilitator",5,2
+"payer_name","Partners for Health",5,2
+"payer_name","New Jersey Medicaid",5,2
+"payer_name","Community Health Plan of Washington",5,2
+"payer_name","AllCare Health",5,2
+"payer_name","Minnesota Medicaid",5,2
+"payer_name","Torrance Hospital (IPA)",5,2
+"payer_name","Health First",5,2
+"payer_name","United Networks of America",5,2
+"payer_name","Samaritan Health Services",5,2
+"payer_name","Blue Cross Blue Shield of Wyoming",5,2
+"payer_name","SmithRx",5,2
+"payer_name","UMass Memorial Health",5,2
+"payer_name","Employee Health Options",5,2
+"payer_name","Wisconsin Medicaid",5,2
+"payer_name","Phoenix Pharmacy Benefits Management",5,2
+"payer_name","Florida Medicaid",5,2
+"payer_name","Baystate Health",5,1
+"payer_name","CalCPA",5,1
+"payer_name","Clever Care Health Plan",5,1
+"payer_name","AlohaCare",5,1
+"payer_name","Pennsylvania Medicaid",5,1
+"payer_name","South Dakota Medicaid",5,1
+"payer_name","Nebraska Medicaid",5,1
+"payer_name","Partnership HealthPlan of California",5,1
+"payer_name","Liberty Medicare Advantage",5,1
+"payer_name","CHRISTUS Health",5,1
+"payer_name","MedStar Health",5,1
+"payer_name","Washington Medicaid",5,1
+"payer_name","Citizens Rx",5,1
+"payer_name","New York City Health + Hospitals",5,1
+"payer_name","Aspire Health Plan",5,1
+"payer_name","Curative Health Plan",5,1
+"payer_name","Curaechoice, Inc",5,1
+"payer_name","Arizona Medicaid",5,1
+"payer_name","North Carolina State Health Plan",5,1
+"payer_name","Samaritan Health Plans",5,1
+"payer_name","Cone Health",5,1
+"payer_name","New York State Health Insurance Program",5,1
+"payer_name","Neighborhood Health Plan of Rhode Island",5,1
+"payer_name","Renown Health",5,1
+"payer_name","District of Columbia Medicaid",5,1
+"payer_name","AmeriHealth Caritas PA",5,1
+"payer_name","Florida Community Care",5,1
+"payer_name","Accessia Health",5,1
+"payer_name","Montana Medicaid",5,1
+"payer_name","Change Healthcare",5,1
+"payer_name","Abarca Health",5,1
+"payer_name","American Specialty Health",5,1
+"payer_name","Maryland Medicaid",5,1
+"payer_name","Avera Health Plans",5,1
+"payer_name","Elderplan and HomeFirst",5,1
+"payer_name","Hawaii Medicaid",5,1
+"payer_name","Quartz Health Solutions",5,1
+"payer_name","Essence Healthcare",5,1
+"payer_name","New Hampshire Medicaid",5,1
+"payer_name","Alliant Health Plans",5,1
+"payer_name","Commonwealth of Pennsylvania",5,1
+"payer_name","Advanced Health",5,1
+"payer_name","Maine Medicaid",5,1
+"payer_name","Advantage Care (IPA)",5,0
+"payer_name","6 Degrees Health",5,0
+"payer_name","Advocate Physician Partners (PHO)",5,0
+"payer_name","Adventist Health Care Network (IPA)",5,0
+"payer_name","Medical Card System",5,0
+"payer_name","Oregon Health and Science University",5,0
+"payer_name","State Farm",5,0
+"payer_name","American Health Partners",5,0
+"payer_name","ConnectiveRx",5,0
+"payer_name","RxCut",5,0
+"payer_name","Care N Care",5,0
+"payer_name","Align Senior Care",5,0
+"payer_name","Restat",5,0
+"payer_name","AllCare (IPA)",5,0
+"payer_name","Chinese Community Health Plan",5,0
+"payer_name","Lucent Health",5,0
+"payer_name","Longevity Health",5,0
+"payer_name","Hamaspik",5,0
+"payer_name","Broward Health",5,0
+"payer_name","Solis Health Plans",5,0
+"payer_name","Accountable HC (IPA)",5,0
+"payer_name","Leon Health",5,0
+"payer_name","ProCare Advantage",5,0
+"payer_name","Maryland Physicians Care",5,0
+"payer_name","Community First Health Plans",5,0
+"payer_name","Iowa Medicaid",5,0
+"payer_name","Rhode Island Medicaid",5,0
+"payer_name","Alterwood Advantage",5,0
+"payer_name","Script Relief",5,0
+"payer_name","CoxHealth",5,0
+"payer_name","FliptRx",5,0
+"payer_name","OnePoint Comp",5,0
+"payer_name","Advanced Medical Management (IPA)",5,0
+"payer_name","EBMS",5,0
+"payer_name","Hennepin Health",5,0
+"payer_name","Rios Southwest Medical Group",5,0
+"payer_name","The Assistance Fund",5,0
+"payer_name","Complementary Health Care",5,0
+"payer_name","HealthSmartRx Solutions",5,0
+"payer_name","TrueScripts",5,0
+"payer_name","Idaho Medicaid",5,0
+"payer_name","South Country Health Alliance",5,0
+"payer_name","WithMe Health",5,0
+"payer_name","LifeWorks Advantage",5,0
+"payer_name","InfinityRx",5,0
+"payer_name","KeyCare Advantage",5,0
+"payer_name","Rhode Island Department of Health",5,0
+"payer_name","Ochsner Health",5,0
+"payer_name","Upper Peninsula Health Plan",5,0
+"payer_name","Amazon",5,0
+"payer_name","North Carolina Department of Health",5,0
+"payer_name","Doctors HealthCare Plans",5,0
+"payer_name","Sutter Health",5,0
+"payer_name","Mayo Clinic",5,0
+"payer_name","Simpra Advantage",5,0
+"payer_name","Blue Care Network",5,0
+"payer_name","United Physicians Network",5,0
+"payer_name","Access Medical Group (IPA)",5,0
+"payer_name","Community Health Choice",5,0
+"payer_name","Delaware Division of Medicaid and Medical Assistance",5,0
+"payer_name","San Francisco Health Plan",5,0
+"payer_name","NeedyMeds",5,0
+"payer_name","New Mexico Medicaid",5,0
+"payer_name","Disclosed Rx",5,0
+"payer_name","Florida Complete Care",5,0
+"payer_name","MedOne",5,0
+"payer_name","Trillium Health Resources",5,0
+"payer_name","Clear Spring Health",5,0
+"payer_name","LucyRx",5,0
+"payer_name","Troy Medicare",5,0
+"payer_name","Opus Health",5,0
+"payer_name","Denver Health",5,0
+"payer_name","Texas Independence Health Plan",5,0
+"payer_name","Utah Medicaid",5,0
+"payer_name","Blue Cross Blue Shield of North Dakota",5,0
+"payer_name","Georgia State Health Benefit Plan",5,0
+"payer_name","West Virginia University Medicine",5,0
+"payer_name","PharmPix",5,0
+"payer_name","Ohio Health",5,0
+"payer_name","Community Care Health Plan",5,0
+"payer_name","Ramsell",5,0
+"payer_name","Jai Medical Systems Managed Care Organization",5,0
+"payer_name","OhioHealth",5,0
+"payer_name","Partners Health Plan",5,0
+"payer_name","University of Michigan Health Plan",5,0
+"payer_name","Aspirus Health Plan",5,0
+"payer_name","Advanced Medical Doctors of California (IPA)",5,0
+"payer_name","VillageCareMAX",5,0
+"payer_name","Vaya Health",5,0
+"payer_name","Continental General",5,0
+"payer_name","New Jersey Department of Health",5,0
+"payer_name","Fallon Health",5,0
+"payer_name","New York Department of Health",5,0
+"payer_name","Sendero Health Plans",5,0
+"payer_name","Zing Health",5,0
+"payer_name","Valley Care (IPA)",5,0
+"payer_name","Health Alliance Plan",5,0
+"payer_name","Washington State Department of Health",5,0
+"payer_name","AscellaHealth",5,0
+"payer_name","Geico",5,0
+"payer_name","Delaware Medicaid",5,0
+"payer_name","Mass General Brigham",5,0
+"payer_name","Health Partners",5,0
+"payer_name","Blue Cross and Blue Shield of Vermont",5,0
+"payer_name","Santa Clara Family Health Plan",5,0
+"payer_name","Integrated Prescription Management (IPM)",5,0
+"payer_name","Partners Health Management",5,0
+"payer_name","Wyoming Medicaid",5,0
+"payer_name","Colorado Access",5,0
+"payer_name","Healthcare Partners (IPA)",5,0
+"payer_name","Cascade Health Alliance",5,0
+"payer_name","CenterLight Healthcare",5,0
+"payer_name","Other",6,5804
+"payer_name","Centers for Medicare and Medicaid Services",6,2964
+"payer_name","UnitedHealthcare",6,2092
+"payer_name","Humana",6,1061
+"payer_name","Aetna",6,681
+"payer_name","Centene Corporation",6,508
+"payer_name","Elevance Health",6,443
+"payer_name","Optum",6,352
+"payer_name","Cigna Healthcare",6,263
+"payer_name","Cash",6,246
+"payer_name","Express Scripts",6,160
+"payer_name","CVS Caremark",6,145
+"payer_name","Health Care Service Corporation",6,111
+"payer_name","Blue Cross Blue Shield Association",6,102
+"payer_name","Pharmacy Data Management",6,101
+"payer_name","Florida Blue",6,91
+"payer_name","Script Care",6,84
+"payer_name","Blue Shield of California",6,78
+"payer_name","GoodRx",6,78
+"payer_name","Blue Cross and Blue Shield of Alabama",6,73
+"payer_name","Blue Cross Blue Shield of Michigan",6,67
+"payer_name","Horizon Blue Cross Blue Shield of New Jersey",6,64
+"payer_name","Priority Health",6,61
+"payer_name","Molina Healthcare",6,56
+"payer_name","California Senior Care Action Network Health Plan",6,50
+"payer_name","OmniSYS",6,47
+"payer_name","California Medicaid",6,45
+"payer_name","MedImpact",6,43
+"payer_name","Highmark Health",6,42
+"payer_name","University of Pittsburgh Medical Center Health Plan",6,38
+"payer_name","Blue Cross Blue Shield of Arizona",6,38
+"payer_name","Alignment Health Plan",6,34
+"payer_name","WellDyne",6,34
+"payer_name","Navitus Health Solutions",6,32
+"payer_name","CareFirst BlueCross BlueShield",6,29
+"payer_name","Visory Health",6,28
+"payer_name","Independence Blue Cross",6,26
+"payer_name","Point32Health",6,25
+"payer_name","Kaiser Permanente",6,25
+"payer_name","Excellus BlueCross BlueShield",6,24
+"payer_name","Blue Cross and Blue Shield of Minnesota",6,24
+"payer_name","McKesson",6,24
+"payer_name","CareSource",6,23
+"payer_name","UCare Minneapolis",6,22
+"payer_name","New York Medicaid",6,21
+"payer_name","Banner Health",6,20
+"payer_name","BlueCross BlueShield of Tennessee",6,18
+"payer_name","Cambia Health Solutions",6,17
+"payer_name","Paramount Rx",6,17
+"payer_name","Los Angeles Care Health Plan",6,16
+"payer_name","Blue Cross and Blue Shield of South Carolina",6,16
+"payer_name","Oscar Health",6,15
+"payer_name","Blue Cross and Blue Shield of North Carolina",6,15
+"payer_name","Scriptcycle",6,14
+"payer_name","Capital Rx",6,14
+"payer_name","Martin's Point Health Care",6,13
+"payer_name","Viva Health",6,13
+"payer_name","Capital District Physicians' Health Plan",6,12
+"payer_name","Clever Rx",6,12
+"payer_name","Sharp Healthcare",6,12
+"payer_name","Carle Health",6,11
+"payer_name","Ohio Medicaid",6,11
+"payer_name","Mercy Care",6,11
+"payer_name","Blue Cross and Blue Shield of Kansas",6,11
+"payer_name","Providence",6,11
+"payer_name","Connecticut Medicaid",6,11
+"payer_name","Louisiana Blue",6,11
+"payer_name","Blue Cross and Blue Shield of Rhode Island",6,11
+"payer_name","Network Health",6,11
+"payer_name","Geisinger Health",6,11
+"payer_name","Presbyterian Healthcare Services",6,11
+"payer_name","Blue Cross Blue Shield of Massachusetts",6,11
+"payer_name","Gensis Healthcare",6,10
+"payer_name","Triple-S Management",6,10
+"payer_name","Sentara Health Plans",6,10
+"payer_name","Evernorth Health Services",6,9
+"payer_name","Arkansas Medicaid",6,9
+"payer_name","Kern Family Health Care",6,9
+"payer_name","Michigan Medicaid",6,8
+"payer_name","Wellmark Blue Cross and Blue Shield",6,8
+"payer_name","ProCare Rx",6,8
+"payer_name","CalOptima Health",6,8
+"payer_name","Intermountain Health",6,8
+"payer_name","Medica",6,8
+"payer_name","Universal Health Services",6,8
+"payer_name","Alabama Medicaid",6,8
+"payer_name","Prime Therapeutics",6,8
+"payer_name","EmblemHealth",6,7
+"payer_name","Mutual of Omaha",6,7
+"payer_name","Summa Health",6,7
+"payer_name","West Virginia Medicaid",6,7
+"payer_name","Cornerstone Benefits Administrator",6,7
+"payer_name","Premera Blue Cross",6,7
+"payer_name","Health Plan of San Joaquin",6,7
+"payer_name","Healthfirst New York",6,6
+"payer_name","Georgia Medicaid",6,6
+"payer_name","Regal Medical Group",6,6
+"payer_name","Massachusetts Medicaid",6,6
+"payer_name","Blue Cross and Blue Shield of Kansas City",6,6
+"payer_name","The Health Plan",6,6
+"payer_name","Arkansas Blue Cross and Blue Shield",6,6
+"payer_name","Colorado Medicaid",6,6
+"payer_name","ATRIO Health Plans",6,6
+"payer_name","HealthPartners",6,6
+"payer_name","Sanford Health",6,5
+"payer_name","Hawaii Medical Service Association",6,5
+"payer_name","RxSense",6,5
+"payer_name","Memorial Hermann Health Plan",6,5
+"payer_name","Kentucky Medicaid",6,5
+"payer_name","Gold Coast Health Plan",6,5
+"payer_name","Dignity Health",6,4
+"payer_name","Blue Cross and Blue Shield of Nebraska",6,4
+"payer_name","North Dakota Medicaid",6,4
+"payer_name","Capital BlueCross",6,4
+"payer_name","Devoted Health",6,4
+"payer_name","Gainwell Technologies",6,4
+"payer_name","Visiting Nurse Service Health",6,4
+"payer_name","Indiana Medicaid",6,4
+"payer_name","Trinity Health",6,4
+"payer_name","Texas Medicaid",6,4
+"payer_name","Ascension Health System",6,4
+"payer_name","Johns Hopkins Health Plans",6,4
+"payer_name","WellSense Health Plan",6,4
+"payer_name","Inland Empire Health Plan",6,4
+"payer_name","Employers Health Options",6,4
+"payer_name","Hippo Technologies",6,3
+"payer_name","McLaren Health Care",6,3
+"payer_name","Alameda Alliance for Health",6,3
+"payer_name","Independent Health",6,3
+"payer_name","Buckeye Health",6,3
+"payer_name","Health Plan of San Mateo",6,3
+"payer_name","AmerisourceBergen",6,3
+"payer_name","AultCare Health Plans",6,3
+"payer_name","Contra Costa Health",6,3
+"payer_name","Oklahoma Medicaid",6,3
+"payer_name","VytlOne",6,3
+"payer_name","Moda Health",6,3
+"payer_name","Oregon Medicaid",6,3
+"payer_name","Virginia Medicaid",6,3
+"payer_name","Central California Alliance for Health",6,3
+"payer_name","CareOregon",6,3
+"payer_name","Liviniti",6,3
+"payer_name","Clover Health",6,3
+"payer_name","Kansas Medicaid",6,3
+"payer_name","Farm Bureau Health Plans",6,3
+"payer_name","Vermont Medicaid",6,2
+"payer_name","Community Health Plan of Washington",6,2
+"payer_name","Mississippi Medicaid",6,2
+"payer_name","Torrance Hospital (IPA)",6,2
+"payer_name","Health First",6,2
+"payer_name","South Carolina Medicaid",6,2
+"payer_name","BayCare Health Plans",6,2
+"payer_name","Medical Mutual of Ohio",6,2
+"payer_name","Samaritan Health Services",6,2
+"payer_name","Community Health Group",6,2
+"payer_name","North Carolina Medicaid",6,2
+"payer_name","Louisiana Medicaid",6,2
+"payer_name","Nevada Medicaid",6,2
+"payer_name","University of Utah Health",6,2
+"payer_name","Ventegra",6,2
+"payer_name","Legacy Health",6,2
+"payer_name","Minnesota Medicaid",6,2
+"payer_name","Rightway Health",6,2
+"payer_name","Blue Cross Blue Shield of Wyoming",6,2
+"payer_name","Mountain Health CO-OP",6,2
+"payer_name","New Jersey Medicaid",6,2
+"payer_name","Employee Health Insurance Management",6,2
+"payer_name","Pharmastar",6,2
+"payer_name","Partners for Health",6,2
+"payer_name","Blue Cross of Idaho",6,2
+"payer_name","EyeMed",6,2
+"payer_name","Alliance Health",6,2
+"payer_name","SS&C Health",6,2
+"payer_name","BeneCard Prescription Benefit Facilitator",6,2
+"payer_name","Alaska Medicaid",6,2
+"payer_name","United Networks of America",6,2
+"payer_name","SmithRx",6,2
+"payer_name","Missouri Medicaid",6,2
+"payer_name","Cardinal Health",6,2
+"payer_name","Phoenix Pharmacy Benefits Management",6,2
+"payer_name","Wisconsin Medicaid",6,2
+"payer_name","Baylor Scott and White Health",6,2
+"payer_name","Scripps Health",6,2
+"payer_name","Jefferson Health",6,2
+"payer_name","UMass Memorial Health",6,2
+"payer_name","Maine Medicaid",6,1
+"payer_name","Illinois Medicaid",6,1
+"payer_name","Vision Services Plan",6,1
+"payer_name","Clever Care Health Plan",6,1
+"payer_name","Nebraska Medicaid",6,1
+"payer_name","MedStar Health",6,1
+"payer_name","AlohaCare",6,1
+"payer_name","South Dakota Medicaid",6,1
+"payer_name","Partnership HealthPlan of California",6,1
+"payer_name","Curaechoice, Inc",6,1
+"payer_name","Liberty Medicare Advantage",6,1
+"payer_name","Avera Health Plans",6,1
+"payer_name","Quartz Health Solutions",6,1
+"payer_name","Baystate Health",6,1
+"payer_name","Blue Cross and Blue Shield of Mississippi",6,1
+"payer_name","Aspire Health Plan",6,1
+"payer_name","Cone Health",6,1
+"payer_name","District of Columbia Medicaid",6,1
+"payer_name","AmeriHealth Caritas PA",6,1
+"payer_name","Accessia Health",6,1
+"payer_name","MVP Health Care",6,1
+"payer_name","AllCare Health",6,1
+"payer_name","CerpassRx",6,1
+"payer_name","Florida Community Care",6,1
+"payer_name","New York City Health + Hospitals",6,1
+"payer_name","Arizona Medicaid",6,1
+"payer_name","Renown Health",6,1
+"payer_name","Abarca Health",6,1
+"payer_name","CalCPA",6,1
+"payer_name","Pennsylvania Medicaid",6,1
+"payer_name","Maryland Medicaid",6,1
+"payer_name","New York State Health Insurance Program",6,1
+"payer_name","CHRISTUS Health",6,1
+"payer_name","Employee Health Options",6,1
+"payer_name","Elderplan and HomeFirst",6,1
+"payer_name","Florida Medicaid",6,1
+"payer_name","Hawaii Medicaid",6,1
+"payer_name","Essence Healthcare",6,1
+"payer_name","Citizens Rx",6,1
+"payer_name","New Hampshire Medicaid",6,1
+"payer_name","Montana Medicaid",6,1
+"payer_name","Change Healthcare",6,1
+"payer_name","Alliant Health Plans",6,1
+"payer_name","Commonwealth of Pennsylvania",6,1
+"payer_name","Advanced Health",6,1
+"payer_name","VillageCareMAX",6,0
+"payer_name","Health Partners",6,0
+"payer_name","Zing Health",6,0
+"payer_name","Valley Care (IPA)",6,0
+"payer_name","Medical Card System",6,0
+"payer_name","Ochsner Health",6,0
+"payer_name","Mayo Clinic",6,0
+"payer_name","Restat",6,0
+"payer_name","Curative Health Plan",6,0
+"payer_name","San Francisco Health Plan",6,0
+"payer_name","Hamaspik",6,0
+"payer_name","Broward Health",6,0
+"payer_name","Florida Complete Care",6,0
+"payer_name","Leon Health",6,0
+"payer_name","Maryland Physicians Care",6,0
+"payer_name","Community First Health Plans",6,0
+"payer_name","Iowa Medicaid",6,0
+"payer_name","New Jersey Department of Health",6,0
+"payer_name","Adventist Health Care Network (IPA)",6,0
+"payer_name","Advanced Medical Management (IPA)",6,0
+"payer_name","State Farm",6,0
+"payer_name","American Health Partners",6,0
+"payer_name","ConnectiveRx",6,0
+"payer_name","Care N Care",6,0
+"payer_name","Chinese Community Health Plan",6,0
+"payer_name","ProCare Advantage",6,0
+"payer_name","Alterwood Advantage",6,0
+"payer_name","North Carolina Department of Health",6,0
+"payer_name","Texas Independence Health Plan",6,0
+"payer_name","Ramsell",6,0
+"payer_name","Disclosed Rx",6,0
+"payer_name","Neighborhood Health Plan of Rhode Island",6,0
+"payer_name","Trillium Health Resources",6,0
+"payer_name","Clear Spring Health",6,0
+"payer_name","LucyRx",6,0
+"payer_name","Troy Medicare",6,0
+"payer_name","Sutter Health",6,0
+"payer_name","Denver Health",6,0
+"payer_name","Utah Medicaid",6,0
+"payer_name","Community Health Choice",6,0
+"payer_name","Oregon Health and Science University",6,0
+"payer_name","Ohio Health",6,0
+"payer_name","Community Care Health Plan",6,0
+"payer_name","Partners Health Plan",6,0
+"payer_name","University of Michigan Health Plan",6,0
+"payer_name","Aspirus Health Plan",6,0
+"payer_name","Advanced Medical Doctors of California (IPA)",6,0
+"payer_name","Rios Southwest Medical Group",6,0
+"payer_name","Rhode Island Department of Health",6,0
+"payer_name","AscellaHealth",6,0
+"payer_name","North Carolina State Health Plan",6,0
+"payer_name","Advocate Physician Partners (PHO)",6,0
+"payer_name","Access Medical Group (IPA)",6,0
+"payer_name","New Mexico Medicaid",6,0
+"payer_name","Amazon",6,0
+"payer_name","Santa Clara Family Health Plan",6,0
+"payer_name","Blue Care Network",6,0
+"payer_name","Simpra Advantage",6,0
+"payer_name","Samaritan Health Plans",6,0
+"payer_name","United Physicians Network",6,0
+"payer_name","MedOne",6,0
+"payer_name","Delaware Division of Medicaid and Medical Assistance",6,0
+"payer_name","PharmPix",6,0
+"payer_name","Jai Medical Systems Managed Care Organization",6,0
+"payer_name","OhioHealth",6,0
+"payer_name","Vaya Health",6,0
+"payer_name","Health Alliance Plan",6,0
+"payer_name","NeedyMeds",6,0
+"payer_name","6 Degrees Health",6,0
+"payer_name","RxCut",6,0
+"payer_name","Washington State Department of Health",6,0
+"payer_name","Align Senior Care",6,0
+"payer_name","AllCare (IPA)",6,0
+"payer_name","Lucent Health",6,0
+"payer_name","Longevity Health",6,0
+"payer_name","Accountable HC (IPA)",6,0
+"payer_name","EBMS",6,0
+"payer_name","Hennepin Health",6,0
+"payer_name","Georgia State Health Benefit Plan",6,0
+"payer_name","Washington Medicaid",6,0
+"payer_name","Rhode Island Medicaid",6,0
+"payer_name","Script Relief",6,0
+"payer_name","CoxHealth",6,0
+"payer_name","West Virginia University Medicine",6,0
+"payer_name","The Assistance Fund",6,0
+"payer_name","Complementary Health Care",6,0
+"payer_name","HealthSmartRx Solutions",6,0
+"payer_name","TrueScripts",6,0
+"payer_name","South Country Health Alliance",6,0
+"payer_name","WithMe Health",6,0
+"payer_name","LifeWorks Advantage",6,0
+"payer_name","InfinityRx",6,0
+"payer_name","KeyCare Advantage",6,0
+"payer_name","American Specialty Health",6,0
+"payer_name","New York Department of Health",6,0
+"payer_name","Fallon Health",6,0
+"payer_name","Solis Health Plans",6,0
+"payer_name","Idaho Medicaid",6,0
+"payer_name","Opus Health",6,0
+"payer_name","Continental General",6,0
+"payer_name","Delaware Medicaid",6,0
+"payer_name","Mass General Brigham",6,0
+"payer_name","Sendero Health Plans",6,0
+"payer_name","Blue Cross and Blue Shield of Vermont",6,0
+"payer_name","Geico",6,0
+"payer_name","Integrated Prescription Management (IPM)",6,0
+"payer_name","Partners Health Management",6,0
+"payer_name","Wyoming Medicaid",6,0
+"payer_name","Colorado Access",6,0
+"payer_name","Healthcare Partners (IPA)",6,0
+"payer_name","Cascade Health Alliance",6,0
+"payer_name","CenterLight Healthcare",6,0
+"payer_name","Advantage Care (IPA)",6,0
+"payer_name","FliptRx",6,0
+"payer_name","OnePoint Comp",6,0
+"payer_name","Doctors HealthCare Plans",6,0
+"payer_name","Upper Peninsula Health Plan",6,0
+"payer_name","Blue Cross Blue Shield of North Dakota",6,0
+"payer_name","Other",7,2404
+"payer_name","Centers for Medicare and Medicaid Services",7,1416
+"payer_name","UnitedHealthcare",7,857
+"payer_name","Humana",7,483
+"payer_name","Aetna",7,328
+"payer_name","Centene Corporation",7,226
+"payer_name","Elevance Health",7,209
+"payer_name","Optum",7,164
+"payer_name","Cigna Healthcare",7,120
+"payer_name","Cash",7,99
+"payer_name","Express Scripts",7,69
+"payer_name","CVS Caremark",7,56
+"payer_name","Pharmacy Data Management",7,49
+"payer_name","Florida Blue",7,43
+"payer_name","Health Care Service Corporation",7,43
+"payer_name","Blue Cross Blue Shield Association",7,42
+"payer_name","Blue Shield of California",7,38
+"payer_name","Blue Cross and Blue Shield of Alabama",7,36
+"payer_name","Script Care",7,33
+"payer_name","GoodRx",7,33
+"payer_name","Blue Cross Blue Shield of Michigan",7,33
+"payer_name","Horizon Blue Cross Blue Shield of New Jersey",7,25
+"payer_name","OmniSYS",7,23
+"payer_name","MedImpact",7,23
+"payer_name","Highmark Health",7,19
+"payer_name","Priority Health",7,19
+"payer_name","Blue Cross Blue Shield of Arizona",7,19
+"payer_name","Molina Healthcare",7,18
+"payer_name","California Medicaid",7,17
+"payer_name","Alignment Health Plan",7,16
+"payer_name","WellDyne",7,15
+"payer_name","Kaiser Permanente",7,15
+"payer_name","California Senior Care Action Network Health Plan",7,15
+"payer_name","University of Pittsburgh Medical Center Health Plan",7,13
+"payer_name","UCare Minneapolis",7,12
+"payer_name","Point32Health",7,12
+"payer_name","Navitus Health Solutions",7,12
+"payer_name","CareFirst BlueCross BlueShield",7,11
+"payer_name","Visory Health",7,10
+"payer_name","Independence Blue Cross",7,9
+"payer_name","Blue Cross and Blue Shield of South Carolina",7,9
+"payer_name","Cambia Health Solutions",7,9
+"payer_name","CareSource",7,9
+"payer_name","New York Medicaid",7,9
+"payer_name","Capital District Physicians' Health Plan",7,9
+"payer_name","Viva Health",7,8
+"payer_name","Blue Cross and Blue Shield of Minnesota",7,8
+"payer_name","Los Angeles Care Health Plan",7,8
+"payer_name","Paramount Rx",7,8
+"payer_name","Blue Cross and Blue Shield of Kansas",7,7
+"payer_name","CalOptima Health",7,7
+"payer_name","Oscar Health",7,7
+"payer_name","Martin's Point Health Care",7,7
+"payer_name","McKesson",7,7
+"payer_name","Carle Health",7,7
+"payer_name","BlueCross BlueShield of Tennessee",7,7
+"payer_name","Arkansas Medicaid",7,6
+"payer_name","Prime Therapeutics",7,6
+"payer_name","Gensis Healthcare",7,6
+"payer_name","Clever Rx",7,6
+"payer_name","Blue Cross and Blue Shield of North Carolina",7,6
+"payer_name","Health Plan of San Joaquin",7,5
+"payer_name","Arkansas Blue Cross and Blue Shield",7,5
+"payer_name","Universal Health Services",7,5
+"payer_name","Blue Cross Blue Shield of Massachusetts",7,5
+"payer_name","Ohio Medicaid",7,5
+"payer_name","Blue Cross and Blue Shield of Rhode Island",7,5
+"payer_name","Excellus BlueCross BlueShield",7,5
+"payer_name","ProCare Rx",7,5
+"payer_name","Banner Health",7,5
+"payer_name","Capital Rx",7,5
+"payer_name","Louisiana Blue",7,5
+"payer_name","Michigan Medicaid",7,4
+"payer_name","Sentara Health Plans",7,4
+"payer_name","Evernorth Health Services",7,4
+"payer_name","Regal Medical Group",7,4
+"payer_name","Mutual of Omaha",7,4
+"payer_name","Cornerstone Benefits Administrator",7,4
+"payer_name","Mercy Care",7,4
+"payer_name","Oregon Medicaid",7,3
+"payer_name","Providence",7,3
+"payer_name","EmblemHealth",7,3
+"payer_name","Summa Health",7,3
+"payer_name","Devoted Health",7,3
+"payer_name","Memorial Hermann Health Plan",7,3
+"payer_name","Massachusetts Medicaid",7,3
+"payer_name","West Virginia Medicaid",7,3
+"payer_name","Connecticut Medicaid",7,3
+"payer_name","Sharp Healthcare",7,3
+"payer_name","ATRIO Health Plans",7,3
+"payer_name","North Dakota Medicaid",7,3
+"payer_name","Wellmark Blue Cross and Blue Shield",7,3
+"payer_name","Alabama Medicaid",7,3
+"payer_name","Trinity Health",7,3
+"payer_name","Johns Hopkins Health Plans",7,3
+"payer_name","Sanford Health",7,3
+"payer_name","Capital BlueCross",7,3
+"payer_name","Georgia Medicaid",7,3
+"payer_name","AmerisourceBergen",7,3
+"payer_name","Kern Family Health Care",7,3
+"payer_name","RxSense",7,3
+"payer_name","Missouri Medicaid",7,2
+"payer_name","Oklahoma Medicaid",7,2
+"payer_name","Geisinger Health",7,2
+"payer_name","Medica",7,2
+"payer_name","Triple-S Management",7,2
+"payer_name","Inland Empire Health Plan",7,2
+"payer_name","Community Health Plan of Washington",7,2
+"payer_name","Intermountain Health",7,2
+"payer_name","Colorado Medicaid",7,2
+"payer_name","VytlOne",7,2
+"payer_name","Health First",7,2
+"payer_name","Samaritan Health Services",7,2
+"payer_name","Central California Alliance for Health",7,2
+"payer_name","Contra Costa Health",7,2
+"payer_name","The Health Plan",7,2
+"payer_name","Minnesota Medicaid",7,2
+"payer_name","UMass Memorial Health",7,2
+"payer_name","Gainwell Technologies",7,2
+"payer_name","Liviniti",7,2
+"payer_name","CareOregon",7,2
+"payer_name","Texas Medicaid",7,2
+"payer_name","Healthfirst New York",7,2
+"payer_name","Ascension Health System",7,2
+"payer_name","Premera Blue Cross",7,2
+"payer_name","Farm Bureau Health Plans",7,2
+"payer_name","WellSense Health Plan",7,2
+"payer_name","Baylor Scott and White Health",7,2
+"payer_name","Employers Health Options",7,2
+"payer_name","Blue Cross and Blue Shield of Nebraska",7,2
+"payer_name","Aspire Health Plan",7,1
+"payer_name","Clever Care Health Plan",7,1
+"payer_name","Blue Cross of Idaho",7,1
+"payer_name","AlohaCare",7,1
+"payer_name","Medical Mutual of Ohio",7,1
+"payer_name","South Dakota Medicaid",7,1
+"payer_name","Visiting Nurse Service Health",7,1
+"payer_name","BeneCard Prescription Benefit Facilitator",7,1
+"payer_name","Scriptcycle",7,1
+"payer_name","HealthPartners",7,1
+"payer_name","Curaechoice, Inc",7,1
+"payer_name","United Networks of America",7,1
+"payer_name","Alameda Alliance for Health",7,1
+"payer_name","Cardinal Health",7,1
+"payer_name","MedStar Health",7,1
+"payer_name","Phoenix Pharmacy Benefits Management",7,1
+"payer_name","Blue Cross and Blue Shield of Mississippi",7,1
+"payer_name","Buckeye Health",7,1
+"payer_name","AllCare Health",7,1
+"payer_name","CerpassRx",7,1
+"payer_name","Clover Health",7,1
+"payer_name","Presbyterian Healthcare Services",7,1
+"payer_name","Indiana Medicaid",7,1
+"payer_name","Avera Health Plans",7,1
+"payer_name","Health Plan of San Mateo",7,1
+"payer_name","Ventegra",7,1
+"payer_name","Alliance Health",7,1
+"payer_name","Maryland Medicaid",7,1
+"payer_name","Scripps Health",7,1
+"payer_name","Community Health Group",7,1
+"payer_name","Legacy Health",7,1
+"payer_name","Independent Health",7,1
+"payer_name","Moda Health",7,1
+"payer_name","New Jersey Medicaid",7,1
+"payer_name","Employee Health Insurance Management",7,1
+"payer_name","Hippo Technologies",7,1
+"payer_name","Arizona Medicaid",7,1
+"payer_name","Renown Health",7,1
+"payer_name","Kansas Medicaid",7,1
+"payer_name","Gold Coast Health Plan",7,1
+"payer_name","Abarca Health",7,1
+"payer_name","Network Health",7,1
+"payer_name","AmeriHealth Caritas PA",7,1
+"payer_name","Virginia Medicaid",7,1
+"payer_name","Vermont Medicaid",7,1
+"payer_name","Blue Cross Blue Shield of Wyoming",7,1
+"payer_name","South Carolina Medicaid",7,1
+"payer_name","Dignity Health",7,1
+"payer_name","CalCPA",7,1
+"payer_name","Mississippi Medicaid",7,1
+"payer_name","Pennsylvania Medicaid",7,1
+"payer_name","SS&C Health",7,1
+"payer_name","Liberty Medicare Advantage",7,1
+"payer_name","Alaska Medicaid",7,1
+"payer_name","Employee Health Options",7,1
+"payer_name","Rightway Health",7,1
+"payer_name","Jefferson Health",7,1
+"payer_name","Hawaii Medicaid",7,1
+"payer_name","New Hampshire Medicaid",7,1
+"payer_name","Nevada Medicaid",7,1
+"payer_name","Alliant Health Plans",7,1
+"payer_name","Zing Health",7,0
+"payer_name","AultCare Health Plans",7,0
+"payer_name","Restat",7,0
+"payer_name","Advantage Care (IPA)",7,0
+"payer_name","Washington State Department of Health",7,0
+"payer_name","Amazon",7,0
+"payer_name","Mayo Clinic",7,0
+"payer_name","EyeMed",7,0
+"payer_name","Rios Southwest Medical Group",7,0
+"payer_name","Rhode Island Department of Health",7,0
+"payer_name","Solis Health Plans",7,0
+"payer_name","Louisiana Medicaid",7,0
+"payer_name","Curative Health Plan",7,0
+"payer_name","MVP Health Care",7,0
+"payer_name","North Carolina Department of Health",7,0
+"payer_name","North Carolina State Health Plan",7,0
+"payer_name","Montana Medicaid",7,0
+"payer_name","Texas Independence Health Plan",7,0
+"payer_name","VillageCareMAX",7,0
+"payer_name","University of Utah Health",7,0
+"payer_name","Valley Care (IPA)",7,0
+"payer_name","Florida Complete Care",7,0
+"payer_name","Advanced Medical Management (IPA)",7,0
+"payer_name","Ochsner Health",7,0
+"payer_name","Oregon Health and Science University",7,0
+"payer_name","New Jersey Department of Health",7,0
+"payer_name","Florida Community Care",7,0
+"payer_name","Torrance Hospital (IPA)",7,0
+"payer_name","Blue Cross Blue Shield of North Dakota",7,0
+"payer_name","Cone Health",7,0
+"payer_name","ConnectiveRx",7,0
+"payer_name","Chinese Community Health Plan",7,0
+"payer_name","Rhode Island Medicaid",7,0
+"payer_name","Blue Cross and Blue Shield of Kansas City",7,0
+"payer_name","Script Relief",7,0
+"payer_name","CoxHealth",7,0
+"payer_name","ProCare Advantage",7,0
+"payer_name","Pharmastar",7,0
+"payer_name","Disclosed Rx",7,0
+"payer_name","Neighborhood Health Plan of Rhode Island",7,0
+"payer_name","Kentucky Medicaid",7,0
+"payer_name","The Assistance Fund",7,0
+"payer_name","Clear Spring Health",7,0
+"payer_name","South Country Health Alliance",7,0
+"payer_name","Blue Care Network",7,0
+"payer_name","LucyRx",7,0
+"payer_name","Troy Medicare",7,0
+"payer_name","North Carolina Medicaid",7,0
+"payer_name","District of Columbia Medicaid",7,0
+"payer_name","Alterwood Advantage",7,0
+"payer_name","Continental General",7,0
+"payer_name","Utah Medicaid",7,0
+"payer_name","Partners Health Plan",7,0
+"payer_name","PharmPix",7,0
+"payer_name","Geico",7,0
+"payer_name","Advanced Medical Doctors of California (IPA)",7,0
+"payer_name","Health Partners",7,0
+"payer_name","Hamaspik",7,0
+"payer_name","6 Degrees Health",7,0
+"payer_name","RxCut",7,0
+"payer_name","Access Medical Group (IPA)",7,0
+"payer_name","Align Senior Care",7,0
+"payer_name","Lucent Health",7,0
+"payer_name","Accountable HC (IPA)",7,0
+"payer_name","EBMS",7,0
+"payer_name","InfinityRx",7,0
+"payer_name","KeyCare Advantage",7,0
+"payer_name","FliptRx",7,0
+"payer_name","Maine Medicaid",7,0
+"payer_name","OnePoint Comp",7,0
+"payer_name","Sendero Health Plans",7,0
+"payer_name","Community First Health Plans",7,0
+"payer_name","Quartz Health Solutions",7,0
+"payer_name","Delaware Division of Medicaid and Medical Assistance",7,0
+"payer_name","Washington Medicaid",7,0
+"payer_name","Vision Services Plan",7,0
+"payer_name","BayCare Health Plans",7,0
+"payer_name","Hawaii Medical Service Association",7,0
+"payer_name","Wisconsin Medicaid",7,0
+"payer_name","Doctors HealthCare Plans",7,0
+"payer_name","West Virginia University Medicine",7,0
+"payer_name","New York Department of Health",7,0
+"payer_name","Adventist Health Care Network (IPA)",7,0
+"payer_name","McLaren Health Care",7,0
+"payer_name","Elderplan and HomeFirst",7,0
+"payer_name","NeedyMeds",7,0
+"payer_name","Essence Healthcare",7,0
+"payer_name","American Specialty Health",7,0
+"payer_name","Delaware Medicaid",7,0
+"payer_name","Medical Card System",7,0
+"payer_name","Mass General Brigham",7,0
+"payer_name","Blue Cross and Blue Shield of Vermont",7,0
+"payer_name","Integrated Prescription Management (IPM)",7,0
+"payer_name","Colorado Access",7,0
+"payer_name","CenterLight Healthcare",7,0
+"hcp_specialty","Hematology",4,110
+"hcp_specialty","Allergy",4,103
+"hcp_specialty","Sports Medicine",4,99
+"hcp_specialty","Gynecology",4,96
+"hcp_specialty","Occupational Medicine",4,95
+"hcp_specialty","Colorectal Surgery",4,87
+"hcp_specialty","Surgical Oncology",4,63
+"hcp_specialty","Gynecological Oncology",4,62
+"hcp_specialty","Hand Surgery",4,56
+"hcp_specialty","Addiction Medicine",4,39
+"hcp_specialty","Public Health",4,33
+"hcp_specialty","Sleep Medicine",4,33
+"hcp_specialty","Advanced Heart Failure",4,28
+"hcp_specialty","Nuclear Medicine",4,26
+"hcp_specialty","Preventive Medicine",4,21
+"hcp_specialty","Obesity Medicine",4,18
+"hcp_specialty","Nutrition",4,16
+"hcp_specialty","Maxillofacial Surgery",4,15
+"hcp_specialty","Diabetes",4,12
+"hcp_specialty","Hepatology",4,10
+"hcp_specialty","Midwifery",4,9
+"hcp_specialty","Pediatric Oncology",4,7
+"hcp_specialty","Administrative Medicine",4,7
+"hcp_specialty","Pediatric Psychiatry",4,6
+"hcp_specialty","Geriatric Psychiatry",4,6
+"hcp_specialty","Pediatric Neurology",4,6
+"hcp_specialty","Research and Development",4,5
+"hcp_specialty","Cardiothoracic Surgery",4,5
+"hcp_specialty","Neuromuscular Medicine",4,4
+"hcp_specialty","Perinatology",4,3
+"hcp_specialty","Neurosurgery",4,3
+"hcp_specialty","Addiction Psychiatry",4,3
+"hcp_specialty","Neurophysiology",4,3
+"hcp_specialty","Immunology",4,3
+"hcp_specialty","Pediatric Cardiology",4,2
+"hcp_specialty","Genetics",4,1
+"hcp_specialty","Pediatric Endocrinology",4,1
+"hcp_specialty","Pediatric Surgery",4,1
+"hcp_specialty","Pharmacology",4,1
+"hcp_specialty","Pediatric Dentistry",4,0
+"hcp_specialty","Legal Medicine",4,0
+"hcp_specialty","Pediatric Pulmonology",4,0
+"hcp_specialty","Reproductive Medicine",4,0
+"hcp_specialty","Pediatric Gastroenterology",4,0
+"hcp_specialty","Psychosomatic Medicine",4,0
+"hcp_specialty","Microbiology",4,0
+"hcp_specialty","Abdominal Surgery",4,0
+"hcp_specialty","Veterinary",4,0
+"hcp_specialty","Family Medicine",5,3019
+"hcp_specialty","Other",5,2936
+"hcp_specialty","Hematology/Oncology",5,2193
+"hcp_specialty","Internal Medicine",5,2103
+"hcp_specialty","Oncology",5,932
+"hcp_specialty","General Practice",5,826
+"hcp_specialty","Cardiology",5,700
+"hcp_specialty","Dermatology",5,501
+"hcp_specialty","Hospital Medicine",5,474
+"hcp_specialty","Radiology",5,385
+"hcp_specialty","Emergency Medicine",5,329
+"hcp_specialty","Palliative Medicine",5,324
+"hcp_specialty","Geriatrics",5,287
+"hcp_specialty","Ophthalmology",5,285
+"hcp_specialty","Nephrology",5,278
+"hcp_specialty","Urology",5,236
+"hcp_specialty","Radiation Oncology",5,229
+"hcp_specialty","Pulmonology",5,228
+"hcp_specialty","Surgery",5,220
+"hcp_specialty","Otolaryngology",5,204
+"hcp_specialty","Physical Therapy",5,181
+"hcp_specialty","Gastroenterology",5,177
+"hcp_specialty","Pathology",5,175
+"hcp_specialty","Endocrinology",5,164
+"hcp_specialty","Optometry",5,148
+"hcp_specialty","Psychiatry",5,132
+"hcp_specialty","Neurology",5,132
+"hcp_specialty","Podiatry",5,116
+"hcp_specialty","Interventional Cardiology",5,114
+"hcp_specialty","Pain Medicine",5,111
+"hcp_specialty","Pharmacy Specialty",5,109
+"hcp_specialty","Infectious diseases",5,105
+"hcp_specialty","Orthopedic Surgery",5,104
+"hcp_specialty","Dentistry",5,81
+"hcp_specialty","Urgent Care Medicine",5,75
+"hcp_specialty","Cardiac Electrophysiology",5,71
+"hcp_specialty","Anesthesiology",5,69
+"hcp_specialty","Obstetrics",5,67
+"hcp_specialty","Hematology",5,64
+"hcp_specialty","Rheumatology",5,61
+"hcp_specialty","Plastic Surgery",5,60
+"hcp_specialty","Intensive Care Medicine",5,59
+"hcp_specialty","Alternative Medicine",5,58
+"hcp_specialty","Pediatrics",5,57
+"hcp_specialty","Rehabilitation Medicine",5,49
+"hcp_specialty","Vascular Surgery",5,41
+"hcp_specialty","Psychology",5,39
+"hcp_specialty","Unknown",5,36
+"hcp_specialty","Surgical Oncology",5,33
+"hcp_specialty","Sports Medicine",5,30
+"hcp_specialty","Gynecological Oncology",5,27
+"hcp_specialty","Gynecology",5,22
+"hcp_specialty","Dermatologic Surgery",5,22
+"hcp_specialty","Occupational Medicine",5,21
+"hcp_specialty","Allergy",5,15
+"hcp_specialty","Nuclear Medicine",5,15
+"hcp_specialty","Hand Surgery",5,14
+"hcp_specialty","Sleep Medicine",5,13
+"hcp_specialty","Addiction Medicine",5,12
+"hcp_specialty","Public Health",5,9
+"hcp_specialty","Preventive Medicine",5,6
+"hcp_specialty","Maxillofacial Surgery",5,6
+"hcp_specialty","Advanced Heart Failure",5,6
+"hcp_specialty","Colorectal Surgery",5,5
+"hcp_specialty","Pediatric Neurology",5,5
+"hcp_specialty","Administrative Medicine",5,5
+"hcp_specialty","Midwifery",5,5
+"hcp_specialty","Pediatric Psychiatry",5,4
+"hcp_specialty","Obesity Medicine",5,4
+"hcp_specialty","Research and Development",5,3
+"hcp_specialty","Hepatology",5,3
+"hcp_specialty","Addiction Psychiatry",5,2
+"hcp_specialty","Nutrition",5,2
+"hcp_specialty","Diabetes",5,2
+"hcp_specialty","Cardiothoracic Surgery",5,1
+"hcp_specialty","Pediatric Endocrinology",5,1
+"hcp_specialty","Pharmacology",5,1
+"hcp_specialty","Neurosurgery",5,1
+"hcp_specialty","Geriatric Psychiatry",5,1
+"hcp_specialty","Perinatology",5,0
+"hcp_specialty","Pediatric Cardiology",5,0
+"hcp_specialty","Genetics",5,0
+"hcp_specialty","Microbiology",5,0
+"hcp_specialty","Legal Medicine",5,0
+"hcp_specialty","Pediatric Surgery",5,0
+"hcp_specialty","Immunology",5,0
+"hcp_specialty","Pediatric Pulmonology",5,0
+"hcp_specialty","Pediatric Gastroenterology",5,0
+"hcp_specialty","Pediatric Dentistry",5,0
+"hcp_specialty","Neurophysiology",5,0
+"hcp_specialty","Psychosomatic Medicine",5,0
+"hcp_specialty","Abdominal Surgery",5,0
+"hcp_specialty","Pediatric Oncology",5,0
+"hcp_specialty","Veterinary",5,0
+"hcp_specialty","Reproductive Medicine",5,0
+"hcp_specialty","Neuromuscular Medicine",5,0
+"hcp_specialty","Family Medicine",6,2681
+"hcp_specialty","Other",6,2543
+"hcp_specialty","Hematology/Oncology",6,1910
+"hcp_specialty","Internal Medicine",6,1847
+"hcp_specialty","Oncology",6,818
+"hcp_specialty","General Practice",6,728
+"hcp_specialty","Cardiology",6,616
+"hcp_specialty","Dermatology",6,447
+"hcp_specialty","Hospital Medicine",6,417
+"hcp_specialty","Radiology",6,337
+"hcp_specialty","Emergency Medicine",6,290
+"hcp_specialty","Palliative Medicine",6,276
+"hcp_specialty","Ophthalmology",6,257
+"hcp_specialty","Geriatrics",6,245
+"hcp_specialty","Nephrology",6,242
+"hcp_specialty","Radiation Oncology",6,214
+"hcp_specialty","Surgery",6,206
+"hcp_specialty","Pulmonology",6,199
+"hcp_specialty","Urology",6,198
+"hcp_specialty","Otolaryngology",6,187
+"hcp_specialty","Pathology",6,156
+"hcp_specialty","Gastroenterology",6,155
+"hcp_specialty","Physical Therapy",6,153
+"hcp_specialty","Endocrinology",6,145
+"hcp_specialty","Optometry",6,132
+"hcp_specialty","Neurology",6,117
+"hcp_specialty","Psychiatry",6,114
+"hcp_specialty","Interventional Cardiology",6,106
+"hcp_specialty","Podiatry",6,106
+"hcp_specialty","Pharmacy Specialty",6,98
+"hcp_specialty","Pain Medicine",6,92
+"hcp_specialty","Orthopedic Surgery",6,91
+"hcp_specialty","Infectious diseases",6,82
+"hcp_specialty","Dentistry",6,71
+"hcp_specialty","Urgent Care Medicine",6,68
+"hcp_specialty","Cardiac Electrophysiology",6,63
+"hcp_specialty","Anesthesiology",6,59
+"hcp_specialty","Obstetrics",6,59
+"hcp_specialty","Hematology",6,56
+"hcp_specialty","Plastic Surgery",6,53
+"hcp_specialty","Intensive Care Medicine",6,51
+"hcp_specialty","Alternative Medicine",6,49
+"hcp_specialty","Pediatrics",6,48
+"hcp_specialty","Rheumatology",6,48
+"hcp_specialty","Rehabilitation Medicine",6,45
+"hcp_specialty","Vascular Surgery",6,39
+"hcp_specialty","Psychology",6,35
+"hcp_specialty","Unknown",6,30
+"hcp_specialty","Surgical Oncology",6,29
+"hcp_specialty","Sports Medicine",6,26
+"hcp_specialty","Gynecological Oncology",6,21
+"hcp_specialty","Occupational Medicine",6,19
+"hcp_specialty","Dermatologic Surgery",6,19
+"hcp_specialty","Gynecology",6,15
+"hcp_specialty","Hand Surgery",6,13
+"hcp_specialty","Sleep Medicine",6,12
+"hcp_specialty","Allergy",6,12
+"hcp_specialty","Nuclear Medicine",6,12
+"hcp_specialty","Addiction Medicine",6,10
+"hcp_specialty","Public Health",6,8
+"hcp_specialty","Maxillofacial Surgery",6,6
+"hcp_specialty","Administrative Medicine",6,5
+"hcp_specialty","Preventive Medicine",6,5
+"hcp_specialty","Pediatric Neurology",6,5
+"hcp_specialty","Obesity Medicine",6,4
+"hcp_specialty","Midwifery",6,4
+"hcp_specialty","Advanced Heart Failure",6,4
+"hcp_specialty","Colorectal Surgery",6,4
+"hcp_specialty","Hepatology",6,3
+"hcp_specialty","Pediatric Psychiatry",6,3
+"hcp_specialty","Diabetes",6,2
+"hcp_specialty","Addiction Psychiatry",6,2
+"hcp_specialty","Nutrition",6,2
+"hcp_specialty","Neurosurgery",6,1
+"hcp_specialty","Research and Development",6,1
+"hcp_specialty","Pharmacology",6,1
+"hcp_specialty","Cardiothoracic Surgery",6,1
+"hcp_specialty","Psychosomatic Medicine",6,0
+"hcp_specialty","Geriatric Psychiatry",6,0
+"hcp_specialty","Pediatric Dentistry",6,0
+"hcp_specialty","Pediatric Gastroenterology",6,0
+"hcp_specialty","Genetics",6,0
+"hcp_specialty","Abdominal Surgery",6,0
+"hcp_specialty","Veterinary",6,0
+"hcp_specialty","Neurophysiology",6,0
+"hcp_specialty","Perinatology",6,0
+"hcp_specialty","Pediatric Pulmonology",6,0
+"hcp_specialty","Immunology",6,0
+"hcp_specialty","Legal Medicine",6,0
+"hcp_specialty","Pediatric Surgery",6,0
+"hcp_specialty","Neuromuscular Medicine",6,0
+"hcp_specialty","Pediatric Oncology",6,0
+"hcp_specialty","Pediatric Cardiology",6,0
+"hcp_specialty","Reproductive Medicine",6,0
+"hcp_specialty","Microbiology",6,0
+"hcp_specialty","Pediatric Endocrinology",6,0
+"hcp_specialty","Family Medicine",7,1104
+"hcp_specialty","Other",7,998
+"hcp_specialty","Hematology/Oncology",7,974
+"hcp_specialty","Internal Medicine",7,789
+"hcp_specialty","Oncology",7,429
+"hcp_specialty","General Practice",7,320
+"hcp_specialty","Cardiology",7,281
+"hcp_specialty","Dermatology",7,184
+"hcp_specialty","Hospital Medicine",7,165
+"hcp_specialty","Radiology",7,136
+"hcp_specialty","Emergency Medicine",7,132
+"hcp_specialty","Geriatrics",7,115
+"hcp_specialty","Ophthalmology",7,110
+"hcp_specialty","Palliative Medicine",7,109
+"hcp_specialty","Radiation Oncology",7,108
+"hcp_specialty","Nephrology",7,107
+"hcp_specialty","Otolaryngology",7,98
+"hcp_specialty","Surgery",7,95
+"hcp_specialty","Urology",7,79
+"hcp_specialty","Pulmonology",7,76
+"hcp_specialty","Gastroenterology",7,66
+"hcp_specialty","Pathology",7,64
+"hcp_specialty","Physical Therapy",7,62
+"hcp_specialty","Interventional Cardiology",7,52
+"hcp_specialty","Podiatry",7,52
+"hcp_specialty","Optometry",7,50
+"hcp_specialty","Endocrinology",7,49
+"hcp_specialty","Orthopedic Surgery",7,46
+"hcp_specialty","Psychiatry",7,45
+"hcp_specialty","Neurology",7,44
+"hcp_specialty","Pharmacy Specialty",7,44
+"hcp_specialty","Pain Medicine",7,43
+"hcp_specialty","Infectious diseases",7,38
+"hcp_specialty","Dentistry",7,36
+"hcp_specialty","Plastic Surgery",7,31
+"hcp_specialty","Hematology",7,28
+"hcp_specialty","Intensive Care Medicine",7,27
+"hcp_specialty","Anesthesiology",7,26
+"hcp_specialty","Pediatrics",7,25
+"hcp_specialty","Cardiac Electrophysiology",7,22
+"hcp_specialty","Obstetrics",7,21
+"hcp_specialty","Urgent Care Medicine",7,21
+"hcp_specialty","Alternative Medicine",7,19
+"hcp_specialty","Surgical Oncology",7,18
+"hcp_specialty","Rheumatology",7,17
+"hcp_specialty","Vascular Surgery",7,16
+"hcp_specialty","Unknown",7,16
+"hcp_specialty","Rehabilitation Medicine",7,12
+"hcp_specialty","Psychology",7,12
+"hcp_specialty","Sports Medicine",7,11
+"hcp_specialty","Occupational Medicine",7,11
+"hcp_specialty","Gynecology",7,8
+"hcp_specialty","Gynecological Oncology",7,8
+"hcp_specialty","Nuclear Medicine",7,7
+"hcp_specialty","Dermatologic Surgery",7,6
+"hcp_specialty","Sleep Medicine",7,5
+"hcp_specialty","Public Health",7,5
+"hcp_specialty","Allergy",7,5
+"hcp_specialty","Addiction Medicine",7,4
+"hcp_specialty","Preventive Medicine",7,3
+"hcp_specialty","Hand Surgery",7,3
+"hcp_specialty","Administrative Medicine",7,3
+"hcp_specialty","Maxillofacial Surgery",7,3
+"hcp_specialty","Colorectal Surgery",7,3
+"hcp_specialty","Pediatric Psychiatry",7,2
+"hcp_specialty","Hepatology",7,2
+"hcp_specialty","Advanced Heart Failure",7,2
+"hcp_specialty","Addiction Psychiatry",7,1
+"hcp_specialty","Obesity Medicine",7,1
+"hcp_specialty","Midwifery",7,1
+"hcp_specialty","Diabetes",7,1
+"hcp_specialty","Pediatric Neurology",7,1
+"hcp_specialty","Cardiothoracic Surgery",7,1
+"hcp_specialty","Neuromuscular Medicine",7,0
+"hcp_specialty","Pediatric Oncology",7,0
+"hcp_specialty","Neurosurgery",7,0
+"hcp_specialty","Pediatric Pulmonology",7,0
+"hcp_specialty","Immunology",7,0
+"hcp_specialty","Pharmacology",7,0
+"hcp_specialty","Pediatric Endocrinology",7,0
+"hcp_specialty","Psychosomatic Medicine",7,0
+"hcp_specialty","Genetics",7,0
+"hcp_specialty","Neurophysiology",7,0
+"hcp_specialty","Perinatology",7,0
+"hcp_specialty","Geriatric Psychiatry",7,0
+"hcp_specialty","Pediatric Cardiology",7,0
+"hcp_specialty","Research and Development",7,0
+"hcp_specialty","Microbiology",7,0
+"hcp_specialty","Legal Medicine",7,0
+"hcp_specialty","Abdominal Surgery",7,0
+"hcp_specialty","Veterinary",7,0
+"hcp_specialty","Nutrition",7,0
+"hcp_specialty","Pediatric Gastroenterology",7,0
+"hcp_specialty","Pediatric Dentistry",7,0
+"hcp_specialty","Pediatric Surgery",7,0
+"hcp_specialty","Reproductive Medicine",7,0
+"parent_type","Health Care System Administration",1,1139875
+"parent_type","Unknown",1,454270
+"parent_type","Medical Group Outpatient",1,291430
+"parent_type","Diagnostic Facility",1,73040
+"parent_type","Pharmacy",1,15713
+"parent_type","Hospitals",1,9994
+"parent_type","Residential and Long-Term Care Facilities",1,9045
+"parent_type","Organization",1,7483
+"parent_type","Home Health Care Agencies",1,5333
+"parent_type","Government Agency",1,2062
+"parent_type","Distributors, General",1,2062
+"parent_type","Hospice",1,989
+"parent_type","Dialysis & Infusion Centers",1,521
+"parent_type","Managed Care",1,423
+"parent_type","Non Healthcare Provider",1,172
+"parent_type","Educational and Training",1,108
+"parent_type","PHS 340B",1,17
+"parent_type","Healthcare Manufacturer",1,14
+"parent_type","Prison",1,5
+"parent_type","Animal Health Organization",1,4
+"parent_type","Medical Board",1,1
+"parent_type","Health Care System Administration",2,480027
+"parent_type","Unknown",2,180042
+"parent_type","Medical Group Outpatient",2,119629
+"parent_type","Diagnostic Facility",2,29050
+"parent_type","Pharmacy",2,6572
+"parent_type","Residential and Long-Term Care Facilities",2,4265
+"parent_type","Hospitals",2,4095
+"parent_type","Organization",2,3075
+"parent_type","Home Health Care Agencies",2,2857
+"parent_type","Distributors, General",2,824
+"parent_type","Government Agency",2,805
+"parent_type","Hospice",2,507
+"parent_type","Dialysis & Infusion Centers",2,252
+"parent_type","Managed Care",2,202
+"parent_type","Non Healthcare Provider",2,53
+"parent_type","Educational and Training",2,46
+"parent_type","PHS 340B",2,7
+"parent_type","Healthcare Manufacturer",2,5
+"parent_type","Animal Health Organization",2,2
+"parent_type","Prison",2,2
+"parent_type","Medical Board",2,0
+"parent_type","Health Care System Administration",3,472464
+"parent_type","Unknown",3,176704
+"parent_type","Medical Group Outpatient",3,118049
+"parent_type","Diagnostic Facility",3,28737
+"parent_type","Pharmacy",3,6469
+"parent_type","Residential and Long-Term Care Facilities",3,4168
+"parent_type","Hospitals",3,4040
+"parent_type","Organization",3,2991
+"parent_type","Home Health Care Agencies",3,2811
+"parent_type","Distributors, General",3,812
+"parent_type","Government Agency",3,786
+"parent_type","Hospice",3,487
+"parent_type","Dialysis & Infusion Centers",3,250
+"parent_type","Managed Care",3,201
+"parent_type","Non Healthcare Provider",3,53
+"parent_type","Educational and Training",3,45
+"parent_type","PHS 340B",3,7
+"parent_type","Healthcare Manufacturer",3,5
+"parent_type","Animal Health Organization",3,2
+"parent_type","Prison",3,2
+"parent_type","Medical Board",3,0
+"parent_type","Health Care System Administration",4,35989
+"parent_type","Unknown",4,12055
+"parent_type","Medical Group Outpatient",4,6590
+"parent_type","Diagnostic Facility",4,1776
+"parent_type","Pharmacy",4,636
+"parent_type","Residential and Long-Term Care Facilities",4,330
+"parent_type","Home Health Care Agencies",4,311
+"parent_type","Hospitals",4,294
+"parent_type","Organization",4,260
+"parent_type","Hospice",4,85
+"parent_type","Distributors, General",4,68
+"parent_type","Government Agency",4,43
+"parent_type","Dialysis & Infusion Centers",4,21
+"parent_type","Managed Care",4,20
+"parent_type","Educational and Training",4,4
+"parent_type","Non Healthcare Provider",4,2
+"parent_type","Healthcare Manufacturer",4,1
+"parent_type","Animal Health Organization",4,0
+"parent_type","Prison",4,0
+"parent_type","PHS 340B",4,0
+"parent_type","Medical Board",4,0
+"parent_type","Health Care System Administration",5,12524
+"parent_type","Unknown",5,4200
+"parent_type","Medical Group Outpatient",5,1549
+"parent_type","Diagnostic Facility",5,582
+"parent_type","Pharmacy",5,203
+"parent_type","Residential and Long-Term Care Facilities",5,131
+"parent_type","Home Health Care Agencies",5,122
+"parent_type","Organization",5,119
+"parent_type","Hospitals",5,111
+"parent_type","Hospice",5,38
+"parent_type","Distributors, General",5,31
+"parent_type","Government Agency",5,18
+"parent_type","Managed Care",5,6
+"parent_type","Dialysis & Infusion Centers",5,5
+"parent_type","Educational and Training",5,1
+"parent_type","Medical Board",5,0
+"parent_type","Healthcare Manufacturer",5,0
+"parent_type","PHS 340B",5,0
+"parent_type","Non Healthcare Provider",5,0
+"parent_type","Animal Health Organization",5,0
+"parent_type","Prison",5,0
+"parent_type","Health Care System Administration",6,10971
+"parent_type","Unknown",6,3699
+"parent_type","Medical Group Outpatient",6,1366
+"parent_type","Diagnostic Facility",6,505
+"parent_type","Pharmacy",6,175
+"parent_type","Residential and Long-Term Care Facilities",6,119
+"parent_type","Home Health Care Agencies",6,105
+"parent_type","Organization",6,104
+"parent_type","Hospitals",6,96
+"parent_type","Hospice",6,35
+"parent_type","Distributors, General",6,27
+"parent_type","Government Agency",6,16
+"parent_type","Managed Care",6,5
+"parent_type","Dialysis & Infusion Centers",6,4
+"parent_type","Educational and Training",6,1
+"parent_type","Medical Board",6,0
+"parent_type","Healthcare Manufacturer",6,0
+"parent_type","PHS 340B",6,0
+"parent_type","Non Healthcare Provider",6,0
+"parent_type","Animal Health Organization",6,0
+"parent_type","Prison",6,0
+"parent_type","Health Care System Administration",7,4816
+"parent_type","Unknown",7,1610
+"parent_type","Medical Group Outpatient",7,587
+"parent_type","Diagnostic Facility",7,207
+"parent_type","Pharmacy",7,62
+"parent_type","Home Health Care Agencies",7,51
+"parent_type","Residential and Long-Term Care Facilities",7,50
+"parent_type","Hospitals",7,45
+"parent_type","Organization",7,41
+"parent_type","Hospice",7,14
+"parent_type","Distributors, General",7,10
+"parent_type","Government Agency",7,8
+"parent_type","Managed Care",7,4
+"parent_type","Dialysis & Infusion Centers",7,2
+"parent_type","Educational and Training",7,1
+"parent_type","Medical Board",7,0
+"parent_type","Healthcare Manufacturer",7,0
+"parent_type","PHS 340B",7,0
+"parent_type","Non Healthcare Provider",7,0
+"parent_type","Animal Health Organization",7,0
+"parent_type","Prison",7,0
