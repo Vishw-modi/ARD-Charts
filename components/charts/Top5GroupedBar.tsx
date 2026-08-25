@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useEffect, useRef } from "react";
@@ -49,7 +50,7 @@ export function Top5GroupedBar({ rows, dimension }: Top5GroupedProps) {
 
     // Prepare data
     const chartData = top5.map(cat => {
-      const obj: Record<string, string | number> = { category: cat };
+      const obj: any = { category: cat };
       for (let s = 1; s <= 7; s++) {
         obj[`Step ${s}`] = 0;
       }
@@ -166,7 +167,7 @@ export function Top5GroupedBar({ rows, dimension }: Top5GroupedProps) {
     };
 
     // Helper to wrap long category labels
-    function wrapText(textSelection: d3.Selection<d3.BaseType, unknown, HTMLElement, unknown>, width: number) {
+    function wrapText(textSelection: any, width: number) {
       textSelection.each(function(this: SVGTextElement) {
         const text = d3.select(this);
         const words = text.text().split(/\s+/).reverse();

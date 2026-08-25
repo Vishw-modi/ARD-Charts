@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useEffect, useRef, useMemo } from "react";
@@ -54,7 +55,7 @@ export function Top5Collapsed100StackedBar({ rows, dimension }: Top5Props) {
 
     const steps = Array.from(stepMap.keys()).sort((a, b) => a - b);
     const chartData = steps.map(step => {
-      const obj: Record<string, string | number> = { step: `Step ${step}` };
+      const obj: any = { step: `Step ${step}` };
       let total = 0;
       for (const cat of finalCategories) {
         const val = stepMap.get(step)?.[cat] || 0;
@@ -100,7 +101,7 @@ export function Top5Collapsed100StackedBar({ rows, dimension }: Top5Props) {
 
       const stack = d3.stack()
         .keys(finalCategories)
-        .value((d: Record<string, number>, key: string) => d[`${key}Pct`])
+        .value((d: any, key: string) => d[`${key}Pct`])
         (chartData as unknown as Iterable<{ [key: string]: number }>);
 
       g.append("g")
@@ -131,7 +132,7 @@ export function Top5Collapsed100StackedBar({ rows, dimension }: Top5Props) {
         .attr("class", "segment");
 
       rects.append("rect")
-        .attr("y", d => y((d.data as Record<string, string | number>).step)!)
+        .attr("y", d => y((d.data as any).step)!)
         .attr("x", d => x(d[0]))
         .attr("width", d => x(d[1]) - x(d[0]))
         .attr("height", y.bandwidth())
@@ -140,13 +141,13 @@ export function Top5Collapsed100StackedBar({ rows, dimension }: Top5Props) {
         .on("mouseenter", function (event, d) {
           const key = d.key;
           const pct = ((d[1] - d[0]) * 100).toFixed(1) + "%";
-          const count = formatCount((d.data as Record<string, string | number>)[key]);
+          const count = formatCount((d.data as any)[key]);
           show(event.clientX + 12, event.clientY - 24, `${key}: ${pct} (${count})`);
         })
         .on("mousemove", function (event, d) {
           const key = d.key;
           const pct = ((d[1] - d[0]) * 100).toFixed(1) + "%";
-          const count = formatCount((d.data as Record<string, string | number>)[key]);
+          const count = formatCount((d.data as any)[key]);
           show(event.clientX + 12, event.clientY - 24, `${key}: ${pct} (${count})`);
         })
         .on("mouseleave", hide);
@@ -156,7 +157,7 @@ export function Top5Collapsed100StackedBar({ rows, dimension }: Top5Props) {
         if (width >= 45) {
           const gSegment = d3.select(this);
           const cx = x(d[0]) + width / 2;
-          const cy = y((d.data as Record<string, string | number>).step)! + y.bandwidth() / 2;
+          const cy = y((d.data as any).step)! + y.bandwidth() / 2;
           const pct = ((d[1] - d[0]) * 100).toFixed(1) + "%";
 
           gSegment.append("text")
@@ -170,7 +171,7 @@ export function Top5Collapsed100StackedBar({ rows, dimension }: Top5Props) {
             .style("pointer-events", "none");
 
           if (width >= 80) {
-            const count = formatCount((d.data as Record<string, string | number>)[d.key]);
+            const count = formatCount((d.data as any)[d.key]);
             gSegment.append("text")
               .attr("x", cx)
               .attr("y", cy + 16)

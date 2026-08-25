@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useEffect, useRef, useMemo } from "react";
@@ -54,7 +55,7 @@ export function AgeGroupStackedBar({ rows }: ChartProps) {
 
     const steps = Array.from(stepMap.keys()).sort((a, b) => a - b);
     const chartData = steps.map(step => {
-      const obj: Record<string, string | number> = { step: `Step ${step}` };
+      const obj: any = { step: `Step ${step}` };
       let total = 0;
       for (const age of sortedAges) {
         const val = stepMap.get(step)?.[age] || 0;
@@ -126,7 +127,7 @@ export function AgeGroupStackedBar({ rows }: ChartProps) {
         .selectAll("rect")
         .data(d => d)
         .enter().append("rect")
-        .attr("x", d => x((d.data as Record<string, string | number>).step)!)
+        .attr("x", d => x((d.data as any).step)!)
         .attr("y", d => y(d[1]))
         .attr("height", d => y(d[0]) - y(d[1]))
         .attr("width", x.bandwidth())
