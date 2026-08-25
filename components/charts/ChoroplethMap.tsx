@@ -99,11 +99,11 @@ export function ChoroplethMap({ rows }: ChoroplethMapProps) {
                   const abbr = Object.keys(STATE_MAP).find(k => STATE_MAP[k] === stateName) || stateName;
                   
                   return (
-                    <Marker key={`marker-${geo.rsmKey}`} coordinates={centroid} style={{ pointerEvents: "none" }}>
-                      <text y={-2} textAnchor="middle" fill="#ffffff" fontSize={11} fontWeight="bold" style={{ textShadow: "0px 1px 3px rgba(0,0,0,0.8)" }}>
+                    <Marker key={`marker-${geo.rsmKey}`} coordinates={centroid}>
+                      <text y={-2} textAnchor="middle" fill="#ffffff" fontSize={11} fontWeight="bold" style={{ pointerEvents: "none", textShadow: "0px 1px 3px rgba(0,0,0,0.8)" }}>
                         {abbr}
                       </text>
-                      <text y={10} textAnchor="middle" fill="#ffffff" fontSize={10} fontWeight="bold" style={{ textShadow: "0px 1px 3px rgba(0,0,0,0.8)" }}>
+                      <text y={10} textAnchor="middle" fill="#ffffff" fontSize={10} fontWeight="bold" style={{ pointerEvents: "none", textShadow: "0px 1px 3px rgba(0,0,0,0.8)" }}>
                         n={d3.format(",")(value)}
                       </text>
                     </Marker>
