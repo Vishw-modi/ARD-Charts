@@ -14,6 +14,27 @@ const AGE_ORDER = [
   "75-79", "80+", "Unknown"
 ];
 
+const AGE_COLORS: Record<string, string> = {
+  "0-4": "#F0F6FF",
+  "5-9": "#DCE9FF",
+  "10-14": "#C7DCFF",
+  "15-19": "#B0CEFF",
+  "20-24": "#98C0FF",
+  "25-29": "#7FB1FF",
+  "30-34": "#66A2FF",
+  "35-39": "#4D93FF",
+  "40-44": "#3384FA",
+  "45-49": "#1F74EE",
+  "50-54": "#0F65DE",
+  "55-59": "#0057FF",
+  "60-64": "#0049D6",
+  "65-69": "#003BAD",
+  "70-74": "#002E85",
+  "75-79": "#00215D",
+  "80+": "#001436",
+  "Unknown": "#9CA3AF"
+};
+
 export function AgeGroupStackedBar({ rows }: ChartProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const { show, hide } = useTooltip();
@@ -31,13 +52,7 @@ export function AgeGroupStackedBar({ rows }: ChartProps) {
       return a.localeCompare(b);
     });
 
-    const colorInterpolator = d3.interpolateTurbo;
-    const colorScale = d3.scaleSequential()
-      .domain([0, Math.max(1, sortedAges.length - 1)])
-      .interpolator(colorInterpolator);
-
-    const colors = sortedAges.map((_, i) => colorScale(i));
-    const colorMap = new Map(sortedAges.map((age, i) => [age, colors[i]]));
+    const colorMap = new Map(sortedAges.map(age => [age, AGE_COLORS[age] || "#9CA3AF"]));
     
     return { ageRows: aRows, sortedAges, colorMap };
   }, [rows]);
@@ -92,15 +107,23 @@ export function AgeGroupStackedBar({ rows }: ChartProps) {
         .range([0, innerWidth])
         .padding(0.2);
 
-      const y = d3.scaleLinear()
-        .domain([0, d3.max(chartData, d => d.total) || 0])
+      const maxPrimary = d3.max(chartData.slice(0, 3), d => d.total) || 0;
+      const maxSecondary = d3.max(chartData.slice(3), d => d.total) || 0;
+
+      const y1 = d3.scaleLinear()
+        .domain([0, maxPrimary])
+        .nice()
+        .range([innerHeight, 0]);
+
+      const y2 = d3.scaleLinear()
+        .domain([0, maxSecondary])
         .nice()
         .range([innerHeight, 0]);
 
       // Stack data
       const stack = d3.stack().keys(sortedAges)(chartData as unknown as Iterable<{ [key: string]: number }>);
 
-      // Draw axes
+      // Draw X axis
       g.append("g")
         .attr("transform", `translate(0,${innerHeight})`)
         .call(d3.axisBottom(x).tickSizeOuter(0))
@@ -108,13 +131,57 @@ export function AgeGroupStackedBar({ rows }: ChartProps) {
         .attr("fill", "var(--muted)")
         .attr("font-size", "14px");
 
+      // Left axis (Steps 1-3)
       g.append("g")
-        .call(d3.axisLeft(y).ticks(6).tickFormat(d3.format("~s")))
+        .call(d3.axisLeft(y1).ticks(6).tickFormat(d3.format("~s")))
         .selectAll("text")
         .attr("fill", "var(--muted)")
         .attr("font-size", "14px");
 
+      // Right axis (Steps 4-7)
+      g.append("g")
+        .attr("transform", `translate(${innerWidth},0)`)
+        .call(d3.axisRight(y2).ticks(6).tickFormat(d3.format("~s")))
+        .selectAll("text")
+        .attr("fill", "var(--muted)")
+        .attr("font-size", "14px");
+
+      // Axis labels
+      g.append("text")
+        .attr("x", -10)
+        .attr("y", -10)
+        .attr("text-anchor", "start")
+        .attr("fill", "var(--muted)")
+        .attr("font-size", "12px")
+        .attr("font-style", "italic")
+        .text("Scale (Steps 1-3)");
+
+      g.append("text")
+        .attr("x", innerWidth + 10)
+        .attr("y", -10)
+        .attr("text-anchor", "end")
+        .attr("fill", "var(--muted)")
+        .attr("font-size", "12px")
+        .attr("font-style", "italic")
+        .text("Scale (Steps 4-7)");
+
       g.selectAll(".domain, .tick line").attr("stroke", "#D1D5DB");
+
+      // Visual divider
+      if (chartData.length > 3) {
+        const step3X = x("Step 3")! + x.bandwidth();
+        const step4X = x("Step 4")!;
+        const midX = (step3X + step4X) / 2;
+
+        g.append("line")
+          .attr("x1", midX)
+          .attr("x2", midX)
+          .attr("y1", 0)
+          .attr("y2", innerHeight)
+          .attr("stroke", "#D1D5DB")
+          .attr("stroke-width", 1.5)
+          .attr("stroke-dasharray", "4,4");
+      }
 
       // Draw bars
       const formatCount = d3.format(",");
@@ -128,8 +195,16 @@ export function AgeGroupStackedBar({ rows }: ChartProps) {
         .data(d => d)
         .enter().append("rect")
         .attr("x", d => x((d.data as any).step)!)
-        .attr("y", d => y(d[1]))
-        .attr("height", d => y(d[0]) - y(d[1]))
+        .attr("y", d => {
+          const stepNum = parseInt((d.data as any).step.replace("Step ", ""));
+          const activeY = stepNum > 3 ? y2 : y1;
+          return activeY(d[1]);
+        })
+        .attr("height", d => {
+          const stepNum = parseInt((d.data as any).step.replace("Step ", ""));
+          const activeY = stepNum > 3 ? y2 : y1;
+          return activeY(d[0]) - activeY(d[1]);
+        })
         .attr("width", x.bandwidth())
         .attr("stroke", "white")
         .attr("stroke-width", 1.5)
@@ -151,7 +226,11 @@ export function AgeGroupStackedBar({ rows }: ChartProps) {
         .enter().append("text")
         .attr("class", "total-label")
         .attr("x", d => x(d.step)! + x.bandwidth() / 2)
-        .attr("y", d => y(d.total) - 8)
+        .attr("y", d => {
+          const stepNum = parseInt(d.step.replace("Step ", ""));
+          const activeY = stepNum > 3 ? y2 : y1;
+          return activeY(d.total) - 8;
+        })
         .attr("text-anchor", "middle")
         .attr("fill", "var(--text)")
         .attr("font-size", "13px")

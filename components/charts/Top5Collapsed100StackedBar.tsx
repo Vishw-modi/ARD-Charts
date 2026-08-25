@@ -21,16 +21,23 @@ export function Top5Collapsed100StackedBar({ rows, dimension }: Top5Props) {
   const { dimRows, finalCategories, COLORS } = useMemo(() => {
     const dRows = rows.filter(r => r.DIMENSION === dimension);
 
+    // Track totals excluding 'Other' and 'Unknown' so they don't take up a Top 5 slot
     const categoryMap = new Map<string, number>();
     for (const r of dRows) {
-      categoryMap.set(r.VALUE, (categoryMap.get(r.VALUE) || 0) + r.PATIENTS);
+      if (r.VALUE !== "Other" && r.VALUE !== "Unknown") {
+        categoryMap.set(r.VALUE, (categoryMap.get(r.VALUE) || 0) + r.PATIENTS);
+      }
     }
+    
     const sorted = Array.from(categoryMap.entries())
       .sort((a, b) => b[1] - a[1])
       .map(entry => entry[0]);
 
     const fCategories = sorted.slice(0, 5);
-    if (sorted.length > 5) {
+    
+    // We need an "Other" bucket if there are >5 named categories, or if any original rows were "Other"/"Unknown"
+    const needsOther = dRows.some(r => r.VALUE === "Other" || r.VALUE === "Unknown" || !fCategories.includes(r.VALUE));
+    if (needsOther) {
       fCategories.push("Other");
     }
 
