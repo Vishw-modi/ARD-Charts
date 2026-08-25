@@ -5,13 +5,13 @@ import * as d3 from "d3";
 import { ChartProps } from "@/lib/types";
 
 const STEP_COLORS = [
-  "#0057FF", // Blue
-  "#FF2E92", // Pink
-  "#00A86B", // Green
-  "#E69F00", // Orange
-  "#7C3AED", // Violet
-  "#14B8A6", // Teal
-  "#DC2626", // Red
+  "#064B85", // 1 - Darkest blue
+  "#185EC3", // 2
+  "#2874E6", // 3
+  "#4F8CEB", // 4
+  "#85A7E6", // 5
+  "#6DA6FC", // 6
+  "#2E63E6", // 7 - Saturated blue for bottom step
 ];
 
 const STEP_DESCRIPTIONS = [
@@ -102,9 +102,8 @@ export function FunnelChart({ rows }: ChartProps) {
         svg.append("polygon")
           .attr("points", points.map(p => p.join(",")).join(" "))
           .attr("fill", STEP_COLORS[i % STEP_COLORS.length])
-          
-          .attr("stroke", "white")
-          .attr("stroke-width", 1.5);
+          .attr("stroke", i === numBands - 1 ? "#1DC255" : "white") // Green border for last step
+          .attr("stroke-width", i === numBands - 1 ? 3 : 1.5);
           
         if (data) {
           const centerY = yTop + bandHeight / 2;
